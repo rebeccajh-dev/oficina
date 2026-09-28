@@ -1,0 +1,1 @@
+export type ScreenInterface = 'user-select' | 'dashboard' | 'recommendations' | 'metrics'
