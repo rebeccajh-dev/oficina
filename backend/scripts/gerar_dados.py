@@ -24,13 +24,14 @@ SOMAR = ["MP", "Starts", "Min", "90s", "Gls", "Ast", "Sh", "SoT", "Int", "TklW"]
 INICIO = datetime(2026, 1, 5)
 JANELA_DIAS = 260
 
-# id, clube, nº de interações (perfis de teste: rico / moderado / escasso / sem histórico)
+# id, nome, papel, clube (como aparece no dataset), nº de interações
+# (perfis de teste: rico / moderado / rico / escasso / sem histórico)
 USUARIOS_TESTE = [
-    ("U1", "Arsenal", 60),
-    ("U2", "Bayern Munich", 30),
-    ("U3", "Real Madrid", 80),
-    ("U4", "Roma", 10),
-    ("U5", "Marseille", 0),
+    ("U1", "João Silva", "Diretor de Scouting", "Arsenal", 60),
+    ("U2", "María García", "Analista de Desempenho", "Barcelona", 30),
+    ("U3", "Pierre Dubois", "Scout Sênior", "Paris Saint-Germain", 80),
+    ("U4", "Hans Müller", "Chefe de Recrutamento", "Bayern Munich", 10),
+    ("U5", "Linh Nguyen", "Analista Tático", "Ajax", 0),  # Ajax não está no dataset: sem elenco a excluir
 ]
 
 
@@ -191,18 +192,19 @@ def gerar(n_comunidade: int) -> None:
     cat_idx = df["categoria"].map({c: i for i, c in enumerate(CATEGORIAS)}).to_numpy()
     ligas = sorted(df["liga"].unique())
 
-    clubes_teste = {c for _, c, _ in USUARIOS_TESTE}
+    clubes_teste = {c for _, _, _, c, _ in USUARIOS_TESTE}
     clubes_livres = [c for c in sorted(df["Squad"].unique()) if c not in clubes_teste]
     rng.shuffle(clubes_livres)
 
-    definicoes = list(USUARIOS_TESTE)
+    definicoes = [(i, nm, pp, c, n, True) for i, nm, pp, c, n in USUARIOS_TESTE]
     for k in range(n_comunidade):
         # a maioria tem histórico amplo; alguns poucos são "escassos"
         n = int(rng.integers(5, 16)) if k % 9 == 8 else int(rng.integers(40, 121))
-        definicoes.append((f"C{k + 1:02d}", clubes_livres[k % len(clubes_livres)], n))
+        clube = clubes_livres[k % len(clubes_livres)]
+        definicoes.append((f"C{k + 1:02d}", clube, "Diretor esportivo", clube, n, False))
 
     usuarios, interacoes, avaliacoes = [], [], []
-    for id_usuario, clube, n in definicoes:
+    for id_usuario, nome, papel, clube, n, perfil_teste in definicoes:
         perfil = sortear_perfil(rng, ligas)
         i, a = simular_usuario(id_usuario, clube, n, perfil, df, cat_idx, rng)
         interacoes += i
@@ -211,9 +213,10 @@ def gerar(n_comunidade: int) -> None:
         usuarios.append(
             {
                 "id_usuario": id_usuario,
-                "nome": clube,
-                "papel": "diretor esportivo",
+                "nome": nome,
+                "papel": papel,
                 "clube": clube,
+                "perfil_teste": perfil_teste,
                 "preferencias_iniciais": {}
                 if sem_historico
                 else {

@@ -13,6 +13,7 @@ from .matriz import (
     dividir_treino_teste,
     usuarios_cold_start,
 )
+from .categorias import mascaras_por_categoria
 from .recomendador import RecomendadorItemBased, bloqueios_por_clube
 
 
@@ -68,4 +69,8 @@ def construir_recomendador(dados: DadosPreparados, usar_treino: bool = True) -> 
     usar_treino=False -> produção (todo o histórico conta como conhecido)."""
     base = dados.treino if usar_treino else dados.interacoes
     matriz: MatrizUsuarioItem = construir_matriz(base, dados.ids_usuarios, dados.ids_itens)
-    return RecomendadorItemBased(matriz, bloqueios_por_clube(dados.usuarios, dados.itens))
+    return RecomendadorItemBased(
+        matriz,
+        bloqueios_por_clube(dados.usuarios, dados.itens),
+        mascaras_por_categoria(dados.itens, dados.ids_itens),
+    )

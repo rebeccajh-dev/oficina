@@ -1,33 +1,33 @@
 [
   {
     "id_usuario": "U1",
-    "nome": "Arsenal",
-    "papel": "diretor esportivo",
+    "nome": "João Silva",
+    "papel": "Diretor de Scouting",
     "clube": "Arsenal",
+    "perfil_teste": true,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        25,
-        32
+        18,
+        24
       ],
       "ligas": [
-        "Serie A",
         "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-06-29"
+    "data_cadastro": "2025-01-15"
   },
   {
     "id_usuario": "U2",
-    "nome": "Bayern Munich",
-    "papel": "diretor esportivo",
-    "clube": "Bayern Munich",
+    "nome": "María García",
+    "papel": "Analista de Desempenho",
+    "clube": "Barcelona",
+    "perfil_teste": true,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        20,
-        27
+        24,
+        32
       ],
       "ligas": [
-        "Ligue 1",
         "Serie A"
       ]
     },
@@ -35,150 +35,549 @@
   },
   {
     "id_usuario": "U3",
-    "nome": "Real Madrid",
-    "papel": "diretor esportivo",
-    "clube": "Real Madrid",
+    "nome": "Pierre Dubois",
+    "papel": "Scout Sênior",
+    "clube": "Paris Saint-Germain",
+    "perfil_teste": true,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        26,
-        33
+        19,
+        30
       ],
       "ligas": [
-        "Serie A"
+        "Ligue 1"
       ]
     },
-    "data_cadastro": "2025-02-11"
+    "data_cadastro": "2025-01-19"
   },
   {
     "id_usuario": "U4",
-    "nome": "Roma",
-    "papel": "diretor esportivo",
-    "clube": "Roma",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        26,
-        32
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-06-11"
-  },
-  {
-    "id_usuario": "U5",
-    "nome": "Marseille",
-    "papel": "diretor esportivo",
-    "clube": "Marseille",
-    "preferencias_iniciais": {},
-    "data_cadastro": "2025-09-16"
-  },
-  {
-    "id_usuario": "C01",
-    "nome": "Monaco",
-    "papel": "diretor esportivo",
-    "clube": "Monaco",
+    "nome": "Hans Müller",
+    "papel": "Chefe de Recrutamento",
+    "clube": "Bayern Munich",
+    "perfil_teste": true,
     "preferencias_iniciais": {
       "faixa_etaria": [
         18,
         26
       ],
       "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-05-31"
-  },
-  {
-    "id_usuario": "C02",
-    "nome": "Nottingham Forest",
-    "papel": "diretor esportivo",
-    "clube": "Nottingham Forest",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        25
-      ],
-      "ligas": [
+        "Ligue 1",
         "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-01-25"
+    "data_cadastro": "2025-07-06"
+  },
+  {
+    "id_usuario": "U5",
+    "nome": "Linh Nguyen",
+    "papel": "Analista Tático",
+    "clube": "Ajax",
+    "perfil_teste": true,
+    "preferencias_iniciais": {},
+    "data_cadastro": "2025-03-14"
+  },
+  {
+    "id_usuario": "C01",
+    "nome": "Everton",
+    "papel": "Diretor esportivo",
+    "clube": "Everton",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        30
+      ],
+      "ligas": [
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-07-30"
+  },
+  {
+    "id_usuario": "C02",
+    "nome": "Cremonese",
+    "papel": "Diretor esportivo",
+    "clube": "Cremonese",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        30
+      ],
+      "ligas": [
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-07-06"
   },
   {
     "id_usuario": "C03",
-    "nome": "Aston Villa",
-    "papel": "diretor esportivo",
-    "clube": "Aston Villa",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        25,
-        33
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-04-23"
-  },
-  {
-    "id_usuario": "C04",
-    "nome": "Everton",
-    "papel": "diretor esportivo",
-    "clube": "Everton",
+    "nome": "Napoli",
+    "papel": "Diretor esportivo",
+    "clube": "Napoli",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         22,
         31
       ],
       "ligas": [
+        "Premier League",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-10-07"
+  },
+  {
+    "id_usuario": "C04",
+    "nome": "Aston Villa",
+    "papel": "Diretor esportivo",
+    "clube": "Aston Villa",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        30
+      ],
+      "ligas": [
         "La Liga"
       ]
     },
-    "data_cadastro": "2025-02-21"
+    "data_cadastro": "2025-11-15"
   },
   {
     "id_usuario": "C05",
+    "nome": "Monaco",
+    "papel": "Diretor esportivo",
+    "clube": "Monaco",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        28
+      ],
+      "ligas": [
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-06-17"
+  },
+  {
+    "id_usuario": "C06",
+    "nome": "Fulham",
+    "papel": "Diretor esportivo",
+    "clube": "Fulham",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        26
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-05-07"
+  },
+  {
+    "id_usuario": "C07",
+    "nome": "Real Madrid",
+    "papel": "Diretor esportivo",
+    "clube": "Real Madrid",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        31
+      ],
+      "ligas": [
+        "Premier League",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-06-18"
+  },
+  {
+    "id_usuario": "C08",
+    "nome": "Rennes",
+    "papel": "Diretor esportivo",
+    "clube": "Rennes",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        30
+      ],
+      "ligas": [
+        "Bundesliga",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-05-21"
+  },
+  {
+    "id_usuario": "C09",
     "nome": "Wolves",
-    "papel": "diretor esportivo",
+    "papel": "Diretor esportivo",
     "clube": "Wolves",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        25
+      ],
+      "ligas": [
+        "Bundesliga",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-02-12"
+  },
+  {
+    "id_usuario": "C10",
+    "nome": "Athletic Club",
+    "papel": "Diretor esportivo",
+    "clube": "Athletic Club",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        30
+      ],
+      "ligas": [
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-04-20"
+  },
+  {
+    "id_usuario": "C11",
+    "nome": "Newcastle United",
+    "papel": "Diretor esportivo",
+    "clube": "Newcastle United",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         17,
         27
       ],
       "ligas": [
+        "Premier League",
         "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-03-30"
+    "data_cadastro": "2025-06-07"
   },
   {
-    "id_usuario": "C06",
-    "nome": "Mainz 05",
-    "papel": "diretor esportivo",
-    "clube": "Mainz 05",
+    "id_usuario": "C12",
+    "nome": "Lille",
+    "papel": "Diretor esportivo",
+    "clube": "Lille",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        17,
-        27
+        20,
+        29
+      ],
+      "ligas": [
+        "Bundesliga",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-02-28"
+  },
+  {
+    "id_usuario": "C13",
+    "nome": "Freiburg",
+    "papel": "Diretor esportivo",
+    "clube": "Freiburg",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        32
+      ],
+      "ligas": [
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-07-17"
+  },
+  {
+    "id_usuario": "C14",
+    "nome": "Milan",
+    "papel": "Diretor esportivo",
+    "clube": "Milan",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        29
+      ],
+      "ligas": [
+        "Premier League",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-06-10"
+  },
+  {
+    "id_usuario": "C15",
+    "nome": "Juventus",
+    "papel": "Diretor esportivo",
+    "clube": "Juventus",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        28
+      ],
+      "ligas": [
+        "Bundesliga",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2024-12-31"
+  },
+  {
+    "id_usuario": "C16",
+    "nome": "Genoa",
+    "papel": "Diretor esportivo",
+    "clube": "Genoa",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        34
       ],
       "ligas": [
         "La Liga",
         "Ligue 1"
       ]
     },
-    "data_cadastro": "2025-07-09"
+    "data_cadastro": "2025-07-08"
   },
   {
-    "id_usuario": "C07",
-    "nome": "Real Sociedad",
-    "papel": "diretor esportivo",
-    "clube": "Real Sociedad",
+    "id_usuario": "C17",
+    "nome": "Valencia",
+    "papel": "Diretor esportivo",
+    "clube": "Valencia",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        23,
+        17,
+        26
+      ],
+      "ligas": [
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2024-12-17"
+  },
+  {
+    "id_usuario": "C18",
+    "nome": "Leeds United",
+    "papel": "Diretor esportivo",
+    "clube": "Leeds United",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        32
+      ],
+      "ligas": [
+        "Ligue 1",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-10-24"
+  },
+  {
+    "id_usuario": "C19",
+    "nome": "Fiorentina",
+    "papel": "Diretor esportivo",
+    "clube": "Fiorentina",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        28
+      ],
+      "ligas": [
+        "Serie A",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-09-13"
+  },
+  {
+    "id_usuario": "C20",
+    "nome": "West Ham United",
+    "papel": "Diretor esportivo",
+    "clube": "West Ham United",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        25
+      ],
+      "ligas": [
+        "La Liga",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-02-18"
+  },
+  {
+    "id_usuario": "C21",
+    "nome": "Auxerre",
+    "papel": "Diretor esportivo",
+    "clube": "Auxerre",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        25
+      ],
+      "ligas": [
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-09-07"
+  },
+  {
+    "id_usuario": "C22",
+    "nome": "Köln",
+    "papel": "Diretor esportivo",
+    "clube": "Köln",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        28
+      ],
+      "ligas": [
+        "Bundesliga",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-03-10"
+  },
+  {
+    "id_usuario": "C23",
+    "nome": "Manchester City",
+    "papel": "Diretor esportivo",
+    "clube": "Manchester City",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        28
+      ],
+      "ligas": [
+        "La Liga",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2024-12-19"
+  },
+  {
+    "id_usuario": "C24",
+    "nome": "Real Betis",
+    "papel": "Diretor esportivo",
+    "clube": "Real Betis",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        25,
+        32
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-03-25"
+  },
+  {
+    "id_usuario": "C25",
+    "nome": "Alavés",
+    "papel": "Diretor esportivo",
+    "clube": "Alavés",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        33
+      ],
+      "ligas": [
+        "Premier League",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-12-04"
+  },
+  {
+    "id_usuario": "C26",
+    "nome": "Strasbourg",
+    "papel": "Diretor esportivo",
+    "clube": "Strasbourg",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        25
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-07-07"
+  },
+  {
+    "id_usuario": "C27",
+    "nome": "Heidenheim",
+    "papel": "Diretor esportivo",
+    "clube": "Heidenheim",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        28
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-11-08"
+  },
+  {
+    "id_usuario": "C28",
+    "nome": "Mallorca",
+    "papel": "Diretor esportivo",
+    "clube": "Mallorca",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        20,
         30
+      ],
+      "ligas": [
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-01-08"
+  },
+  {
+    "id_usuario": "C29",
+    "nome": "RB Leipzig",
+    "papel": "Diretor esportivo",
+    "clube": "RB Leipzig",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        29
       ],
       "ligas": [
         "La Liga",
@@ -188,208 +587,136 @@
     "data_cadastro": "2025-06-23"
   },
   {
-    "id_usuario": "C08",
-    "nome": "Fiorentina",
-    "papel": "diretor esportivo",
-    "clube": "Fiorentina",
+    "id_usuario": "C30",
+    "nome": "Brentford",
+    "papel": "Diretor esportivo",
+    "clube": "Brentford",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        18,
-        24
+        22,
+        29
       ],
       "ligas": [
         "Ligue 1",
-        "Premier League"
+        "La Liga"
       ]
     },
-    "data_cadastro": "2025-02-18"
+    "data_cadastro": "2025-01-06"
   },
   {
-    "id_usuario": "C09",
-    "nome": "Athletic Club",
-    "papel": "diretor esportivo",
-    "clube": "Athletic Club",
+    "id_usuario": "C31",
+    "nome": "Villarreal",
+    "papel": "Diretor esportivo",
+    "clube": "Villarreal",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        24,
-        35
+        25,
+        34
       ],
       "ligas": [
         "Serie A",
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-10-27"
-  },
-  {
-    "id_usuario": "C10",
-    "nome": "Napoli",
-    "papel": "diretor esportivo",
-    "clube": "Napoli",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        26
-      ],
-      "ligas": [
         "Premier League"
       ]
     },
-    "data_cadastro": "2025-09-02"
+    "data_cadastro": "2025-12-03"
   },
   {
-    "id_usuario": "C11",
-    "nome": "RB Leipzig",
-    "papel": "diretor esportivo",
-    "clube": "RB Leipzig",
+    "id_usuario": "C32",
+    "nome": "Eintracht Frankfurt",
+    "papel": "Diretor esportivo",
+    "clube": "Eintracht Frankfurt",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         18,
-        29
+        30
       ],
       "ligas": [
         "Premier League",
         "Serie A"
       ]
     },
-    "data_cadastro": "2025-04-09"
+    "data_cadastro": "2025-06-29"
   },
   {
-    "id_usuario": "C12",
-    "nome": "West Ham United",
-    "papel": "diretor esportivo",
-    "clube": "West Ham United",
+    "id_usuario": "C33",
+    "nome": "Getafe",
+    "papel": "Diretor esportivo",
+    "clube": "Getafe",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         21,
-        29
+        30
       ],
       "ligas": [
-        "La Liga",
-        "Bundesliga"
+        "Serie A",
+        "La Liga"
       ]
     },
-    "data_cadastro": "2025-09-17"
+    "data_cadastro": "2025-05-15"
   },
   {
-    "id_usuario": "C13",
-    "nome": "Pisa",
-    "papel": "diretor esportivo",
-    "clube": "Pisa",
+    "id_usuario": "C34",
+    "nome": "Lazio",
+    "papel": "Diretor esportivo",
+    "clube": "Lazio",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        23,
+        25,
         33
       ],
       "ligas": [
-        "Serie A"
+        "Ligue 1",
+        "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-01-15"
+    "data_cadastro": "2025-03-15"
   },
   {
-    "id_usuario": "C14",
-    "nome": "Como",
-    "papel": "diretor esportivo",
-    "clube": "Como",
+    "id_usuario": "C35",
+    "nome": "Le Havre",
+    "papel": "Diretor esportivo",
+    "clube": "Le Havre",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        17,
-        29
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-02-07"
-  },
-  {
-    "id_usuario": "C15",
-    "nome": "Valencia",
-    "papel": "diretor esportivo",
-    "clube": "Valencia",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        19,
-        29
+        20,
+        31
       ],
       "ligas": [
         "La Liga"
       ]
     },
-    "data_cadastro": "2025-03-30"
+    "data_cadastro": "2025-02-20"
   },
   {
-    "id_usuario": "C16",
-    "nome": "Torino",
-    "papel": "diretor esportivo",
-    "clube": "Torino",
+    "id_usuario": "C36",
+    "nome": "Como",
+    "papel": "Diretor esportivo",
+    "clube": "Como",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         17,
-        26
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-08-02"
-  },
-  {
-    "id_usuario": "C17",
-    "nome": "Hamburger SV",
-    "papel": "diretor esportivo",
-    "clube": "Hamburger SV",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        26
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-04-23"
-  },
-  {
-    "id_usuario": "C18",
-    "nome": "Milan",
-    "papel": "diretor esportivo",
-    "clube": "Milan",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        27
-      ],
-      "ligas": [
-        "Serie A",
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-06-15"
-  },
-  {
-    "id_usuario": "C19",
-    "nome": "Auxerre",
-    "papel": "diretor esportivo",
-    "clube": "Auxerre",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        27
+        24
       ],
       "ligas": [
         "Ligue 1",
-        "Serie A"
+        "La Liga"
       ]
     },
-    "data_cadastro": "2025-02-13"
+    "data_cadastro": "2025-02-24"
   },
   {
-    "id_usuario": "C20",
-    "nome": "Inter",
-    "papel": "diretor esportivo",
-    "clube": "Inter",
+    "id_usuario": "C37",
+    "nome": "Toulouse",
+    "papel": "Diretor esportivo",
+    "clube": "Toulouse",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         22,
@@ -399,65 +726,751 @@
         "Ligue 1"
       ]
     },
-    "data_cadastro": "2024-12-14"
+    "data_cadastro": "2025-02-11"
   },
   {
-    "id_usuario": "C21",
-    "nome": "Espanyol",
-    "papel": "diretor esportivo",
-    "clube": "Espanyol",
+    "id_usuario": "C38",
+    "nome": "Rayo Vallecano",
+    "papel": "Diretor esportivo",
+    "clube": "Rayo Vallecano",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        26
+      ],
+      "ligas": [
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-02-28"
+  },
+  {
+    "id_usuario": "C39",
+    "nome": "Atlético Madrid",
+    "papel": "Diretor esportivo",
+    "clube": "Atlético Madrid",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         17,
-        28
+        25
       ],
       "ligas": [
         "Premier League",
-        "Serie A"
+        "La Liga"
       ]
     },
-    "data_cadastro": "2025-03-09"
+    "data_cadastro": "2025-11-25"
   },
   {
-    "id_usuario": "C22",
-    "nome": "Lazio",
-    "papel": "diretor esportivo",
-    "clube": "Lazio",
+    "id_usuario": "C40",
+    "nome": "Nice",
+    "papel": "Diretor esportivo",
+    "clube": "Nice",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        31
+      ],
+      "ligas": [
+        "Bundesliga",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-03-21"
+  },
+  {
+    "id_usuario": "C41",
+    "nome": "Angers",
+    "papel": "Diretor esportivo",
+    "clube": "Angers",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        26
+      ],
+      "ligas": [
+        "Ligue 1",
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-04-16"
+  },
+  {
+    "id_usuario": "C42",
+    "nome": "Real Sociedad",
+    "papel": "Diretor esportivo",
+    "clube": "Real Sociedad",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        34
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-03-02"
+  },
+  {
+    "id_usuario": "C43",
+    "nome": "Sevilla",
+    "papel": "Diretor esportivo",
+    "clube": "Sevilla",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        33
+      ],
+      "ligas": [
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-06-30"
+  },
+  {
+    "id_usuario": "C44",
+    "nome": "Mainz 05",
+    "papel": "Diretor esportivo",
+    "clube": "Mainz 05",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        32
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-05-21"
+  },
+  {
+    "id_usuario": "C45",
+    "nome": "Nottingham Forest",
+    "papel": "Diretor esportivo",
+    "clube": "Nottingham Forest",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        25
+      ],
+      "ligas": [
+        "Serie A",
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-01-23"
+  },
+  {
+    "id_usuario": "C46",
+    "nome": "Sassuolo",
+    "papel": "Diretor esportivo",
+    "clube": "Sassuolo",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        28
+      ],
+      "ligas": [
+        "La Liga",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-05-19"
+  },
+  {
+    "id_usuario": "C47",
+    "nome": "Union Berlin",
+    "papel": "Diretor esportivo",
+    "clube": "Union Berlin",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        32
+      ],
+      "ligas": [
+        "Ligue 1",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-02-26"
+  },
+  {
+    "id_usuario": "C48",
+    "nome": "Dortmund",
+    "papel": "Diretor esportivo",
+    "clube": "Dortmund",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        33
+      ],
+      "ligas": [
+        "Serie A",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-05-02"
+  },
+  {
+    "id_usuario": "C49",
+    "nome": "Stuttgart",
+    "papel": "Diretor esportivo",
+    "clube": "Stuttgart",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        25,
+        32
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-07-28"
+  },
+  {
+    "id_usuario": "C50",
+    "nome": "Lens",
+    "papel": "Diretor esportivo",
+    "clube": "Lens",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        32
+      ],
+      "ligas": [
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-11-11"
+  },
+  {
+    "id_usuario": "C51",
+    "nome": "Pisa",
+    "papel": "Diretor esportivo",
+    "clube": "Pisa",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        31
+      ],
+      "ligas": [
+        "Bundesliga",
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-05-13"
+  },
+  {
+    "id_usuario": "C52",
+    "nome": "Hamburger SV",
+    "papel": "Diretor esportivo",
+    "clube": "Hamburger SV",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        20,
+        26
+      ],
+      "ligas": [
+        "Ligue 1",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-11-24"
+  },
+  {
+    "id_usuario": "C53",
+    "nome": "Osasuna",
+    "papel": "Diretor esportivo",
+    "clube": "Osasuna",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        26
+      ],
+      "ligas": [
+        "Bundesliga",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-06-21"
+  },
+  {
+    "id_usuario": "C54",
+    "nome": "Espanyol",
+    "papel": "Diretor esportivo",
+    "clube": "Espanyol",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        20,
+        26
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-05-17"
+  },
+  {
+    "id_usuario": "C55",
+    "nome": "Werder Bremen",
+    "papel": "Diretor esportivo",
+    "clube": "Werder Bremen",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         21,
+        31
+      ],
+      "ligas": [
+        "Ligue 1",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-09-28"
+  },
+  {
+    "id_usuario": "C56",
+    "nome": "Torino",
+    "papel": "Diretor esportivo",
+    "clube": "Torino",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        25
+      ],
+      "ligas": [
+        "Premier League",
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-11-13"
+  },
+  {
+    "id_usuario": "C57",
+    "nome": "Celta Vigo",
+    "papel": "Diretor esportivo",
+    "clube": "Celta Vigo",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        28
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-07-08"
+  },
+  {
+    "id_usuario": "C58",
+    "nome": "Lorient",
+    "papel": "Diretor esportivo",
+    "clube": "Lorient",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        25
+      ],
+      "ligas": [
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-06-06"
+  },
+  {
+    "id_usuario": "C59",
+    "nome": "Metz",
+    "papel": "Diretor esportivo",
+    "clube": "Metz",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        31
+      ],
+      "ligas": [
+        "Serie A",
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-10-06"
+  },
+  {
+    "id_usuario": "C60",
+    "nome": "Leverkusen",
+    "papel": "Diretor esportivo",
+    "clube": "Leverkusen",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        26
+      ],
+      "ligas": [
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-01-20"
+  },
+  {
+    "id_usuario": "C61",
+    "nome": "Bournemouth",
+    "papel": "Diretor esportivo",
+    "clube": "Bournemouth",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        20,
+        32
+      ],
+      "ligas": [
+        "Premier League",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-10-22"
+  },
+  {
+    "id_usuario": "C62",
+    "nome": "Gladbach",
+    "papel": "Diretor esportivo",
+    "clube": "Gladbach",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        33
+      ],
+      "ligas": [
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-09-12"
+  },
+  {
+    "id_usuario": "C63",
+    "nome": "Atalanta",
+    "papel": "Diretor esportivo",
+    "clube": "Atalanta",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        23
+      ],
+      "ligas": [
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-07-02"
+  },
+  {
+    "id_usuario": "C64",
+    "nome": "Udinese",
+    "papel": "Diretor esportivo",
+    "clube": "Udinese",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        25
+      ],
+      "ligas": [
+        "Premier League",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-05-05"
+  },
+  {
+    "id_usuario": "C65",
+    "nome": "Chelsea",
+    "papel": "Diretor esportivo",
+    "clube": "Chelsea",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        29
+      ],
+      "ligas": [
+        "Ligue 1",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-04-03"
+  },
+  {
+    "id_usuario": "C66",
+    "nome": "Levante",
+    "papel": "Diretor esportivo",
+    "clube": "Levante",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        31
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-07-05"
+  },
+  {
+    "id_usuario": "C67",
+    "nome": "Roma",
+    "papel": "Diretor esportivo",
+    "clube": "Roma",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        34
+      ],
+      "ligas": [
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-04-06"
+  },
+  {
+    "id_usuario": "C68",
+    "nome": "Hellas Verona",
+    "papel": "Diretor esportivo",
+    "clube": "Hellas Verona",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        29
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-04-06"
+  },
+  {
+    "id_usuario": "C69",
+    "nome": "Girona",
+    "papel": "Diretor esportivo",
+    "clube": "Girona",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        25,
+        33
+      ],
+      "ligas": [
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-11-25"
+  },
+  {
+    "id_usuario": "C70",
+    "nome": "Nantes",
+    "papel": "Diretor esportivo",
+    "clube": "Nantes",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        25,
+        32
+      ],
+      "ligas": [
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-09-05"
+  },
+  {
+    "id_usuario": "C71",
+    "nome": "Sunderland",
+    "papel": "Diretor esportivo",
+    "clube": "Sunderland",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        25,
+        33
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-03-22"
+  },
+  {
+    "id_usuario": "C72",
+    "nome": "Marseille",
+    "papel": "Diretor esportivo",
+    "clube": "Marseille",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
         28
       ],
       "ligas": [
         "Premier League"
       ]
     },
-    "data_cadastro": "2025-03-28"
+    "data_cadastro": "2025-04-22"
   },
   {
-    "id_usuario": "C23",
-    "nome": "Alavés",
-    "papel": "diretor esportivo",
-    "clube": "Alavés",
+    "id_usuario": "C73",
+    "nome": "Lyon",
+    "papel": "Diretor esportivo",
+    "clube": "Lyon",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        26,
+        32
+      ],
+      "ligas": [
+        "Premier League",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2024-12-02"
+  },
+  {
+    "id_usuario": "C74",
+    "nome": "Augsburg",
+    "papel": "Diretor esportivo",
+    "clube": "Augsburg",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        32
+      ],
+      "ligas": [
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-06-24"
+  },
+  {
+    "id_usuario": "C75",
+    "nome": "Tottenham Hotspur",
+    "papel": "Diretor esportivo",
+    "clube": "Tottenham Hotspur",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        29
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-08-30"
+  },
+  {
+    "id_usuario": "C76",
+    "nome": "Brest",
+    "papel": "Diretor esportivo",
+    "clube": "Brest",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        26
+      ],
+      "ligas": [
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-12-06"
+  },
+  {
+    "id_usuario": "C77",
+    "nome": "Wolfsburg",
+    "papel": "Diretor esportivo",
+    "clube": "Wolfsburg",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         20,
         31
       ],
       "ligas": [
+        "Serie A",
         "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-04-16"
+    "data_cadastro": "2024-12-24"
   },
   {
-    "id_usuario": "C24",
-    "nome": "Wolfsburg",
-    "papel": "diretor esportivo",
-    "clube": "Wolfsburg",
+    "id_usuario": "C78",
+    "nome": "Lecce",
+    "papel": "Diretor esportivo",
+    "clube": "Lecce",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        18,
+        22,
+        29
+      ],
+      "ligas": [
+        "Ligue 1",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-09-27"
+  },
+  {
+    "id_usuario": "C79",
+    "nome": "Elche",
+    "papel": "Diretor esportivo",
+    "clube": "Elche",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        27
+      ],
+      "ligas": [
+        "Bundesliga",
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-02-08"
+  },
+  {
+    "id_usuario": "C80",
+    "nome": "Crystal Palace",
+    "papel": "Diretor esportivo",
+    "clube": "Crystal Palace",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
         29
       ],
       "ligas": [
@@ -468,357 +1481,591 @@
     "data_cadastro": "2025-07-28"
   },
   {
-    "id_usuario": "C25",
-    "nome": "Parma",
-    "papel": "diretor esportivo",
-    "clube": "Parma",
+    "id_usuario": "C81",
+    "nome": "Hoffenheim",
+    "papel": "Diretor esportivo",
+    "clube": "Hoffenheim",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        20,
-        29
+        19,
+        28
       ],
       "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-05-03"
-  },
-  {
-    "id_usuario": "C26",
-    "nome": "Freiburg",
-    "papel": "diretor esportivo",
-    "clube": "Freiburg",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        24,
-        30
-      ],
-      "ligas": [
+        "Serie A",
         "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-02-24"
+    "data_cadastro": "2024-12-06"
   },
   {
-    "id_usuario": "C27",
-    "nome": "Fulham",
-    "papel": "diretor esportivo",
-    "clube": "Fulham",
+    "id_usuario": "C82",
+    "nome": "Oviedo",
+    "papel": "Diretor esportivo",
+    "clube": "Oviedo",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         18,
         28
       ],
       "ligas": [
-        "Ligue 1"
+        "Premier League"
       ]
     },
-    "data_cadastro": "2025-02-09"
+    "data_cadastro": "2025-08-31"
   },
   {
-    "id_usuario": "C28",
-    "nome": "Bournemouth",
-    "papel": "diretor esportivo",
-    "clube": "Bournemouth",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        19,
-        30
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-02-19"
-  },
-  {
-    "id_usuario": "C29",
-    "nome": "Leverkusen",
-    "papel": "diretor esportivo",
-    "clube": "Leverkusen",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        22,
-        29
-      ],
-      "ligas": [
-        "Bundesliga",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-05-28"
-  },
-  {
-    "id_usuario": "C30",
-    "nome": "Dortmund",
-    "papel": "diretor esportivo",
-    "clube": "Dortmund",
+    "id_usuario": "C83",
+    "nome": "Liverpool",
+    "papel": "Diretor esportivo",
+    "clube": "Liverpool",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         21,
         32
-      ],
-      "ligas": [
-        "Serie A",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-02-01"
-  },
-  {
-    "id_usuario": "C31",
-    "nome": "Genoa",
-    "papel": "diretor esportivo",
-    "clube": "Genoa",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        33
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-05-20"
-  },
-  {
-    "id_usuario": "C32",
-    "nome": "Lyon",
-    "papel": "diretor esportivo",
-    "clube": "Lyon",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        27
-      ],
-      "ligas": [
-        "Serie A",
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-10-23"
-  },
-  {
-    "id_usuario": "C33",
-    "nome": "Juventus",
-    "papel": "diretor esportivo",
-    "clube": "Juventus",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        32
-      ],
-      "ligas": [
-        "La Liga",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-12-03"
-  },
-  {
-    "id_usuario": "C34",
-    "nome": "Köln",
-    "papel": "diretor esportivo",
-    "clube": "Köln",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        30
-      ],
-      "ligas": [
-        "Serie A",
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-11-04"
-  },
-  {
-    "id_usuario": "C35",
-    "nome": "Chelsea",
-    "papel": "diretor esportivo",
-    "clube": "Chelsea",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        32
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-02-23"
-  },
-  {
-    "id_usuario": "C36",
-    "nome": "Toulouse",
-    "papel": "diretor esportivo",
-    "clube": "Toulouse",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        24
-      ],
-      "ligas": [
-        "Bundesliga",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-07-22"
-  },
-  {
-    "id_usuario": "C37",
-    "nome": "Rayo Vallecano",
-    "papel": "diretor esportivo",
-    "clube": "Rayo Vallecano",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        22,
-        29
-      ],
-      "ligas": [
-        "Premier League",
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-08-01"
-  },
-  {
-    "id_usuario": "C38",
-    "nome": "Atlético Madrid",
-    "papel": "diretor esportivo",
-    "clube": "Atlético Madrid",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        26
-      ],
-      "ligas": [
-        "Bundesliga",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-10-15"
-  },
-  {
-    "id_usuario": "C39",
-    "nome": "Newcastle United",
-    "papel": "diretor esportivo",
-    "clube": "Newcastle United",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        24,
-        31
-      ],
-      "ligas": [
-        "Serie A",
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-10-28"
-  },
-  {
-    "id_usuario": "C40",
-    "nome": "Angers",
-    "papel": "diretor esportivo",
-    "clube": "Angers",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        26
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-11-07"
-  },
-  {
-    "id_usuario": "C41",
-    "nome": "Lecce",
-    "papel": "diretor esportivo",
-    "clube": "Lecce",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        31
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-03-07"
-  },
-  {
-    "id_usuario": "C42",
-    "nome": "Sevilla",
-    "papel": "diretor esportivo",
-    "clube": "Sevilla",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        22,
-        34
       ],
       "ligas": [
         "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-06-01"
+    "data_cadastro": "2025-01-25"
   },
   {
-    "id_usuario": "C43",
-    "nome": "Real Betis",
-    "papel": "diretor esportivo",
-    "clube": "Real Betis",
+    "id_usuario": "C84",
+    "nome": "Brighton",
+    "papel": "Diretor esportivo",
+    "clube": "Brighton",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        34
+      ],
+      "ligas": [
+        "Premier League",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-09-24"
+  },
+  {
+    "id_usuario": "C85",
+    "nome": "Manchester Utd",
+    "papel": "Diretor esportivo",
+    "clube": "Manchester Utd",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         20,
-        29
+        26
       ],
       "ligas": [
-        "Ligue 1"
+        "Premier League",
+        "La Liga"
       ]
     },
-    "data_cadastro": "2025-07-04"
+    "data_cadastro": "2025-01-08"
   },
   {
-    "id_usuario": "C44",
-    "nome": "Nice",
-    "papel": "diretor esportivo",
-    "clube": "Nice",
+    "id_usuario": "C86",
+    "nome": "Cagliari",
+    "papel": "Diretor esportivo",
+    "clube": "Cagliari",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        27
+      ],
+      "ligas": [
+        "La Liga",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-10-02"
+  },
+  {
+    "id_usuario": "C87",
+    "nome": "Burnley",
+    "papel": "Diretor esportivo",
+    "clube": "Burnley",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        26,
+        33
+      ],
+      "ligas": [
+        "Bundesliga",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-07-26"
+  },
+  {
+    "id_usuario": "C88",
+    "nome": "Parma",
+    "papel": "Diretor esportivo",
+    "clube": "Parma",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         25,
         32
       ],
       "ligas": [
-        "Ligue 1",
-        "Premier League"
+        "Premier League",
+        "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-01-02"
+    "data_cadastro": "2025-01-20"
   },
   {
-    "id_usuario": "C45",
-    "nome": "Sassuolo",
-    "papel": "diretor esportivo",
-    "clube": "Sassuolo",
+    "id_usuario": "C89",
+    "nome": "Inter",
+    "papel": "Diretor esportivo",
+    "clube": "Inter",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        32
+      ],
+      "ligas": [
+        "Ligue 1",
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-03-29"
+  },
+  {
+    "id_usuario": "C90",
+    "nome": "Paris FC",
+    "papel": "Diretor esportivo",
+    "clube": "Paris FC",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        32
+      ],
+      "ligas": [
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-02-26"
+  },
+  {
+    "id_usuario": "C91",
+    "nome": "St Pauli",
+    "papel": "Diretor esportivo",
+    "clube": "St Pauli",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        27
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-02-02"
+  },
+  {
+    "id_usuario": "C92",
+    "nome": "Bologna",
+    "papel": "Diretor esportivo",
+    "clube": "Bologna",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         17,
         26
       ],
       "ligas": [
-        "Ligue 1",
+        "Premier League",
         "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-04-23"
+    "data_cadastro": "2025-02-12"
   },
   {
-    "id_usuario": "C46",
-    "nome": "Union Berlin",
-    "papel": "diretor esportivo",
-    "clube": "Union Berlin",
+    "id_usuario": "C93",
+    "nome": "Everton",
+    "papel": "Diretor esportivo",
+    "clube": "Everton",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        26
+      ],
+      "ligas": [
+        "Premier League",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-05-04"
+  },
+  {
+    "id_usuario": "C94",
+    "nome": "Cremonese",
+    "papel": "Diretor esportivo",
+    "clube": "Cremonese",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        24
+      ],
+      "ligas": [
+        "La Liga",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-09-10"
+  },
+  {
+    "id_usuario": "C95",
+    "nome": "Napoli",
+    "papel": "Diretor esportivo",
+    "clube": "Napoli",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        25,
+        34
+      ],
+      "ligas": [
+        "Serie A",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2024-12-06"
+  },
+  {
+    "id_usuario": "C96",
+    "nome": "Aston Villa",
+    "papel": "Diretor esportivo",
+    "clube": "Aston Villa",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        25
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-08-28"
+  },
+  {
+    "id_usuario": "C97",
+    "nome": "Monaco",
+    "papel": "Diretor esportivo",
+    "clube": "Monaco",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        33
+      ],
+      "ligas": [
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2024-12-25"
+  },
+  {
+    "id_usuario": "C98",
+    "nome": "Fulham",
+    "papel": "Diretor esportivo",
+    "clube": "Fulham",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        28
+      ],
+      "ligas": [
+        "Ligue 1",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2024-12-15"
+  },
+  {
+    "id_usuario": "C99",
+    "nome": "Real Madrid",
+    "papel": "Diretor esportivo",
+    "clube": "Real Madrid",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        26
+      ],
+      "ligas": [
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-10-22"
+  },
+  {
+    "id_usuario": "C100",
+    "nome": "Rennes",
+    "papel": "Diretor esportivo",
+    "clube": "Rennes",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        31
+      ],
+      "ligas": [
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-08-02"
+  },
+  {
+    "id_usuario": "C101",
+    "nome": "Wolves",
+    "papel": "Diretor esportivo",
+    "clube": "Wolves",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        34
+      ],
+      "ligas": [
+        "Bundesliga",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-01-13"
+  },
+  {
+    "id_usuario": "C102",
+    "nome": "Athletic Club",
+    "papel": "Diretor esportivo",
+    "clube": "Athletic Club",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        26
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-02-24"
+  },
+  {
+    "id_usuario": "C103",
+    "nome": "Newcastle United",
+    "papel": "Diretor esportivo",
+    "clube": "Newcastle United",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        26,
+        32
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-11-30"
+  },
+  {
+    "id_usuario": "C104",
+    "nome": "Lille",
+    "papel": "Diretor esportivo",
+    "clube": "Lille",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        27
+      ],
+      "ligas": [
+        "Premier League",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-04-20"
+  },
+  {
+    "id_usuario": "C105",
+    "nome": "Freiburg",
+    "papel": "Diretor esportivo",
+    "clube": "Freiburg",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        25,
+        34
+      ],
+      "ligas": [
+        "Serie A",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-08-10"
+  },
+  {
+    "id_usuario": "C106",
+    "nome": "Milan",
+    "papel": "Diretor esportivo",
+    "clube": "Milan",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        34
+      ],
+      "ligas": [
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-10-05"
+  },
+  {
+    "id_usuario": "C107",
+    "nome": "Juventus",
+    "papel": "Diretor esportivo",
+    "clube": "Juventus",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        20,
+        28
+      ],
+      "ligas": [
+        "La Liga",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-01-14"
+  },
+  {
+    "id_usuario": "C108",
+    "nome": "Genoa",
+    "papel": "Diretor esportivo",
+    "clube": "Genoa",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        32
+      ],
+      "ligas": [
+        "La Liga",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-05-22"
+  },
+  {
+    "id_usuario": "C109",
+    "nome": "Valencia",
+    "papel": "Diretor esportivo",
+    "clube": "Valencia",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        24
+      ],
+      "ligas": [
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-06-12"
+  },
+  {
+    "id_usuario": "C110",
+    "nome": "Leeds United",
+    "papel": "Diretor esportivo",
+    "clube": "Leeds United",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        20,
+        30
+      ],
+      "ligas": [
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-06-29"
+  },
+  {
+    "id_usuario": "C111",
+    "nome": "Fiorentina",
+    "papel": "Diretor esportivo",
+    "clube": "Fiorentina",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        29
+      ],
+      "ligas": [
+        "Ligue 1",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-09-06"
+  },
+  {
+    "id_usuario": "C112",
+    "nome": "West Ham United",
+    "papel": "Diretor esportivo",
+    "clube": "West Ham United",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        29
+      ],
+      "ligas": [
+        "La Liga",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-09-10"
+  },
+  {
+    "id_usuario": "C113",
+    "nome": "Auxerre",
+    "papel": "Diretor esportivo",
+    "clube": "Auxerre",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        32
+      ],
+      "ligas": [
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-10-08"
+  },
+  {
+    "id_usuario": "C114",
+    "nome": "Köln",
+    "papel": "Diretor esportivo",
+    "clube": "Köln",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         17,
@@ -829,1381 +2076,278 @@
         "Premier League"
       ]
     },
-    "data_cadastro": "2025-07-17"
+    "data_cadastro": "2025-04-13"
   },
   {
-    "id_usuario": "C47",
-    "nome": "Crystal Palace",
-    "papel": "diretor esportivo",
-    "clube": "Crystal Palace",
+    "id_usuario": "C115",
+    "nome": "Manchester City",
+    "papel": "Diretor esportivo",
+    "clube": "Manchester City",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         17,
+        27
+      ],
+      "ligas": [
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-05-20"
+  },
+  {
+    "id_usuario": "C116",
+    "nome": "Real Betis",
+    "papel": "Diretor esportivo",
+    "clube": "Real Betis",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        24
+      ],
+      "ligas": [
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-08-10"
+  },
+  {
+    "id_usuario": "C117",
+    "nome": "Alavés",
+    "papel": "Diretor esportivo",
+    "clube": "Alavés",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        27
+      ],
+      "ligas": [
+        "Ligue 1",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-01-21"
+  },
+  {
+    "id_usuario": "C118",
+    "nome": "Strasbourg",
+    "papel": "Diretor esportivo",
+    "clube": "Strasbourg",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        27
+      ],
+      "ligas": [
+        "La Liga",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-08-24"
+  },
+  {
+    "id_usuario": "C119",
+    "nome": "Heidenheim",
+    "papel": "Diretor esportivo",
+    "clube": "Heidenheim",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
         29
       ],
       "ligas": [
+        "Ligue 1",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-02-13"
+  },
+  {
+    "id_usuario": "C120",
+    "nome": "Mallorca",
+    "papel": "Diretor esportivo",
+    "clube": "Mallorca",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        23
+      ],
+      "ligas": [
         "Bundesliga",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-08-21"
+  },
+  {
+    "id_usuario": "C121",
+    "nome": "RB Leipzig",
+    "papel": "Diretor esportivo",
+    "clube": "RB Leipzig",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        32
+      ],
+      "ligas": [
+        "La Liga",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-10-01"
+  },
+  {
+    "id_usuario": "C122",
+    "nome": "Brentford",
+    "papel": "Diretor esportivo",
+    "clube": "Brentford",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        31
+      ],
+      "ligas": [
+        "La Liga",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-11-21"
+  },
+  {
+    "id_usuario": "C123",
+    "nome": "Villarreal",
+    "papel": "Diretor esportivo",
+    "clube": "Villarreal",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        25
+      ],
+      "ligas": [
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-01-21"
+  },
+  {
+    "id_usuario": "C124",
+    "nome": "Eintracht Frankfurt",
+    "papel": "Diretor esportivo",
+    "clube": "Eintracht Frankfurt",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        28
+      ],
+      "ligas": [
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2024-12-05"
+  },
+  {
+    "id_usuario": "C125",
+    "nome": "Getafe",
+    "papel": "Diretor esportivo",
+    "clube": "Getafe",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        28
+      ],
+      "ligas": [
+        "Premier League",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-08-04"
+  },
+  {
+    "id_usuario": "C126",
+    "nome": "Lazio",
+    "papel": "Diretor esportivo",
+    "clube": "Lazio",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        30
+      ],
+      "ligas": [
+        "Premier League",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-01-07"
+  },
+  {
+    "id_usuario": "C127",
+    "nome": "Le Havre",
+    "papel": "Diretor esportivo",
+    "clube": "Le Havre",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        24
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-08-28"
+  },
+  {
+    "id_usuario": "C128",
+    "nome": "Como",
+    "papel": "Diretor esportivo",
+    "clube": "Como",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        25,
+        31
+      ],
+      "ligas": [
         "La Liga"
       ]
     },
     "data_cadastro": "2025-03-05"
   },
   {
-    "id_usuario": "C48",
-    "nome": "Stuttgart",
-    "papel": "diretor esportivo",
-    "clube": "Stuttgart",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        26
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-03-16"
-  },
-  {
-    "id_usuario": "C49",
-    "nome": "Leeds United",
-    "papel": "diretor esportivo",
-    "clube": "Leeds United",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        26,
-        33
-      ],
-      "ligas": [
-        "Serie A",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-05-31"
-  },
-  {
-    "id_usuario": "C50",
-    "nome": "Villarreal",
-    "papel": "diretor esportivo",
-    "clube": "Villarreal",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        26
-      ],
-      "ligas": [
-        "Ligue 1",
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-05-07"
-  },
-  {
-    "id_usuario": "C51",
-    "nome": "Gladbach",
-    "papel": "diretor esportivo",
-    "clube": "Gladbach",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        22,
-        32
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-11-07"
-  },
-  {
-    "id_usuario": "C52",
-    "nome": "Mallorca",
-    "papel": "diretor esportivo",
-    "clube": "Mallorca",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        35
-      ],
-      "ligas": [
-        "Premier League",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-03-28"
-  },
-  {
-    "id_usuario": "C53",
-    "nome": "Elche",
-    "papel": "diretor esportivo",
-    "clube": "Elche",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        24
-      ],
-      "ligas": [
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2024-12-14"
-  },
-  {
-    "id_usuario": "C54",
-    "nome": "Werder Bremen",
-    "papel": "diretor esportivo",
-    "clube": "Werder Bremen",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        27
-      ],
-      "ligas": [
-        "Bundesliga",
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-01-04"
-  },
-  {
-    "id_usuario": "C55",
-    "nome": "Osasuna",
-    "papel": "diretor esportivo",
-    "clube": "Osasuna",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        29
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2024-12-07"
-  },
-  {
-    "id_usuario": "C56",
-    "nome": "Cagliari",
-    "papel": "diretor esportivo",
-    "clube": "Cagliari",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        25
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-02-07"
-  },
-  {
-    "id_usuario": "C57",
-    "nome": "Liverpool",
-    "papel": "diretor esportivo",
-    "clube": "Liverpool",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        30
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-11-30"
-  },
-  {
-    "id_usuario": "C58",
-    "nome": "Metz",
-    "papel": "diretor esportivo",
-    "clube": "Metz",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        25
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-11-29"
-  },
-  {
-    "id_usuario": "C59",
-    "nome": "Levante",
-    "papel": "diretor esportivo",
-    "clube": "Levante",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        31
-      ],
-      "ligas": [
-        "Bundesliga",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2024-12-30"
-  },
-  {
-    "id_usuario": "C60",
-    "nome": "Bologna",
-    "papel": "diretor esportivo",
-    "clube": "Bologna",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        26
-      ],
-      "ligas": [
-        "Bundesliga",
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-05-10"
-  },
-  {
-    "id_usuario": "C61",
-    "nome": "Girona",
-    "papel": "diretor esportivo",
-    "clube": "Girona",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        24,
-        32
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-02-03"
-  },
-  {
-    "id_usuario": "C62",
-    "nome": "Atalanta",
-    "papel": "diretor esportivo",
-    "clube": "Atalanta",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        23
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-09-22"
-  },
-  {
-    "id_usuario": "C63",
-    "nome": "Udinese",
-    "papel": "diretor esportivo",
-    "clube": "Udinese",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        24
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-03-16"
-  },
-  {
-    "id_usuario": "C64",
-    "nome": "Celta Vigo",
-    "papel": "diretor esportivo",
-    "clube": "Celta Vigo",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        31
-      ],
-      "ligas": [
-        "Serie A",
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2024-12-13"
-  },
-  {
-    "id_usuario": "C65",
-    "nome": "Lens",
-    "papel": "diretor esportivo",
-    "clube": "Lens",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        25,
-        34
-      ],
-      "ligas": [
-        "Serie A",
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2024-12-02"
-  },
-  {
-    "id_usuario": "C66",
-    "nome": "Rennes",
-    "papel": "diretor esportivo",
-    "clube": "Rennes",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        30
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2024-12-18"
-  },
-  {
-    "id_usuario": "C67",
-    "nome": "Heidenheim",
-    "papel": "diretor esportivo",
-    "clube": "Heidenheim",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        25
-      ],
-      "ligas": [
-        "Premier League",
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-04-11"
-  },
-  {
-    "id_usuario": "C68",
-    "nome": "Getafe",
-    "papel": "diretor esportivo",
-    "clube": "Getafe",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        28
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-08-18"
-  },
-  {
-    "id_usuario": "C69",
-    "nome": "Nantes",
-    "papel": "diretor esportivo",
-    "clube": "Nantes",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        28
-      ],
-      "ligas": [
-        "Ligue 1",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-11-19"
-  },
-  {
-    "id_usuario": "C70",
-    "nome": "Sunderland",
-    "papel": "diretor esportivo",
-    "clube": "Sunderland",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        24
-      ],
-      "ligas": [
-        "Premier League",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-01-06"
-  },
-  {
-    "id_usuario": "C71",
-    "nome": "Manchester Utd",
-    "papel": "diretor esportivo",
-    "clube": "Manchester Utd",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        19,
-        29
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-02-18"
-  },
-  {
-    "id_usuario": "C72",
-    "nome": "Lorient",
-    "papel": "diretor esportivo",
-    "clube": "Lorient",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        25
-      ],
-      "ligas": [
-        "Bundesliga",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-09-19"
-  },
-  {
-    "id_usuario": "C73",
-    "nome": "Augsburg",
-    "papel": "diretor esportivo",
-    "clube": "Augsburg",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        24
-      ],
-      "ligas": [
-        "Ligue 1",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-08-15"
-  },
-  {
-    "id_usuario": "C74",
-    "nome": "Tottenham Hotspur",
-    "papel": "diretor esportivo",
-    "clube": "Tottenham Hotspur",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        26
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-07-14"
-  },
-  {
-    "id_usuario": "C75",
-    "nome": "Brentford",
-    "papel": "diretor esportivo",
-    "clube": "Brentford",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        28
-      ],
-      "ligas": [
-        "La Liga",
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-09-12"
-  },
-  {
-    "id_usuario": "C76",
-    "nome": "St Pauli",
-    "papel": "diretor esportivo",
-    "clube": "St Pauli",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        29
-      ],
-      "ligas": [
-        "La Liga",
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-09-05"
-  },
-  {
-    "id_usuario": "C77",
-    "nome": "Le Havre",
-    "papel": "diretor esportivo",
-    "clube": "Le Havre",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        27
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2024-12-04"
-  },
-  {
-    "id_usuario": "C78",
-    "nome": "Eintracht Frankfurt",
-    "papel": "diretor esportivo",
-    "clube": "Eintracht Frankfurt",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        26
-      ],
-      "ligas": [
-        "La Liga",
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-08-21"
-  },
-  {
-    "id_usuario": "C79",
-    "nome": "Cremonese",
-    "papel": "diretor esportivo",
-    "clube": "Cremonese",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        26
-      ],
-      "ligas": [
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-02-24"
-  },
-  {
-    "id_usuario": "C80",
-    "nome": "Hellas Verona",
-    "papel": "diretor esportivo",
-    "clube": "Hellas Verona",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        19,
-        26
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-06-07"
-  },
-  {
-    "id_usuario": "C81",
-    "nome": "Oviedo",
-    "papel": "diretor esportivo",
-    "clube": "Oviedo",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        25
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-06-21"
-  },
-  {
-    "id_usuario": "C82",
-    "nome": "Lille",
-    "papel": "diretor esportivo",
-    "clube": "Lille",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        27
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-09-20"
-  },
-  {
-    "id_usuario": "C83",
-    "nome": "Brest",
-    "papel": "diretor esportivo",
-    "clube": "Brest",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        22,
-        33
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-01-01"
-  },
-  {
-    "id_usuario": "C84",
-    "nome": "Manchester City",
-    "papel": "diretor esportivo",
-    "clube": "Manchester City",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        27
-      ],
-      "ligas": [
-        "Ligue 1",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-08-21"
-  },
-  {
-    "id_usuario": "C85",
-    "nome": "Burnley",
-    "papel": "diretor esportivo",
-    "clube": "Burnley",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        25
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-04-15"
-  },
-  {
-    "id_usuario": "C86",
-    "nome": "Brighton",
-    "papel": "diretor esportivo",
-    "clube": "Brighton",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        22,
-        28
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-01-07"
-  },
-  {
-    "id_usuario": "C87",
-    "nome": "Paris Saint-Germain",
-    "papel": "diretor esportivo",
-    "clube": "Paris Saint-Germain",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        29
-      ],
-      "ligas": [
-        "La Liga",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-09-23"
-  },
-  {
-    "id_usuario": "C88",
-    "nome": "Hoffenheim",
-    "papel": "diretor esportivo",
-    "clube": "Hoffenheim",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        28
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-09-25"
-  },
-  {
-    "id_usuario": "C89",
-    "nome": "Paris FC",
-    "papel": "diretor esportivo",
-    "clube": "Paris FC",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        29
-      ],
-      "ligas": [
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-08-24"
-  },
-  {
-    "id_usuario": "C90",
-    "nome": "Strasbourg",
-    "papel": "diretor esportivo",
-    "clube": "Strasbourg",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        30
-      ],
-      "ligas": [
-        "Premier League",
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-03-25"
-  },
-  {
-    "id_usuario": "C91",
-    "nome": "Barcelona",
-    "papel": "diretor esportivo",
-    "clube": "Barcelona",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        22,
-        31
-      ],
-      "ligas": [
-        "Premier League",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-10-23"
-  },
-  {
-    "id_usuario": "C92",
-    "nome": "Monaco",
-    "papel": "diretor esportivo",
-    "clube": "Monaco",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        28
-      ],
-      "ligas": [
-        "La Liga",
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-06-21"
-  },
-  {
-    "id_usuario": "C93",
-    "nome": "Nottingham Forest",
-    "papel": "diretor esportivo",
-    "clube": "Nottingham Forest",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        32
-      ],
-      "ligas": [
-        "La Liga",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-01-03"
-  },
-  {
-    "id_usuario": "C94",
-    "nome": "Aston Villa",
-    "papel": "diretor esportivo",
-    "clube": "Aston Villa",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        32
-      ],
-      "ligas": [
-        "La Liga",
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-01-07"
-  },
-  {
-    "id_usuario": "C95",
-    "nome": "Everton",
-    "papel": "diretor esportivo",
-    "clube": "Everton",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        33
-      ],
-      "ligas": [
-        "Serie A",
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-11-26"
-  },
-  {
-    "id_usuario": "C96",
-    "nome": "Wolves",
-    "papel": "diretor esportivo",
-    "clube": "Wolves",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        33
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-05-04"
-  },
-  {
-    "id_usuario": "C97",
-    "nome": "Mainz 05",
-    "papel": "diretor esportivo",
-    "clube": "Mainz 05",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        26
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-06-25"
-  },
-  {
-    "id_usuario": "C98",
-    "nome": "Real Sociedad",
-    "papel": "diretor esportivo",
-    "clube": "Real Sociedad",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        33
-      ],
-      "ligas": [
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-03-04"
-  },
-  {
-    "id_usuario": "C99",
-    "nome": "Fiorentina",
-    "papel": "diretor esportivo",
-    "clube": "Fiorentina",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        25
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-09-15"
-  },
-  {
-    "id_usuario": "C100",
-    "nome": "Athletic Club",
-    "papel": "diretor esportivo",
-    "clube": "Athletic Club",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        25,
-        31
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-10-05"
-  },
-  {
-    "id_usuario": "C101",
-    "nome": "Napoli",
-    "papel": "diretor esportivo",
-    "clube": "Napoli",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        27
-      ],
-      "ligas": [
-        "Serie A",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-03-04"
-  },
-  {
-    "id_usuario": "C102",
-    "nome": "RB Leipzig",
-    "papel": "diretor esportivo",
-    "clube": "RB Leipzig",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        34
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-03-09"
-  },
-  {
-    "id_usuario": "C103",
-    "nome": "West Ham United",
-    "papel": "diretor esportivo",
-    "clube": "West Ham United",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        29
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-02-28"
-  },
-  {
-    "id_usuario": "C104",
-    "nome": "Pisa",
-    "papel": "diretor esportivo",
-    "clube": "Pisa",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        24,
-        30
-      ],
-      "ligas": [
-        "Bundesliga",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2024-12-11"
-  },
-  {
-    "id_usuario": "C105",
-    "nome": "Como",
-    "papel": "diretor esportivo",
-    "clube": "Como",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        28
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2024-12-31"
-  },
-  {
-    "id_usuario": "C106",
-    "nome": "Valencia",
-    "papel": "diretor esportivo",
-    "clube": "Valencia",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        26
-      ],
-      "ligas": [
-        "Premier League",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-01-31"
-  },
-  {
-    "id_usuario": "C107",
-    "nome": "Torino",
-    "papel": "diretor esportivo",
-    "clube": "Torino",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        19,
-        29
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-10-20"
-  },
-  {
-    "id_usuario": "C108",
-    "nome": "Hamburger SV",
-    "papel": "diretor esportivo",
-    "clube": "Hamburger SV",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        27
-      ],
-      "ligas": [
-        "Serie A",
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-09-21"
-  },
-  {
-    "id_usuario": "C109",
-    "nome": "Milan",
-    "papel": "diretor esportivo",
-    "clube": "Milan",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        27
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-01-08"
-  },
-  {
-    "id_usuario": "C110",
-    "nome": "Auxerre",
-    "papel": "diretor esportivo",
-    "clube": "Auxerre",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        25
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-05-21"
-  },
-  {
-    "id_usuario": "C111",
-    "nome": "Inter",
-    "papel": "diretor esportivo",
-    "clube": "Inter",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        30
-      ],
-      "ligas": [
-        "Bundesliga",
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-07-03"
-  },
-  {
-    "id_usuario": "C112",
-    "nome": "Espanyol",
-    "papel": "diretor esportivo",
-    "clube": "Espanyol",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        32
-      ],
-      "ligas": [
-        "La Liga",
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-06-21"
-  },
-  {
-    "id_usuario": "C113",
-    "nome": "Lazio",
-    "papel": "diretor esportivo",
-    "clube": "Lazio",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        27
-      ],
-      "ligas": [
-        "La Liga",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-03-28"
-  },
-  {
-    "id_usuario": "C114",
-    "nome": "Alavés",
-    "papel": "diretor esportivo",
-    "clube": "Alavés",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        32
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-10-08"
-  },
-  {
-    "id_usuario": "C115",
-    "nome": "Wolfsburg",
-    "papel": "diretor esportivo",
-    "clube": "Wolfsburg",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        25,
-        32
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-10-10"
-  },
-  {
-    "id_usuario": "C116",
-    "nome": "Parma",
-    "papel": "diretor esportivo",
-    "clube": "Parma",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        23
-      ],
-      "ligas": [
-        "La Liga",
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-02-23"
-  },
-  {
-    "id_usuario": "C117",
-    "nome": "Freiburg",
-    "papel": "diretor esportivo",
-    "clube": "Freiburg",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        25
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-10-25"
-  },
-  {
-    "id_usuario": "C118",
-    "nome": "Fulham",
-    "papel": "diretor esportivo",
-    "clube": "Fulham",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        29
-      ],
-      "ligas": [
-        "La Liga",
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-06-10"
-  },
-  {
-    "id_usuario": "C119",
-    "nome": "Bournemouth",
-    "papel": "diretor esportivo",
-    "clube": "Bournemouth",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        19,
-        28
-      ],
-      "ligas": [
-        "Serie A",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-04-28"
-  },
-  {
-    "id_usuario": "C120",
-    "nome": "Leverkusen",
-    "papel": "diretor esportivo",
-    "clube": "Leverkusen",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        18,
-        26
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-10-04"
-  },
-  {
-    "id_usuario": "C121",
-    "nome": "Dortmund",
-    "papel": "diretor esportivo",
-    "clube": "Dortmund",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        30
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-04-02"
-  },
-  {
-    "id_usuario": "C122",
-    "nome": "Genoa",
-    "papel": "diretor esportivo",
-    "clube": "Genoa",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        22,
-        32
-      ],
-      "ligas": [
-        "La Liga",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-04-08"
-  },
-  {
-    "id_usuario": "C123",
-    "nome": "Lyon",
-    "papel": "diretor esportivo",
-    "clube": "Lyon",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        25
-      ],
-      "ligas": [
-        "Ligue 1",
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2024-12-15"
-  },
-  {
-    "id_usuario": "C124",
-    "nome": "Juventus",
-    "papel": "diretor esportivo",
-    "clube": "Juventus",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        22,
-        29
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-06-11"
-  },
-  {
-    "id_usuario": "C125",
-    "nome": "Köln",
-    "papel": "diretor esportivo",
-    "clube": "Köln",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        19,
-        27
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-03-10"
-  },
-  {
-    "id_usuario": "C126",
-    "nome": "Chelsea",
-    "papel": "diretor esportivo",
-    "clube": "Chelsea",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        25,
-        34
-      ],
-      "ligas": [
-        "Serie A",
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-10-15"
-  },
-  {
-    "id_usuario": "C127",
-    "nome": "Toulouse",
-    "papel": "diretor esportivo",
-    "clube": "Toulouse",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        29
-      ],
-      "ligas": [
-        "Ligue 1",
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-04-26"
-  },
-  {
-    "id_usuario": "C128",
-    "nome": "Rayo Vallecano",
-    "papel": "diretor esportivo",
-    "clube": "Rayo Vallecano",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        30
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-06-20"
-  },
-  {
     "id_usuario": "C129",
-    "nome": "Atlético Madrid",
-    "papel": "diretor esportivo",
-    "clube": "Atlético Madrid",
+    "nome": "Toulouse",
+    "papel": "Diretor esportivo",
+    "clube": "Toulouse",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        21,
-        33
+        19,
+        28
       ],
       "ligas": [
-        "Bundesliga",
-        "Ligue 1"
+        "Ligue 1",
+        "Premier League"
       ]
     },
     "data_cadastro": "2025-08-23"
   },
   {
     "id_usuario": "C130",
-    "nome": "Newcastle United",
-    "papel": "diretor esportivo",
-    "clube": "Newcastle United",
+    "nome": "Rayo Vallecano",
+    "papel": "Diretor esportivo",
+    "clube": "Rayo Vallecano",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         17,
@@ -2214,248 +2358,669 @@
         "Serie A"
       ]
     },
-    "data_cadastro": "2025-08-19"
+    "data_cadastro": "2025-03-20"
   },
   {
     "id_usuario": "C131",
-    "nome": "Angers",
-    "papel": "diretor esportivo",
-    "clube": "Angers",
+    "nome": "Atlético Madrid",
+    "papel": "Diretor esportivo",
+    "clube": "Atlético Madrid",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        22,
-        32
+        17,
+        25
       ],
       "ligas": [
-        "La Liga",
-        "Serie A"
+        "Bundesliga",
+        "Ligue 1"
       ]
     },
-    "data_cadastro": "2025-06-18"
+    "data_cadastro": "2025-06-21"
   },
   {
     "id_usuario": "C132",
-    "nome": "Lecce",
-    "papel": "diretor esportivo",
-    "clube": "Lecce",
+    "nome": "Nice",
+    "papel": "Diretor esportivo",
+    "clube": "Nice",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        23,
-        29
+        18,
+        27
       ],
       "ligas": [
-        "Ligue 1"
+        "La Liga"
       ]
     },
-    "data_cadastro": "2024-12-28"
+    "data_cadastro": "2025-06-15"
   },
   {
     "id_usuario": "C133",
-    "nome": "Sevilla",
-    "papel": "diretor esportivo",
-    "clube": "Sevilla",
+    "nome": "Angers",
+    "papel": "Diretor esportivo",
+    "clube": "Angers",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        26,
-        33
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-01-20"
-  },
-  {
-    "id_usuario": "C134",
-    "nome": "Real Betis",
-    "papel": "diretor esportivo",
-    "clube": "Real Betis",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        19,
-        26
+        24,
+        30
       ],
       "ligas": [
         "La Liga",
-        "Ligue 1"
+        "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-08-28"
+    "data_cadastro": "2025-09-15"
+  },
+  {
+    "id_usuario": "C134",
+    "nome": "Real Sociedad",
+    "papel": "Diretor esportivo",
+    "clube": "Real Sociedad",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        29
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2024-12-12"
   },
   {
     "id_usuario": "C135",
-    "nome": "Nice",
-    "papel": "diretor esportivo",
-    "clube": "Nice",
+    "nome": "Sevilla",
+    "papel": "Diretor esportivo",
+    "clube": "Sevilla",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        30
+      ],
+      "ligas": [
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-11-11"
+  },
+  {
+    "id_usuario": "C136",
+    "nome": "Mainz 05",
+    "papel": "Diretor esportivo",
+    "clube": "Mainz 05",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        24
+      ],
+      "ligas": [
+        "Serie A",
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-06-07"
+  },
+  {
+    "id_usuario": "C137",
+    "nome": "Nottingham Forest",
+    "papel": "Diretor esportivo",
+    "clube": "Nottingham Forest",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        20,
+        30
+      ],
+      "ligas": [
+        "Serie A",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-10-19"
+  },
+  {
+    "id_usuario": "C138",
+    "nome": "Sassuolo",
+    "papel": "Diretor esportivo",
+    "clube": "Sassuolo",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        27
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2024-12-17"
+  },
+  {
+    "id_usuario": "C139",
+    "nome": "Union Berlin",
+    "papel": "Diretor esportivo",
+    "clube": "Union Berlin",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        33
+      ],
+      "ligas": [
+        "La Liga",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-08-12"
+  },
+  {
+    "id_usuario": "C140",
+    "nome": "Dortmund",
+    "papel": "Diretor esportivo",
+    "clube": "Dortmund",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         21,
         32
       ],
       "ligas": [
-        "La Liga",
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-10-17"
+  },
+  {
+    "id_usuario": "C141",
+    "nome": "Stuttgart",
+    "papel": "Diretor esportivo",
+    "clube": "Stuttgart",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        30
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-10-19"
+  },
+  {
+    "id_usuario": "C142",
+    "nome": "Lens",
+    "papel": "Diretor esportivo",
+    "clube": "Lens",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        31
+      ],
+      "ligas": [
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-08-15"
+  },
+  {
+    "id_usuario": "C143",
+    "nome": "Pisa",
+    "papel": "Diretor esportivo",
+    "clube": "Pisa",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        24
+      ],
+      "ligas": [
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-11-17"
+  },
+  {
+    "id_usuario": "C144",
+    "nome": "Hamburger SV",
+    "papel": "Diretor esportivo",
+    "clube": "Hamburger SV",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        30
+      ],
+      "ligas": [
+        "Ligue 1",
         "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-08-19"
+  },
+  {
+    "id_usuario": "C145",
+    "nome": "Osasuna",
+    "papel": "Diretor esportivo",
+    "clube": "Osasuna",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        32
+      ],
+      "ligas": [
+        "Bundesliga"
       ]
     },
     "data_cadastro": "2025-07-02"
   },
   {
-    "id_usuario": "C136",
-    "nome": "Sassuolo",
-    "papel": "diretor esportivo",
-    "clube": "Sassuolo",
+    "id_usuario": "C146",
+    "nome": "Espanyol",
+    "papel": "Diretor esportivo",
+    "clube": "Espanyol",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        19,
-        26
+        24,
+        33
       ],
       "ligas": [
-        "Bundesliga",
         "Serie A"
       ]
     },
-    "data_cadastro": "2025-06-10"
+    "data_cadastro": "2025-06-07"
   },
   {
-    "id_usuario": "C137",
-    "nome": "Union Berlin",
-    "papel": "diretor esportivo",
-    "clube": "Union Berlin",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        34
-      ],
-      "ligas": [
-        "Bundesliga",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-04-13"
-  },
-  {
-    "id_usuario": "C138",
-    "nome": "Crystal Palace",
-    "papel": "diretor esportivo",
-    "clube": "Crystal Palace",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        24,
-        34
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-02-28"
-  },
-  {
-    "id_usuario": "C139",
-    "nome": "Stuttgart",
-    "papel": "diretor esportivo",
-    "clube": "Stuttgart",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        25,
-        32
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-10-04"
-  },
-  {
-    "id_usuario": "C140",
-    "nome": "Leeds United",
-    "papel": "diretor esportivo",
-    "clube": "Leeds United",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        35
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-11-16"
-  },
-  {
-    "id_usuario": "C141",
-    "nome": "Villarreal",
-    "papel": "diretor esportivo",
-    "clube": "Villarreal",
+    "id_usuario": "C147",
+    "nome": "Werder Bremen",
+    "papel": "Diretor esportivo",
+    "clube": "Werder Bremen",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         24,
         31
       ],
       "ligas": [
+        "Serie A",
         "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-10-04"
+    "data_cadastro": "2025-12-02"
   },
   {
-    "id_usuario": "C142",
-    "nome": "Gladbach",
-    "papel": "diretor esportivo",
-    "clube": "Gladbach",
+    "id_usuario": "C148",
+    "nome": "Torino",
+    "papel": "Diretor esportivo",
+    "clube": "Torino",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        24,
-        31
+        21,
+        28
       ],
       "ligas": [
-        "La Liga"
+        "Premier League",
+        "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-06-19"
+    "data_cadastro": "2025-05-03"
   },
   {
-    "id_usuario": "C143",
-    "nome": "Mallorca",
-    "papel": "diretor esportivo",
-    "clube": "Mallorca",
+    "id_usuario": "C149",
+    "nome": "Celta Vigo",
+    "papel": "Diretor esportivo",
+    "clube": "Celta Vigo",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        23,
+        22,
         30
       ],
       "ligas": [
-        "Ligue 1",
+        "La Liga",
         "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-05-27"
+    "data_cadastro": "2025-08-22"
   },
   {
-    "id_usuario": "C144",
-    "nome": "Elche",
-    "papel": "diretor esportivo",
-    "clube": "Elche",
+    "id_usuario": "C150",
+    "nome": "Lorient",
+    "papel": "Diretor esportivo",
+    "clube": "Lorient",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        29
+      ],
+      "ligas": [
+        "Serie A",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-08-01"
+  },
+  {
+    "id_usuario": "C151",
+    "nome": "Metz",
+    "papel": "Diretor esportivo",
+    "clube": "Metz",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         17,
-        26
+        27
       ],
       "ligas": [
-        "Bundesliga",
         "La Liga"
       ]
     },
-    "data_cadastro": "2025-09-29"
+    "data_cadastro": "2025-07-06"
   },
   {
-    "id_usuario": "C145",
-    "nome": "Werder Bremen",
-    "papel": "diretor esportivo",
-    "clube": "Werder Bremen",
+    "id_usuario": "C152",
+    "nome": "Leverkusen",
+    "papel": "Diretor esportivo",
+    "clube": "Leverkusen",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        34
+      ],
+      "ligas": [
+        "Bundesliga",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-05-20"
+  },
+  {
+    "id_usuario": "C153",
+    "nome": "Bournemouth",
+    "papel": "Diretor esportivo",
+    "clube": "Bournemouth",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        24
+      ],
+      "ligas": [
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-10-27"
+  },
+  {
+    "id_usuario": "C154",
+    "nome": "Gladbach",
+    "papel": "Diretor esportivo",
+    "clube": "Gladbach",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        31
+      ],
+      "ligas": [
+        "Bundesliga",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-07-21"
+  },
+  {
+    "id_usuario": "C155",
+    "nome": "Atalanta",
+    "papel": "Diretor esportivo",
+    "clube": "Atalanta",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        34
+      ],
+      "ligas": [
+        "Bundesliga",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-11-03"
+  },
+  {
+    "id_usuario": "C156",
+    "nome": "Udinese",
+    "papel": "Diretor esportivo",
+    "clube": "Udinese",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        32
+      ],
+      "ligas": [
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2024-12-10"
+  },
+  {
+    "id_usuario": "C157",
+    "nome": "Chelsea",
+    "papel": "Diretor esportivo",
+    "clube": "Chelsea",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        32
+      ],
+      "ligas": [
+        "Serie A",
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-11-25"
+  },
+  {
+    "id_usuario": "C158",
+    "nome": "Levante",
+    "papel": "Diretor esportivo",
+    "clube": "Levante",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        33
+      ],
+      "ligas": [
+        "Ligue 1",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2024-12-11"
+  },
+  {
+    "id_usuario": "C159",
+    "nome": "Roma",
+    "papel": "Diretor esportivo",
+    "clube": "Roma",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        24
+      ],
+      "ligas": [
+        "Serie A",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-08-11"
+  },
+  {
+    "id_usuario": "C160",
+    "nome": "Hellas Verona",
+    "papel": "Diretor esportivo",
+    "clube": "Hellas Verona",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        26
+      ],
+      "ligas": [
+        "La Liga",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-07-18"
+  },
+  {
+    "id_usuario": "C161",
+    "nome": "Girona",
+    "papel": "Diretor esportivo",
+    "clube": "Girona",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         25,
         32
+      ],
+      "ligas": [
+        "Serie A",
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-03-14"
+  },
+  {
+    "id_usuario": "C162",
+    "nome": "Nantes",
+    "papel": "Diretor esportivo",
+    "clube": "Nantes",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        34
+      ],
+      "ligas": [
+        "La Liga",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-03-11"
+  },
+  {
+    "id_usuario": "C163",
+    "nome": "Sunderland",
+    "papel": "Diretor esportivo",
+    "clube": "Sunderland",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        17,
+        24
+      ],
+      "ligas": [
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-06-27"
+  },
+  {
+    "id_usuario": "C164",
+    "nome": "Marseille",
+    "papel": "Diretor esportivo",
+    "clube": "Marseille",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        20,
+        27
+      ],
+      "ligas": [
+        "Ligue 1",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-06-03"
+  },
+  {
+    "id_usuario": "C165",
+    "nome": "Lyon",
+    "papel": "Diretor esportivo",
+    "clube": "Lyon",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        30
+      ],
+      "ligas": [
+        "Serie A",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-08-10"
+  },
+  {
+    "id_usuario": "C166",
+    "nome": "Augsburg",
+    "papel": "Diretor esportivo",
+    "clube": "Augsburg",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        28
+      ],
+      "ligas": [
+        "La Liga",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-06-09"
+  },
+  {
+    "id_usuario": "C167",
+    "nome": "Tottenham Hotspur",
+    "papel": "Diretor esportivo",
+    "clube": "Tottenham Hotspur",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        33
+      ],
+      "ligas": [
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-11-12"
+  },
+  {
+    "id_usuario": "C168",
+    "nome": "Brest",
+    "papel": "Diretor esportivo",
+    "clube": "Brest",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        25,
+        34
       ],
       "ligas": [
         "La Liga",
@@ -2465,660 +3030,225 @@
     "data_cadastro": "2025-05-06"
   },
   {
-    "id_usuario": "C146",
-    "nome": "Osasuna",
-    "papel": "diretor esportivo",
-    "clube": "Osasuna",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        25,
-        31
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-07-19"
-  },
-  {
-    "id_usuario": "C147",
-    "nome": "Cagliari",
-    "papel": "diretor esportivo",
-    "clube": "Cagliari",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        22,
-        29
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-04-11"
-  },
-  {
-    "id_usuario": "C148",
-    "nome": "Liverpool",
-    "papel": "diretor esportivo",
-    "clube": "Liverpool",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        29
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-10-06"
-  },
-  {
-    "id_usuario": "C149",
-    "nome": "Metz",
-    "papel": "diretor esportivo",
-    "clube": "Metz",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        29
-      ],
-      "ligas": [
-        "La Liga",
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-11-16"
-  },
-  {
-    "id_usuario": "C150",
-    "nome": "Levante",
-    "papel": "diretor esportivo",
-    "clube": "Levante",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        32
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-07-24"
-  },
-  {
-    "id_usuario": "C151",
-    "nome": "Bologna",
-    "papel": "diretor esportivo",
-    "clube": "Bologna",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        26,
-        33
-      ],
-      "ligas": [
-        "La Liga",
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-02-15"
-  },
-  {
-    "id_usuario": "C152",
-    "nome": "Girona",
-    "papel": "diretor esportivo",
-    "clube": "Girona",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        26
-      ],
-      "ligas": [
-        "Bundesliga",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-04-27"
-  },
-  {
-    "id_usuario": "C153",
-    "nome": "Atalanta",
-    "papel": "diretor esportivo",
-    "clube": "Atalanta",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        34
-      ],
-      "ligas": [
-        "Ligue 1",
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-03-26"
-  },
-  {
-    "id_usuario": "C154",
-    "nome": "Udinese",
-    "papel": "diretor esportivo",
-    "clube": "Udinese",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        31
-      ],
-      "ligas": [
-        "Premier League",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-10-04"
-  },
-  {
-    "id_usuario": "C155",
-    "nome": "Celta Vigo",
-    "papel": "diretor esportivo",
-    "clube": "Celta Vigo",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        19,
-        26
-      ],
-      "ligas": [
-        "La Liga",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-06-17"
-  },
-  {
-    "id_usuario": "C156",
-    "nome": "Lens",
-    "papel": "diretor esportivo",
-    "clube": "Lens",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        28
-      ],
-      "ligas": [
-        "Premier League",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-08-17"
-  },
-  {
-    "id_usuario": "C157",
-    "nome": "Rennes",
-    "papel": "diretor esportivo",
-    "clube": "Rennes",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        35
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-06-26"
-  },
-  {
-    "id_usuario": "C158",
-    "nome": "Heidenheim",
-    "papel": "diretor esportivo",
-    "clube": "Heidenheim",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        27
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2024-12-20"
-  },
-  {
-    "id_usuario": "C159",
-    "nome": "Getafe",
-    "papel": "diretor esportivo",
-    "clube": "Getafe",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        30
-      ],
-      "ligas": [
-        "Premier League",
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-03-15"
-  },
-  {
-    "id_usuario": "C160",
-    "nome": "Nantes",
-    "papel": "diretor esportivo",
-    "clube": "Nantes",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        27
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-05-31"
-  },
-  {
-    "id_usuario": "C161",
-    "nome": "Sunderland",
-    "papel": "diretor esportivo",
-    "clube": "Sunderland",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        26
-      ],
-      "ligas": [
-        "Bundesliga",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-04-18"
-  },
-  {
-    "id_usuario": "C162",
-    "nome": "Manchester Utd",
-    "papel": "diretor esportivo",
-    "clube": "Manchester Utd",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        25
-      ],
-      "ligas": [
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-07-11"
-  },
-  {
-    "id_usuario": "C163",
-    "nome": "Lorient",
-    "papel": "diretor esportivo",
-    "clube": "Lorient",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        30
-      ],
-      "ligas": [
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-07-07"
-  },
-  {
-    "id_usuario": "C164",
-    "nome": "Augsburg",
-    "papel": "diretor esportivo",
-    "clube": "Augsburg",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        24,
-        34
-      ],
-      "ligas": [
-        "Ligue 1",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-05-15"
-  },
-  {
-    "id_usuario": "C165",
-    "nome": "Tottenham Hotspur",
-    "papel": "diretor esportivo",
-    "clube": "Tottenham Hotspur",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        34
-      ],
-      "ligas": [
-        "Premier League",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-03-26"
-  },
-  {
-    "id_usuario": "C166",
-    "nome": "Brentford",
-    "papel": "diretor esportivo",
-    "clube": "Brentford",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        24,
-        30
-      ],
-      "ligas": [
-        "La Liga",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-07-09"
-  },
-  {
-    "id_usuario": "C167",
-    "nome": "St Pauli",
-    "papel": "diretor esportivo",
-    "clube": "St Pauli",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        32
-      ],
-      "ligas": [
-        "La Liga",
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-11-05"
-  },
-  {
-    "id_usuario": "C168",
-    "nome": "Le Havre",
-    "papel": "diretor esportivo",
-    "clube": "Le Havre",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        25,
-        34
-      ],
-      "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-04-09"
-  },
-  {
     "id_usuario": "C169",
-    "nome": "Eintracht Frankfurt",
-    "papel": "diretor esportivo",
-    "clube": "Eintracht Frankfurt",
+    "nome": "Wolfsburg",
+    "papel": "Diretor esportivo",
+    "clube": "Wolfsburg",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        17,
-        26
+        20,
+        31
       ],
       "ligas": [
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-11-01"
-  },
-  {
-    "id_usuario": "C170",
-    "nome": "Cremonese",
-    "papel": "diretor esportivo",
-    "clube": "Cremonese",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        19,
-        28
-      ],
-      "ligas": [
-        "Premier League",
         "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-04-09"
-  },
-  {
-    "id_usuario": "C171",
-    "nome": "Hellas Verona",
-    "papel": "diretor esportivo",
-    "clube": "Hellas Verona",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        22,
-        33
-      ],
-      "ligas": [
-        "Serie A",
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-09-02"
-  },
-  {
-    "id_usuario": "C172",
-    "nome": "Oviedo",
-    "papel": "diretor esportivo",
-    "clube": "Oviedo",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        28
-      ],
-      "ligas": [
-        "Serie A",
-        "La Liga"
-      ]
-    },
-    "data_cadastro": "2025-10-07"
-  },
-  {
-    "id_usuario": "C173",
-    "nome": "Lille",
-    "papel": "diretor esportivo",
-    "clube": "Lille",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        19,
-        27
-      ],
-      "ligas": [
-        "Serie A",
-        "La Liga"
       ]
     },
     "data_cadastro": "2025-05-20"
   },
   {
-    "id_usuario": "C174",
-    "nome": "Brest",
-    "papel": "diretor esportivo",
-    "clube": "Brest",
+    "id_usuario": "C170",
+    "nome": "Lecce",
+    "papel": "Diretor esportivo",
+    "clube": "Lecce",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        22,
-        33
+        18,
+        28
       ],
       "ligas": [
-        "La Liga",
         "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-10-26"
+    "data_cadastro": "2025-12-03"
   },
   {
-    "id_usuario": "C175",
-    "nome": "Manchester City",
-    "papel": "diretor esportivo",
-    "clube": "Manchester City",
+    "id_usuario": "C171",
+    "nome": "Elche",
+    "papel": "Diretor esportivo",
+    "clube": "Elche",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        26,
+        22,
+        31
+      ],
+      "ligas": [
+        "Premier League",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-08-11"
+  },
+  {
+    "id_usuario": "C172",
+    "nome": "Crystal Palace",
+    "papel": "Diretor esportivo",
+    "clube": "Crystal Palace",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        32
+      ],
+      "ligas": [
+        "La Liga",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-07-18"
+  },
+  {
+    "id_usuario": "C173",
+    "nome": "Hoffenheim",
+    "papel": "Diretor esportivo",
+    "clube": "Hoffenheim",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        29
+      ],
+      "ligas": [
+        "Ligue 1",
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-02-26"
+  },
+  {
+    "id_usuario": "C174",
+    "nome": "Oviedo",
+    "papel": "Diretor esportivo",
+    "clube": "Oviedo",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        20,
         32
       ],
       "ligas": [
         "Serie A",
-        "La Liga"
+        "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-08-27"
+    "data_cadastro": "2025-05-27"
   },
   {
-    "id_usuario": "C176",
-    "nome": "Burnley",
-    "papel": "diretor esportivo",
-    "clube": "Burnley",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        34
-      ],
-      "ligas": [
-        "Bundesliga",
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-04-17"
-  },
-  {
-    "id_usuario": "C177",
-    "nome": "Brighton",
-    "papel": "diretor esportivo",
-    "clube": "Brighton",
+    "id_usuario": "C175",
+    "nome": "Liverpool",
+    "papel": "Diretor esportivo",
+    "clube": "Liverpool",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         20,
-        30
+        28
       ],
       "ligas": [
-        "Serie A"
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-02-20"
+  },
+  {
+    "id_usuario": "C176",
+    "nome": "Brighton",
+    "papel": "Diretor esportivo",
+    "clube": "Brighton",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        29
+      ],
+      "ligas": [
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-01-26"
+  },
+  {
+    "id_usuario": "C177",
+    "nome": "Manchester Utd",
+    "papel": "Diretor esportivo",
+    "clube": "Manchester Utd",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        29
+      ],
+      "ligas": [
+        "Premier League",
+        "La Liga"
       ]
     },
     "data_cadastro": "2025-11-19"
   },
   {
     "id_usuario": "C178",
-    "nome": "Paris Saint-Germain",
-    "papel": "diretor esportivo",
-    "clube": "Paris Saint-Germain",
+    "nome": "Cagliari",
+    "papel": "Diretor esportivo",
+    "clube": "Cagliari",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        19,
-        27
+        20,
+        29
+      ],
+      "ligas": [
+        "La Liga",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-04-08"
+  },
+  {
+    "id_usuario": "C179",
+    "nome": "Burnley",
+    "papel": "Diretor esportivo",
+    "clube": "Burnley",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        31
       ],
       "ligas": [
         "Ligue 1"
       ]
     },
-    "data_cadastro": "2025-01-31"
-  },
-  {
-    "id_usuario": "C179",
-    "nome": "Hoffenheim",
-    "papel": "diretor esportivo",
-    "clube": "Hoffenheim",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        32
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-01-07"
+    "data_cadastro": "2025-11-13"
   },
   {
     "id_usuario": "C180",
-    "nome": "Paris FC",
-    "papel": "diretor esportivo",
-    "clube": "Paris FC",
+    "nome": "Parma",
+    "papel": "Diretor esportivo",
+    "clube": "Parma",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        25,
-        33
+        21,
+        29
       ],
       "ligas": [
-        "Premier League",
-        "Serie A"
+        "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-04-06"
+    "data_cadastro": "2025-11-02"
   },
   {
     "id_usuario": "C181",
-    "nome": "Strasbourg",
-    "papel": "diretor esportivo",
-    "clube": "Strasbourg",
+    "nome": "Inter",
+    "papel": "Diretor esportivo",
+    "clube": "Inter",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         17,
         28
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2024-12-10"
-  },
-  {
-    "id_usuario": "C182",
-    "nome": "Barcelona",
-    "papel": "diretor esportivo",
-    "clube": "Barcelona",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        19,
-        27
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-05-12"
-  },
-  {
-    "id_usuario": "C183",
-    "nome": "Monaco",
-    "papel": "diretor esportivo",
-    "clube": "Monaco",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        32
-      ],
-      "ligas": [
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-11-04"
-  },
-  {
-    "id_usuario": "C184",
-    "nome": "Nottingham Forest",
-    "papel": "diretor esportivo",
-    "clube": "Nottingham Forest",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        24,
-        34
-      ],
-      "ligas": [
-        "Bundesliga",
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-09-07"
-  },
-  {
-    "id_usuario": "C185",
-    "nome": "Aston Villa",
-    "papel": "diretor esportivo",
-    "clube": "Aston Villa",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        32
       ],
       "ligas": [
         "Serie A"
@@ -3127,252 +3257,335 @@
     "data_cadastro": "2025-08-31"
   },
   {
-    "id_usuario": "C186",
-    "nome": "Everton",
-    "papel": "diretor esportivo",
-    "clube": "Everton",
+    "id_usuario": "C182",
+    "nome": "Paris FC",
+    "papel": "Diretor esportivo",
+    "clube": "Paris FC",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        19,
-        27
+        18,
+        29
       ],
       "ligas": [
-        "Premier League",
-        "Serie A"
-      ]
-    },
-    "data_cadastro": "2025-09-05"
-  },
-  {
-    "id_usuario": "C187",
-    "nome": "Wolves",
-    "papel": "diretor esportivo",
-    "clube": "Wolves",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        17,
-        25
-      ],
-      "ligas": [
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-06-23"
-  },
-  {
-    "id_usuario": "C188",
-    "nome": "Mainz 05",
-    "papel": "diretor esportivo",
-    "clube": "Mainz 05",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        32
-      ],
-      "ligas": [
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2024-12-11"
-  },
-  {
-    "id_usuario": "C189",
-    "nome": "Real Sociedad",
-    "papel": "diretor esportivo",
-    "clube": "Real Sociedad",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        20,
-        31
-      ],
-      "ligas": [
-        "Ligue 1",
-        "Premier League"
-      ]
-    },
-    "data_cadastro": "2025-06-09"
-  },
-  {
-    "id_usuario": "C190",
-    "nome": "Fiorentina",
-    "papel": "diretor esportivo",
-    "clube": "Fiorentina",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        23,
-        30
-      ],
-      "ligas": [
-        "Serie A",
+        "La Liga",
         "Ligue 1"
       ]
     },
-    "data_cadastro": "2025-11-29"
+    "data_cadastro": "2024-12-19"
   },
   {
-    "id_usuario": "C191",
-    "nome": "Athletic Club",
-    "papel": "diretor esportivo",
-    "clube": "Athletic Club",
+    "id_usuario": "C183",
+    "nome": "St Pauli",
+    "papel": "Diretor esportivo",
+    "clube": "St Pauli",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        29
+      ],
+      "ligas": [
+        "Serie A",
+        "Premier League"
+      ]
+    },
+    "data_cadastro": "2025-09-25"
+  },
+  {
+    "id_usuario": "C184",
+    "nome": "Bologna",
+    "papel": "Diretor esportivo",
+    "clube": "Bologna",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        31
+      ],
+      "ligas": [
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-01-22"
+  },
+  {
+    "id_usuario": "C185",
+    "nome": "Everton",
+    "papel": "Diretor esportivo",
+    "clube": "Everton",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        22,
+        33
+      ],
+      "ligas": [
+        "Ligue 1",
+        "Serie A"
+      ]
+    },
+    "data_cadastro": "2025-04-08"
+  },
+  {
+    "id_usuario": "C186",
+    "nome": "Cremonese",
+    "papel": "Diretor esportivo",
+    "clube": "Cremonese",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        28
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-04-28"
+  },
+  {
+    "id_usuario": "C187",
+    "nome": "Napoli",
+    "papel": "Diretor esportivo",
+    "clube": "Napoli",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        25
+      ],
+      "ligas": [
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-09-15"
+  },
+  {
+    "id_usuario": "C188",
+    "nome": "Aston Villa",
+    "papel": "Diretor esportivo",
+    "clube": "Aston Villa",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         18,
         28
       ],
       "ligas": [
-        "Serie A",
-        "Ligue 1"
+        "Serie A"
       ]
     },
-    "data_cadastro": "2025-11-29"
+    "data_cadastro": "2024-12-11"
   },
   {
-    "id_usuario": "C192",
-    "nome": "Napoli",
-    "papel": "diretor esportivo",
-    "clube": "Napoli",
+    "id_usuario": "C189",
+    "nome": "Monaco",
+    "papel": "Diretor esportivo",
+    "clube": "Monaco",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        23,
-        33
+        17,
+        23
       ],
       "ligas": [
-        "La Liga",
-        "Ligue 1"
+        "Ligue 1",
+        "Serie A"
       ]
     },
-    "data_cadastro": "2024-12-29"
+    "data_cadastro": "2025-01-10"
   },
   {
-    "id_usuario": "C193",
-    "nome": "RB Leipzig",
-    "papel": "diretor esportivo",
-    "clube": "RB Leipzig",
+    "id_usuario": "C190",
+    "nome": "Fulham",
+    "papel": "Diretor esportivo",
+    "clube": "Fulham",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        21,
+        22,
         31
       ],
       "ligas": [
         "Premier League"
       ]
     },
-    "data_cadastro": "2025-05-20"
+    "data_cadastro": "2025-10-25"
   },
   {
-    "id_usuario": "C194",
-    "nome": "West Ham United",
-    "papel": "diretor esportivo",
-    "clube": "West Ham United",
+    "id_usuario": "C191",
+    "nome": "Real Madrid",
+    "papel": "Diretor esportivo",
+    "clube": "Real Madrid",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        22,
-        33
-      ],
-      "ligas": [
-        "La Liga",
-        "Bundesliga"
-      ]
-    },
-    "data_cadastro": "2025-08-14"
-  },
-  {
-    "id_usuario": "C195",
-    "nome": "Pisa",
-    "papel": "diretor esportivo",
-    "clube": "Pisa",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        25,
-        32
-      ],
-      "ligas": [
-        "Ligue 1"
-      ]
-    },
-    "data_cadastro": "2025-05-30"
-  },
-  {
-    "id_usuario": "C196",
-    "nome": "Como",
-    "papel": "diretor esportivo",
-    "clube": "Como",
-    "preferencias_iniciais": {
-      "faixa_etaria": [
-        21,
-        31
+        20,
+        27
       ],
       "ligas": [
         "Ligue 1",
         "Premier League"
       ]
     },
-    "data_cadastro": "2025-07-31"
+    "data_cadastro": "2025-03-26"
   },
   {
-    "id_usuario": "C197",
-    "nome": "Valencia",
-    "papel": "diretor esportivo",
-    "clube": "Valencia",
+    "id_usuario": "C192",
+    "nome": "Rennes",
+    "papel": "Diretor esportivo",
+    "clube": "Rennes",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        32
+      ],
+      "ligas": [
+        "La Liga",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-03-21"
+  },
+  {
+    "id_usuario": "C193",
+    "nome": "Wolves",
+    "papel": "Diretor esportivo",
+    "clube": "Wolves",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         19,
-        27
+        26
       ],
       "ligas": [
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-03-07"
+  },
+  {
+    "id_usuario": "C194",
+    "nome": "Athletic Club",
+    "papel": "Diretor esportivo",
+    "clube": "Athletic Club",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        24,
+        31
+      ],
+      "ligas": [
+        "Serie A",
         "Premier League"
       ]
     },
-    "data_cadastro": "2025-01-31"
+    "data_cadastro": "2025-10-19"
   },
   {
-    "id_usuario": "C198",
-    "nome": "Torino",
-    "papel": "diretor esportivo",
-    "clube": "Torino",
+    "id_usuario": "C195",
+    "nome": "Newcastle United",
+    "papel": "Diretor esportivo",
+    "clube": "Newcastle United",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
         17,
         26
       ],
       "ligas": [
-        "Ligue 1",
-        "Bundesliga"
+        "Ligue 1"
       ]
     },
-    "data_cadastro": "2025-01-22"
+    "data_cadastro": "2025-08-17"
+  },
+  {
+    "id_usuario": "C196",
+    "nome": "Lille",
+    "papel": "Diretor esportivo",
+    "clube": "Lille",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        19,
+        27
+      ],
+      "ligas": [
+        "Bundesliga",
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-01-26"
+  },
+  {
+    "id_usuario": "C197",
+    "nome": "Freiburg",
+    "papel": "Diretor esportivo",
+    "clube": "Freiburg",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        23,
+        31
+      ],
+      "ligas": [
+        "Serie A",
+        "Ligue 1"
+      ]
+    },
+    "data_cadastro": "2025-03-25"
+  },
+  {
+    "id_usuario": "C198",
+    "nome": "Milan",
+    "papel": "Diretor esportivo",
+    "clube": "Milan",
+    "perfil_teste": false,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        21,
+        27
+      ],
+      "ligas": [
+        "La Liga"
+      ]
+    },
+    "data_cadastro": "2025-09-16"
   },
   {
     "id_usuario": "C199",
-    "nome": "Hamburger SV",
-    "papel": "diretor esportivo",
-    "clube": "Hamburger SV",
+    "nome": "Juventus",
+    "papel": "Diretor esportivo",
+    "clube": "Juventus",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        22,
-        34
+        21,
+        29
       ],
       "ligas": [
-        "La Liga",
-        "Serie A"
+        "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-08-22"
+    "data_cadastro": "2024-12-24"
   },
   {
     "id_usuario": "C200",
-    "nome": "Milan",
-    "papel": "diretor esportivo",
-    "clube": "Milan",
+    "nome": "Genoa",
+    "papel": "Diretor esportivo",
+    "clube": "Genoa",
+    "perfil_teste": false,
     "preferencias_iniciais": {
       "faixa_etaria": [
-        20,
-        26
+        19,
+        27
       ],
       "ligas": [
-        "Serie A"
+        "Bundesliga"
       ]
     },
-    "data_cadastro": "2025-06-22"
+    "data_cadastro": "2025-07-22"
   }
 ]

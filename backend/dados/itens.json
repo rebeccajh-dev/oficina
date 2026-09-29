@@ -1,20 +1,5 @@
 [
   {
-    "id_item": "P2675",
-    "nome_perfil": "Virgil van Dijk",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Liverpool",
-    "liga": "Premier League",
-    "nacionalidade": "NED",
-    "idade": 34,
-    "minutos": 3420,
-    "gols": 6,
-    "assistencias": 0
-  },
-  {
     "id_item": "P2169",
     "nome_perfil": "Ionuț Radu",
     "categoria": "GK",
@@ -30,76 +15,31 @@
     "assistencias": 0
   },
   {
-    "id_item": "P0414",
-    "nome_perfil": "Jean Butez",
-    "categoria": "GK",
+    "id_item": "P2675",
+    "nome_perfil": "Virgil van Dijk",
+    "categoria": "DF",
     "posicoes": [
-      "GK"
+      "DF"
     ],
-    "clube": "Como",
-    "liga": "Serie A",
-    "nacionalidade": "FRA",
-    "idade": 30,
+    "clube": "Liverpool",
+    "liga": "Premier League",
+    "nacionalidade": "NED",
+    "idade": 34,
     "minutos": 3420,
-    "gols": 0,
-    "assistencias": 1
-  },
-  {
-    "id_item": "P2534",
-    "nome_perfil": "Mile Svilar",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Roma",
-    "liga": "Serie A",
-    "nacionalidade": "SRB",
-    "idade": 25,
-    "minutos": 3420,
-    "gols": 0,
+    "gols": 6,
     "assistencias": 0
   },
   {
-    "id_item": "P2117",
-    "nome_perfil": "Jordan Pickford",
+    "id_item": "P2705",
+    "nome_perfil": "Bart Verbruggen",
     "categoria": "GK",
     "posicoes": [
       "GK"
     ],
-    "clube": "Everton",
+    "clube": "Brighton",
     "liga": "Premier League",
-    "nacionalidade": "ENG",
-    "idade": 31,
-    "minutos": 3420,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P1484",
-    "nome_perfil": "Bernd Leno",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Fulham",
-    "liga": "Premier League",
-    "nacionalidade": "GER",
-    "idade": 33,
-    "minutos": 3420,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P2109",
-    "nome_perfil": "Đorđe Petrović",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Bournemouth",
-    "liga": "Premier League",
-    "nacionalidade": "SRB",
-    "idade": 25,
+    "nacionalidade": "NED",
+    "idade": 22,
     "minutos": 3420,
     "gols": 0,
     "assistencias": 0
@@ -120,46 +60,31 @@
     "assistencias": 0
   },
   {
-    "id_item": "P2478",
-    "nome_perfil": "David Soria",
+    "id_item": "P0414",
+    "nome_perfil": "Jean Butez",
     "categoria": "GK",
     "posicoes": [
       "GK"
     ],
-    "clube": "Getafe",
-    "liga": "La Liga",
-    "nacionalidade": "ESP",
-    "idade": 32,
-    "minutos": 3420,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P0860",
-    "nome_perfil": "Wladimiro Falcone",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Lecce",
+    "clube": "Como",
     "liga": "Serie A",
-    "nacionalidade": "ITA",
+    "nacionalidade": "FRA",
     "idade": 30,
     "minutos": 3420,
     "gols": 0,
-    "assistencias": 0
+    "assistencias": 1
   },
   {
-    "id_item": "P2705",
-    "nome_perfil": "Bart Verbruggen",
+    "id_item": "P1484",
+    "nome_perfil": "Bernd Leno",
     "categoria": "GK",
     "posicoes": [
       "GK"
     ],
-    "clube": "Brighton",
+    "clube": "Fulham",
     "liga": "Premier League",
-    "nacionalidade": "NED",
-    "idade": 22,
+    "nacionalidade": "GER",
+    "idade": 33,
     "minutos": 3420,
     "gols": 0,
     "assistencias": 0
@@ -175,6 +100,81 @@
     "liga": "La Liga",
     "nacionalidade": "ESP",
     "idade": 28,
+    "minutos": 3420,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P2117",
+    "nome_perfil": "Jordan Pickford",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Everton",
+    "liga": "Premier League",
+    "nacionalidade": "ENG",
+    "idade": 31,
+    "minutos": 3420,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P2478",
+    "nome_perfil": "David Soria",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Getafe",
+    "liga": "La Liga",
+    "nacionalidade": "ESP",
+    "idade": 32,
+    "minutos": 3420,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P2534",
+    "nome_perfil": "Mile Svilar",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Roma",
+    "liga": "Serie A",
+    "nacionalidade": "SRB",
+    "idade": 25,
+    "minutos": 3420,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P2109",
+    "nome_perfil": "Đorđe Petrović",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Bournemouth",
+    "liga": "Premier League",
+    "nacionalidade": "SRB",
+    "idade": 25,
+    "minutos": 3420,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P0860",
+    "nome_perfil": "Wladimiro Falcone",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Lecce",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 30,
     "minutos": 3420,
     "gols": 0,
     "assistencias": 0
@@ -257,21 +257,6 @@
     "assistencias": 4
   },
   {
-    "id_item": "P2557",
-    "nome_perfil": "James Tarkowski",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Everton",
-    "liga": "Premier League",
-    "nacionalidade": "ENG",
-    "idade": 32,
-    "minutos": 3330,
-    "gols": 2,
-    "assistencias": 3
-  },
-  {
     "id_item": "P2195",
     "nome_perfil": "David Raya",
     "categoria": "GK",
@@ -282,6 +267,21 @@
     "liga": "Premier League",
     "nacionalidade": "ESP",
     "idade": 29,
+    "minutos": 3330,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P1140",
+    "nome_perfil": "Dean Henderson",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Crystal Palace",
+    "liga": "Premier League",
+    "nacionalidade": "ENG",
+    "idade": 28,
     "minutos": 3330,
     "gols": 0,
     "assistencias": 0
@@ -302,18 +302,63 @@
     "assistencias": 0
   },
   {
-    "id_item": "P0422",
-    "nome_perfil": "Leandro Cabrera",
+    "id_item": "P0977",
+    "nome_perfil": "David de Gea",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Fiorentina",
+    "liga": "Serie A",
+    "nacionalidade": "ESP",
+    "idade": 34,
+    "minutos": 3330,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P0480",
+    "nome_perfil": "Marco Carnesecchi",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Atalanta",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 25,
+    "minutos": 3330,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P2557",
+    "nome_perfil": "James Tarkowski",
     "categoria": "DF",
     "posicoes": [
       "DF"
     ],
+    "clube": "Everton",
+    "liga": "Premier League",
+    "nacionalidade": "ENG",
+    "idade": 32,
+    "minutos": 3330,
+    "gols": 2,
+    "assistencias": 3
+  },
+  {
+    "id_item": "P0738",
+    "nome_perfil": "Marko Dmitrović",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
     "clube": "Espanyol",
     "liga": "La Liga",
-    "nacionalidade": "URU",
-    "idade": 34,
+    "nacionalidade": "SRB",
+    "idade": 33,
     "minutos": 3330,
-    "gols": 3,
+    "gols": 0,
     "assistencias": 0
   },
   {
@@ -347,63 +392,18 @@
     "assistencias": 0
   },
   {
-    "id_item": "P0480",
-    "nome_perfil": "Marco Carnesecchi",
-    "categoria": "GK",
+    "id_item": "P0422",
+    "nome_perfil": "Leandro Cabrera",
+    "categoria": "DF",
     "posicoes": [
-      "GK"
-    ],
-    "clube": "Atalanta",
-    "liga": "Serie A",
-    "nacionalidade": "ITA",
-    "idade": 25,
-    "minutos": 3330,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P0977",
-    "nome_perfil": "David de Gea",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Fiorentina",
-    "liga": "Serie A",
-    "nacionalidade": "ESP",
-    "idade": 34,
-    "minutos": 3330,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P1140",
-    "nome_perfil": "Dean Henderson",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Crystal Palace",
-    "liga": "Premier League",
-    "nacionalidade": "ENG",
-    "idade": 28,
-    "minutos": 3330,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P0738",
-    "nome_perfil": "Marko Dmitrović",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
+      "DF"
     ],
     "clube": "Espanyol",
     "liga": "La Liga",
-    "nacionalidade": "SRB",
-    "idade": 33,
+    "nacionalidade": "URU",
+    "idade": 34,
     "minutos": 3330,
-    "gols": 0,
+    "gols": 3,
     "assistencias": 0
   },
   {
@@ -829,21 +829,6 @@
     "assistencias": 2
   },
   {
-    "id_item": "P1795",
-    "nome_perfil": "Lorenzo Montipò",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Hellas Verona",
-    "liga": "Serie A",
-    "nacionalidade": "ITA",
-    "idade": 29,
-    "minutos": 3150,
-    "gols": 0,
-    "assistencias": 1
-  },
-  {
     "id_item": "P2254",
     "nome_perfil": "Robin Roefs",
     "categoria": "GK",
@@ -872,6 +857,21 @@
     "minutos": 3150,
     "gols": 0,
     "assistencias": 0
+  },
+  {
+    "id_item": "P1795",
+    "nome_perfil": "Lorenzo Montipò",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Hellas Verona",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 29,
+    "minutos": 3150,
+    "gols": 0,
+    "assistencias": 1
   },
   {
     "id_item": "P1329",
@@ -1057,21 +1057,6 @@
     "assistencias": 2
   },
   {
-    "id_item": "P2217",
-    "nome_perfil": "Declan Rice",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Arsenal",
-    "liga": "Premier League",
-    "nacionalidade": "ENG",
-    "idade": 26,
-    "minutos": 3094,
-    "gols": 4,
-    "assistencias": 5
-  },
-  {
     "id_item": "P0607",
     "nome_perfil": "Bryan Cristante",
     "categoria": "MF",
@@ -1085,6 +1070,21 @@
     "minutos": 3094,
     "gols": 2,
     "assistencias": 1
+  },
+  {
+    "id_item": "P2217",
+    "nome_perfil": "Declan Rice",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Arsenal",
+    "liga": "Premier League",
+    "nacionalidade": "ENG",
+    "idade": 26,
+    "minutos": 3094,
+    "gols": 4,
+    "assistencias": 5
   },
   {
     "id_item": "P1387",
@@ -1132,21 +1132,6 @@
     "assistencias": 2
   },
   {
-    "id_item": "P0923",
-    "nome_perfil": "Morten Frendrup",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Genoa",
-    "liga": "Serie A",
-    "nacionalidade": "DEN",
-    "idade": 24,
-    "minutos": 3081,
-    "gols": 1,
-    "assistencias": 0
-  },
-  {
     "id_item": "P2046",
     "nome_perfil": "Marco Palestra",
     "categoria": "MF",
@@ -1161,6 +1146,21 @@
     "minutos": 3081,
     "gols": 1,
     "assistencias": 4
+  },
+  {
+    "id_item": "P0923",
+    "nome_perfil": "Morten Frendrup",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Genoa",
+    "liga": "Serie A",
+    "nacionalidade": "DEN",
+    "idade": 24,
+    "minutos": 3081,
+    "gols": 1,
+    "assistencias": 0
   },
   {
     "id_item": "P0463",
@@ -1223,36 +1223,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P2684",
-    "nome_perfil": "Nikola Vasilj",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "St Pauli",
-    "liga": "Bundesliga",
-    "nacionalidade": "BIH",
-    "idade": 29,
-    "minutos": 3060,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P1945",
-    "nome_perfil": "Alexander Nübel",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Stuttgart",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 28,
-    "minutos": 3060,
-    "gols": 0,
-    "assistencias": 1
-  },
-  {
     "id_item": "P1922",
     "nome_perfil": "Moritz Nicolas",
     "categoria": "GK",
@@ -1260,36 +1230,6 @@
       "GK"
     ],
     "clube": "Gladbach",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 27,
-    "minutos": 3060,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P0753",
-    "nome_perfil": "Gianluigi Donnarumma",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Manchester City",
-    "liga": "Premier League",
-    "nacionalidade": "ITA",
-    "idade": 26,
-    "minutos": 3060,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P0623",
-    "nome_perfil": "Finn Dahmen",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Augsburg",
     "liga": "Bundesliga",
     "nacionalidade": "GER",
     "idade": 27,
@@ -1313,19 +1253,19 @@
     "assistencias": 2
   },
   {
-    "id_item": "P0742",
-    "nome_perfil": "Danilho Doekhi",
-    "categoria": "DF",
+    "id_item": "P0802",
+    "nome_perfil": "Maximilian Eggestein",
+    "categoria": "MF",
     "posicoes": [
-      "DF"
+      "MF"
     ],
-    "clube": "Union Berlin",
+    "clube": "Freiburg",
     "liga": "Bundesliga",
-    "nacionalidade": "NED",
-    "idade": 27,
+    "nacionalidade": "GER",
+    "idade": 28,
     "minutos": 3060,
-    "gols": 5,
-    "assistencias": 0
+    "gols": 3,
+    "assistencias": 1
   },
   {
     "id_item": "P1046",
@@ -1343,51 +1283,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P2399",
-    "nome_perfil": "Marvin Schwäbe",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Köln",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 30,
-    "minutos": 3060,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P1371",
-    "nome_perfil": "Gregor Kobel",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Dortmund",
-    "liga": "Bundesliga",
-    "nacionalidade": "SUI",
-    "idade": 27,
-    "minutos": 3060,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P1470",
-    "nome_perfil": "Jordan Lefort",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Angers",
-    "liga": "Ligue 1",
-    "nacionalidade": "MTN",
-    "idade": 31,
-    "minutos": 3060,
-    "gols": 0,
-    "assistencias": 2
-  },
-  {
     "id_item": "P0245",
     "nome_perfil": "Oliver Baumann",
     "categoria": "GK",
@@ -1398,6 +1293,66 @@
     "liga": "Bundesliga",
     "nacionalidade": "GER",
     "idade": 35,
+    "minutos": 3060,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P0240",
+    "nome_perfil": "Augusto Batalla",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Rayo Vallecano",
+    "liga": "La Liga",
+    "nacionalidade": "ARG",
+    "idade": 29,
+    "minutos": 3060,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P0742",
+    "nome_perfil": "Danilho Doekhi",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Union Berlin",
+    "liga": "Bundesliga",
+    "nacionalidade": "NED",
+    "idade": 27,
+    "minutos": 3060,
+    "gols": 5,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P0753",
+    "nome_perfil": "Gianluigi Donnarumma",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Manchester City",
+    "liga": "Premier League",
+    "nacionalidade": "ITA",
+    "idade": 26,
+    "minutos": 3060,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P0173",
+    "nome_perfil": "Emil Audero",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Cremonese",
+    "liga": "Serie A",
+    "nacionalidade": "IDN",
+    "idade": 28,
     "minutos": 3060,
     "gols": 0,
     "assistencias": 0
@@ -1418,46 +1373,91 @@
     "assistencias": 0
   },
   {
-    "id_item": "P0802",
-    "nome_perfil": "Maximilian Eggestein",
-    "categoria": "MF",
+    "id_item": "P1470",
+    "nome_perfil": "Jordan Lefort",
+    "categoria": "DF",
     "posicoes": [
-      "MF"
+      "DF"
     ],
-    "clube": "Freiburg",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 28,
+    "clube": "Angers",
+    "liga": "Ligue 1",
+    "nacionalidade": "MTN",
+    "idade": 31,
     "minutos": 3060,
-    "gols": 3,
-    "assistencias": 1
+    "gols": 0,
+    "assistencias": 2
   },
   {
-    "id_item": "P0240",
-    "nome_perfil": "Augusto Batalla",
+    "id_item": "P2399",
+    "nome_perfil": "Marvin Schwäbe",
     "categoria": "GK",
     "posicoes": [
       "GK"
     ],
-    "clube": "Rayo Vallecano",
-    "liga": "La Liga",
-    "nacionalidade": "ARG",
+    "clube": "Köln",
+    "liga": "Bundesliga",
+    "nacionalidade": "GER",
+    "idade": 30,
+    "minutos": 3060,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P1945",
+    "nome_perfil": "Alexander Nübel",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Stuttgart",
+    "liga": "Bundesliga",
+    "nacionalidade": "GER",
+    "idade": 28,
+    "minutos": 3060,
+    "gols": 0,
+    "assistencias": 1
+  },
+  {
+    "id_item": "P0623",
+    "nome_perfil": "Finn Dahmen",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Augsburg",
+    "liga": "Bundesliga",
+    "nacionalidade": "GER",
+    "idade": 27,
+    "minutos": 3060,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P2684",
+    "nome_perfil": "Nikola Vasilj",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "St Pauli",
+    "liga": "Bundesliga",
+    "nacionalidade": "BIH",
     "idade": 29,
     "minutos": 3060,
     "gols": 0,
     "assistencias": 0
   },
   {
-    "id_item": "P0173",
-    "nome_perfil": "Emil Audero",
+    "id_item": "P1371",
+    "nome_perfil": "Gregor Kobel",
     "categoria": "GK",
     "posicoes": [
       "GK"
     ],
-    "clube": "Cremonese",
-    "liga": "Serie A",
-    "nacionalidade": "IDN",
-    "idade": 28,
+    "clube": "Dortmund",
+    "liga": "Bundesliga",
+    "nacionalidade": "SUI",
+    "idade": 27,
     "minutos": 3060,
     "gols": 0,
     "assistencias": 0
@@ -1630,6 +1630,21 @@
     "assistencias": 1
   },
   {
+    "id_item": "P0874",
+    "nome_perfil": "Mateus Fernandes",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "West Ham United",
+    "liga": "Premier League",
+    "nacionalidade": "POR",
+    "idade": 21,
+    "minutos": 3016,
+    "gols": 3,
+    "assistencias": 4
+  },
+  {
     "id_item": "P1317",
     "nome_perfil": "Jakub Kamiński",
     "categoria": "MF",
@@ -1644,21 +1659,6 @@
     "minutos": 3016,
     "gols": 7,
     "assistencias": 3
-  },
-  {
-    "id_item": "P0874",
-    "nome_perfil": "Mateus Fernandes",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "West Ham United",
-    "liga": "Premier League",
-    "nacionalidade": "POR",
-    "idade": 21,
-    "minutos": 3016,
-    "gols": 3,
-    "assistencias": 4
   },
   {
     "id_item": "P1792",
@@ -1753,21 +1753,6 @@
     "assistencias": 1
   },
   {
-    "id_item": "P0498",
-    "nome_perfil": "Jonny Castro",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Alavés",
-    "liga": "La Liga",
-    "nacionalidade": "ESP",
-    "idade": 31,
-    "minutos": 2994,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
     "id_item": "P1517",
     "nome_perfil": "Manuel Locatelli",
     "categoria": "MF",
@@ -1783,19 +1768,19 @@
     "assistencias": 2
   },
   {
-    "id_item": "P1049",
-    "nome_perfil": "Ryan Gravenberch",
-    "categoria": "MF",
+    "id_item": "P0498",
+    "nome_perfil": "Jonny Castro",
+    "categoria": "DF",
     "posicoes": [
-      "MF"
+      "DF"
     ],
-    "clube": "Liverpool",
-    "liga": "Premier League",
-    "nacionalidade": "NED",
-    "idade": 23,
-    "minutos": 2992,
-    "gols": 5,
-    "assistencias": 3
+    "clube": "Alavés",
+    "liga": "La Liga",
+    "nacionalidade": "ESP",
+    "idade": 31,
+    "minutos": 2994,
+    "gols": 0,
+    "assistencias": 0
   },
   {
     "id_item": "P2835",
@@ -1811,6 +1796,21 @@
     "minutos": 2992,
     "gols": 5,
     "assistencias": 1
+  },
+  {
+    "id_item": "P1049",
+    "nome_perfil": "Ryan Gravenberch",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Liverpool",
+    "liga": "Premier League",
+    "nacionalidade": "NED",
+    "idade": 23,
+    "minutos": 2992,
+    "gols": 5,
+    "assistencias": 3
   },
   {
     "id_item": "P2084",
@@ -1889,16 +1889,16 @@
     "assistencias": 0
   },
   {
-    "id_item": "P2088",
-    "nome_perfil": "Mike Penders",
+    "id_item": "P1156",
+    "nome_perfil": "Daniel Heuer Fernandes",
     "categoria": "GK",
     "posicoes": [
       "GK"
     ],
-    "clube": "Strasbourg",
-    "liga": "Ligue 1",
-    "nacionalidade": "BEL",
-    "idade": 20,
+    "clube": "Hamburger SV",
+    "liga": "Bundesliga",
+    "nacionalidade": "POR",
+    "idade": 32,
     "minutos": 2970,
     "gols": 0,
     "assistencias": 0
@@ -1934,16 +1934,16 @@
     "assistencias": 1
   },
   {
-    "id_item": "P1156",
-    "nome_perfil": "Daniel Heuer Fernandes",
+    "id_item": "P2088",
+    "nome_perfil": "Mike Penders",
     "categoria": "GK",
     "posicoes": [
       "GK"
     ],
-    "clube": "Hamburger SV",
-    "liga": "Bundesliga",
-    "nacionalidade": "POR",
-    "idade": 32,
+    "clube": "Strasbourg",
+    "liga": "Ligue 1",
+    "nacionalidade": "BEL",
+    "idade": 20,
     "minutos": 2970,
     "gols": 0,
     "assistencias": 0
@@ -2039,21 +2039,6 @@
     "assistencias": 8
   },
   {
-    "id_item": "P2242",
-    "nome_perfil": "Joe Rodon",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Leeds United",
-    "liga": "Premier League",
-    "nacionalidade": "WAL",
-    "idade": 27,
-    "minutos": 2951,
-    "gols": 2,
-    "assistencias": 0
-  },
-  {
     "id_item": "P0664",
     "nome_perfil": "Enrico Delprato",
     "categoria": "DF",
@@ -2070,17 +2055,17 @@
     "assistencias": 0
   },
   {
-    "id_item": "P2003",
-    "nome_perfil": "Willi Orban",
+    "id_item": "P2242",
+    "nome_perfil": "Joe Rodon",
     "categoria": "DF",
     "posicoes": [
       "DF"
     ],
-    "clube": "RB Leipzig",
-    "liga": "Bundesliga",
-    "nacionalidade": "HUN",
-    "idade": 32,
-    "minutos": 2949,
+    "clube": "Leeds United",
+    "liga": "Premier League",
+    "nacionalidade": "WAL",
+    "idade": 27,
+    "minutos": 2951,
     "gols": 2,
     "assistencias": 0
   },
@@ -2098,6 +2083,21 @@
     "minutos": 2949,
     "gols": 1,
     "assistencias": 1
+  },
+  {
+    "id_item": "P2003",
+    "nome_perfil": "Willi Orban",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "RB Leipzig",
+    "liga": "Bundesliga",
+    "nacionalidade": "HUN",
+    "idade": 32,
+    "minutos": 2949,
+    "gols": 2,
+    "assistencias": 0
   },
   {
     "id_item": "P2487",
@@ -2282,36 +2282,6 @@
     "assistencias": 1
   },
   {
-    "id_item": "P2329",
-    "nome_perfil": "Brice Samba",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Rennes",
-    "liga": "Ligue 1",
-    "nacionalidade": "FRA",
-    "idade": 31,
-    "minutos": 2880,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P2206",
-    "nome_perfil": "Nicolai Remberg",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Hamburger SV",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 25,
-    "minutos": 2880,
-    "gols": 0,
-    "assistencias": 2
-  },
-  {
     "id_item": "P1447",
     "nome_perfil": "Senne Lammens",
     "categoria": "GK",
@@ -2327,31 +2297,31 @@
     "assistencias": 0
   },
   {
-    "id_item": "P1846",
-    "nome_perfil": "Arijanet Muric",
-    "categoria": "GK",
+    "id_item": "P0132",
+    "nome_perfil": "Waldemar Anton",
+    "categoria": "DF",
     "posicoes": [
-      "GK"
+      "DF"
     ],
-    "clube": "Sassuolo",
-    "liga": "Serie A",
-    "nacionalidade": "KVX",
-    "idade": 26,
+    "clube": "Dortmund",
+    "liga": "Bundesliga",
+    "nacionalidade": "GER",
+    "idade": 29,
     "minutos": 2880,
-    "gols": 0,
+    "gols": 2,
     "assistencias": 0
   },
   {
-    "id_item": "P0186",
-    "nome_perfil": "Mio Backhaus",
+    "id_item": "P2329",
+    "nome_perfil": "Brice Samba",
     "categoria": "GK",
     "posicoes": [
       "GK"
     ],
-    "clube": "Werder Bremen",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 21,
+    "clube": "Rennes",
+    "liga": "Ligue 1",
+    "nacionalidade": "FRA",
+    "idade": 31,
     "minutos": 2880,
     "gols": 0,
     "assistencias": 0
@@ -2372,18 +2342,48 @@
     "assistencias": 0
   },
   {
-    "id_item": "P0132",
-    "nome_perfil": "Waldemar Anton",
-    "categoria": "DF",
+    "id_item": "P0186",
+    "nome_perfil": "Mio Backhaus",
+    "categoria": "GK",
     "posicoes": [
-      "DF"
+      "GK"
     ],
-    "clube": "Dortmund",
+    "clube": "Werder Bremen",
     "liga": "Bundesliga",
     "nacionalidade": "GER",
-    "idade": 29,
+    "idade": 21,
     "minutos": 2880,
-    "gols": 2,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P2206",
+    "nome_perfil": "Nicolai Remberg",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Hamburger SV",
+    "liga": "Bundesliga",
+    "nacionalidade": "GER",
+    "idade": 25,
+    "minutos": 2880,
+    "gols": 0,
+    "assistencias": 2
+  },
+  {
+    "id_item": "P1846",
+    "nome_perfil": "Arijanet Muric",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Sassuolo",
+    "liga": "Serie A",
+    "nacionalidade": "KVX",
+    "idade": 26,
+    "minutos": 2880,
+    "gols": 0,
     "assistencias": 0
   },
   {
@@ -2417,21 +2417,6 @@
     "assistencias": 6
   },
   {
-    "id_item": "P0113",
-    "nome_perfil": "Joachim Andersen",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Fulham",
-    "liga": "Premier League",
-    "nacionalidade": "DEN",
-    "idade": 29,
-    "minutos": 2875,
-    "gols": 0,
-    "assistencias": 1
-  },
-  {
     "id_item": "P0263",
     "nome_perfil": "Haris Belkebla",
     "categoria": "MF",
@@ -2445,6 +2430,21 @@
     "minutos": 2875,
     "gols": 0,
     "assistencias": 0
+  },
+  {
+    "id_item": "P0113",
+    "nome_perfil": "Joachim Andersen",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Fulham",
+    "liga": "Premier League",
+    "nacionalidade": "DEN",
+    "idade": 29,
+    "minutos": 2875,
+    "gols": 0,
+    "assistencias": 1
   },
   {
     "id_item": "P2432",
@@ -2628,21 +2628,6 @@
     "assistencias": 2
   },
   {
-    "id_item": "P2031",
-    "nome_perfil": "Berke Özer",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Lille",
-    "liga": "Ligue 1",
-    "nacionalidade": "TUR",
-    "idade": 25,
-    "minutos": 2834,
-    "gols": 0,
-    "assistencias": 1
-  },
-  {
     "id_item": "P0176",
     "nome_perfil": "Leon Avdullahu",
     "categoria": "MF",
@@ -2658,19 +2643,34 @@
     "assistencias": 1
   },
   {
-    "id_item": "P1677",
-    "nome_perfil": "Clinton Mata",
+    "id_item": "P2031",
+    "nome_perfil": "Berke Özer",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Lille",
+    "liga": "Ligue 1",
+    "nacionalidade": "TUR",
+    "idade": 25,
+    "minutos": 2834,
+    "gols": 0,
+    "assistencias": 1
+  },
+  {
+    "id_item": "P1372",
+    "nome_perfil": "Robin Koch",
     "categoria": "DF",
     "posicoes": [
       "DF"
     ],
-    "clube": "Lyon",
-    "liga": "Ligue 1",
-    "nacionalidade": "ANG",
-    "idade": 32,
+    "clube": "Eintracht Frankfurt",
+    "liga": "Bundesliga",
+    "nacionalidade": "GER",
+    "idade": 29,
     "minutos": 2833,
-    "gols": 0,
-    "assistencias": 0
+    "gols": 3,
+    "assistencias": 1
   },
   {
     "id_item": "P0997",
@@ -2688,19 +2688,19 @@
     "assistencias": 3
   },
   {
-    "id_item": "P1372",
-    "nome_perfil": "Robin Koch",
+    "id_item": "P1677",
+    "nome_perfil": "Clinton Mata",
     "categoria": "DF",
     "posicoes": [
       "DF"
     ],
-    "clube": "Eintracht Frankfurt",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 29,
+    "clube": "Lyon",
+    "liga": "Ligue 1",
+    "nacionalidade": "ANG",
+    "idade": 32,
     "minutos": 2833,
-    "gols": 3,
-    "assistencias": 1
+    "gols": 0,
+    "assistencias": 0
   },
   {
     "id_item": "P1248",
@@ -2991,21 +2991,6 @@
     "assistencias": 2
   },
   {
-    "id_item": "P1715",
-    "nome_perfil": "Scott McTominay",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Napoli",
-    "liga": "Serie A",
-    "nacionalidade": "SCO",
-    "idade": 28,
-    "minutos": 2791,
-    "gols": 10,
-    "assistencias": 3
-  },
-  {
     "id_item": "P1445",
     "nome_perfil": "Kenny Lala",
     "categoria": "DF",
@@ -3018,6 +3003,21 @@
     "idade": 33,
     "minutos": 2791,
     "gols": 0,
+    "assistencias": 3
+  },
+  {
+    "id_item": "P1715",
+    "nome_perfil": "Scott McTominay",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Napoli",
+    "liga": "Serie A",
+    "nacionalidade": "SCO",
+    "idade": 28,
+    "minutos": 2791,
+    "gols": 10,
     "assistencias": 3
   },
   {
@@ -3036,21 +3036,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P2712",
-    "nome_perfil": "Guglielmo Vicario",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Tottenham Hotspur",
-    "liga": "Premier League",
-    "nacionalidade": "ITA",
-    "idade": 28,
-    "minutos": 2790,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
     "id_item": "P2174",
     "nome_perfil": "Diant Ramaj",
     "categoria": "GK",
@@ -3064,6 +3049,21 @@
     "minutos": 2790,
     "gols": 0,
     "assistencias": 1
+  },
+  {
+    "id_item": "P2712",
+    "nome_perfil": "Guglielmo Vicario",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Tottenham Hotspur",
+    "liga": "Premier League",
+    "nacionalidade": "ITA",
+    "idade": 28,
+    "minutos": 2790,
+    "gols": 0,
+    "assistencias": 0
   },
   {
     "id_item": "P2309",
@@ -3126,21 +3126,6 @@
     "assistencias": 8
   },
   {
-    "id_item": "P1669",
-    "nome_perfil": "Adam Marušić",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Lazio",
-    "liga": "Serie A",
-    "nacionalidade": "MNE",
-    "idade": 32,
-    "minutos": 2778,
-    "gols": 1,
-    "assistencias": 2
-  },
-  {
     "id_item": "P1883",
     "nome_perfil": "Iliman Ndiaye",
     "categoria": "MF",
@@ -3156,19 +3141,19 @@
     "assistencias": 3
   },
   {
-    "id_item": "P0538",
-    "nome_perfil": "Joris Chotard",
-    "categoria": "MF",
+    "id_item": "P1669",
+    "nome_perfil": "Adam Marušić",
+    "categoria": "DF",
     "posicoes": [
-      "MF"
+      "DF"
     ],
-    "clube": "Brest",
-    "liga": "Ligue 1",
-    "nacionalidade": "FRA",
-    "idade": 23,
-    "minutos": 2773,
-    "gols": 2,
-    "assistencias": 1
+    "clube": "Lazio",
+    "liga": "Serie A",
+    "nacionalidade": "MNE",
+    "idade": 32,
+    "minutos": 2778,
+    "gols": 1,
+    "assistencias": 2
   },
   {
     "id_item": "P0138",
@@ -3184,6 +3169,21 @@
     "minutos": 2773,
     "gols": 1,
     "assistencias": 0
+  },
+  {
+    "id_item": "P0538",
+    "nome_perfil": "Joris Chotard",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Brest",
+    "liga": "Ligue 1",
+    "nacionalidade": "FRA",
+    "idade": 23,
+    "minutos": 2773,
+    "gols": 2,
+    "assistencias": 1
   },
   {
     "id_item": "P1966",
@@ -3354,6 +3354,21 @@
     "assistencias": 5
   },
   {
+    "id_item": "P2270",
+    "nome_perfil": "Valentin Rongier",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Rennes",
+    "liga": "Ligue 1",
+    "nacionalidade": "FRA",
+    "idade": 30,
+    "minutos": 2745,
+    "gols": 2,
+    "assistencias": 5
+  },
+  {
     "id_item": "P2383",
     "nome_perfil": "Kevin Schade",
     "categoria": "MF",
@@ -3370,21 +3385,6 @@
     "assistencias": 3
   },
   {
-    "id_item": "P2270",
-    "nome_perfil": "Valentin Rongier",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Rennes",
-    "liga": "Ligue 1",
-    "nacionalidade": "FRA",
-    "idade": 30,
-    "minutos": 2745,
-    "gols": 2,
-    "assistencias": 5
-  },
-  {
     "id_item": "P2508",
     "nome_perfil": "Angelo Stiller",
     "categoria": "MF",
@@ -3398,21 +3398,6 @@
     "minutos": 2743,
     "gols": 2,
     "assistencias": 5
-  },
-  {
-    "id_item": "P2176",
-    "nome_perfil": "Jacobo Ramón",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Como",
-    "liga": "Serie A",
-    "nacionalidade": "ESP",
-    "idade": 20,
-    "minutos": 2742,
-    "gols": 2,
-    "assistencias": 0
   },
   {
     "id_item": "P0848",
@@ -3443,6 +3428,21 @@
     "minutos": 2742,
     "gols": 3,
     "assistencias": 4
+  },
+  {
+    "id_item": "P2176",
+    "nome_perfil": "Jacobo Ramón",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Como",
+    "liga": "Serie A",
+    "nacionalidade": "ESP",
+    "idade": 20,
+    "minutos": 2742,
+    "gols": 2,
+    "assistencias": 0
   },
   {
     "id_item": "P2673",
@@ -3476,6 +3476,21 @@
     "assistencias": 4
   },
   {
+    "id_item": "P1390",
+    "nome_perfil": "Ismaël Koné",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Sassuolo",
+    "liga": "Serie A",
+    "nacionalidade": "CAN",
+    "idade": 23,
+    "minutos": 2737,
+    "gols": 6,
+    "assistencias": 0
+  },
+  {
     "id_item": "P0940",
     "nome_perfil": "Cody Gakpo",
     "categoria": "MF",
@@ -3490,21 +3505,6 @@
     "minutos": 2737,
     "gols": 7,
     "assistencias": 5
-  },
-  {
-    "id_item": "P1390",
-    "nome_perfil": "Ismaël Koné",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Sassuolo",
-    "liga": "Serie A",
-    "nacionalidade": "CAN",
-    "idade": 23,
-    "minutos": 2737,
-    "gols": 6,
-    "assistencias": 0
   },
   {
     "id_item": "P2562",
@@ -3568,6 +3568,21 @@
     "assistencias": 2
   },
   {
+    "id_item": "P0435",
+    "nome_perfil": "Dominic Calvert-Lewin",
+    "categoria": "FW",
+    "posicoes": [
+      "FW"
+    ],
+    "clube": "Leeds United",
+    "liga": "Premier League",
+    "nacionalidade": "ENG",
+    "idade": 28,
+    "minutos": 2721,
+    "gols": 14,
+    "assistencias": 1
+  },
+  {
     "id_item": "P0957",
     "nome_perfil": "Eric García",
     "categoria": "DF",
@@ -3581,21 +3596,6 @@
     "idade": 24,
     "minutos": 2721,
     "gols": 1,
-    "assistencias": 1
-  },
-  {
-    "id_item": "P0435",
-    "nome_perfil": "Dominic Calvert-Lewin",
-    "categoria": "FW",
-    "posicoes": [
-      "FW"
-    ],
-    "clube": "Leeds United",
-    "liga": "Premier League",
-    "nacionalidade": "ENG",
-    "idade": 28,
-    "minutos": 2721,
-    "gols": 14,
     "assistencias": 1
   },
   {
@@ -3720,21 +3720,6 @@
     "assistencias": 5
   },
   {
-    "id_item": "P2162",
-    "nome_perfil": "Leopold Querfeld",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Union Berlin",
-    "liga": "Bundesliga",
-    "nacionalidade": "AUT",
-    "idade": 21,
-    "minutos": 2705,
-    "gols": 3,
-    "assistencias": 0
-  },
-  {
     "id_item": "P0292",
     "nome_perfil": "Yuri Berchiche",
     "categoria": "DF",
@@ -3748,6 +3733,21 @@
     "minutos": 2705,
     "gols": 0,
     "assistencias": 6
+  },
+  {
+    "id_item": "P2162",
+    "nome_perfil": "Leopold Querfeld",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Union Berlin",
+    "liga": "Bundesliga",
+    "nacionalidade": "AUT",
+    "idade": 21,
+    "minutos": 2705,
+    "gols": 3,
+    "assistencias": 0
   },
   {
     "id_item": "P0610",
@@ -3886,21 +3886,6 @@
     "assistencias": 1
   },
   {
-    "id_item": "P2271",
-    "nome_perfil": "Marten de Roon",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Atalanta",
-    "liga": "Serie A",
-    "nacionalidade": "NED",
-    "idade": 34,
-    "minutos": 2691,
-    "gols": 1,
-    "assistencias": 2
-  },
-  {
     "id_item": "P0976",
     "nome_perfil": "Yann Gboho",
     "categoria": "MF",
@@ -3915,6 +3900,21 @@
     "minutos": 2691,
     "gols": 8,
     "assistencias": 3
+  },
+  {
+    "id_item": "P2271",
+    "nome_perfil": "Marten de Roon",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Atalanta",
+    "liga": "Serie A",
+    "nacionalidade": "NED",
+    "idade": 34,
+    "minutos": 2691,
+    "gols": 1,
+    "assistencias": 2
   },
   {
     "id_item": "P0595",
@@ -3992,21 +3992,6 @@
     "assistencias": 2
   },
   {
-    "id_item": "P1865",
-    "nome_perfil": "Obite N'Dicka",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Roma",
-    "liga": "Serie A",
-    "nacionalidade": "CIV",
-    "idade": 25,
-    "minutos": 2680,
-    "gols": 3,
-    "assistencias": 0
-  },
-  {
     "id_item": "P0638",
     "nome_perfil": "Sergi Darder",
     "categoria": "MF",
@@ -4020,6 +4005,21 @@
     "minutos": 2680,
     "gols": 1,
     "assistencias": 5
+  },
+  {
+    "id_item": "P1865",
+    "nome_perfil": "Obite N'Dicka",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Roma",
+    "liga": "Serie A",
+    "nacionalidade": "CIV",
+    "idade": 25,
+    "minutos": 2680,
+    "gols": 3,
+    "assistencias": 0
   },
   {
     "id_item": "P0837",
@@ -4083,21 +4083,6 @@
     "assistencias": 8
   },
   {
-    "id_item": "P2259",
-    "nome_perfil": "Alessio Romagnoli",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Lazio",
-    "liga": "Serie A",
-    "nacionalidade": "ITA",
-    "idade": 30,
-    "minutos": 2666,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
     "id_item": "P1659",
     "nome_perfil": "Arnau Martinez",
     "categoria": "DF",
@@ -4112,6 +4097,21 @@
     "minutos": 2666,
     "gols": 2,
     "assistencias": 3
+  },
+  {
+    "id_item": "P2259",
+    "nome_perfil": "Alessio Romagnoli",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Lazio",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 30,
+    "minutos": 2666,
+    "gols": 0,
+    "assistencias": 0
   },
   {
     "id_item": "P0931",
@@ -4374,22 +4374,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P1068",
-    "nome_perfil": "Gabriel Gudmundsson",
-    "categoria": "DF",
-    "posicoes": [
-      "DF",
-      "MF"
-    ],
-    "clube": "Leeds United",
-    "liga": "Premier League",
-    "nacionalidade": "SWE",
-    "idade": 26,
-    "minutos": 2631,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
     "id_item": "P1899",
     "nome_perfil": "Pedro Neto",
     "categoria": "MF",
@@ -4404,6 +4388,22 @@
     "minutos": 2631,
     "gols": 5,
     "assistencias": 6
+  },
+  {
+    "id_item": "P1068",
+    "nome_perfil": "Gabriel Gudmundsson",
+    "categoria": "DF",
+    "posicoes": [
+      "DF",
+      "MF"
+    ],
+    "clube": "Leeds United",
+    "liga": "Premier League",
+    "nacionalidade": "SWE",
+    "idade": 26,
+    "minutos": 2631,
+    "gols": 0,
+    "assistencias": 0
   },
   {
     "id_item": "P2641",
@@ -4559,21 +4559,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P2323",
-    "nome_perfil": "William Saliba",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Arsenal",
-    "liga": "Premier League",
-    "nacionalidade": "FRA",
-    "idade": 24,
-    "minutos": 2614,
-    "gols": 1,
-    "assistencias": 0
-  },
-  {
     "id_item": "P0628",
     "nome_perfil": "Diogo Dalot",
     "categoria": "DF",
@@ -4590,31 +4575,31 @@
     "assistencias": 3
   },
   {
-    "id_item": "P2045",
-    "nome_perfil": "Alberto Paleari",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Torino",
-    "liga": "Serie A",
-    "nacionalidade": "ITA",
-    "idade": 32,
-    "minutos": 2610,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P2551",
-    "nome_perfil": "Montassar Talbi",
+    "id_item": "P2323",
+    "nome_perfil": "William Saliba",
     "categoria": "DF",
     "posicoes": [
       "DF"
     ],
-    "clube": "Lorient",
+    "clube": "Arsenal",
+    "liga": "Premier League",
+    "nacionalidade": "FRA",
+    "idade": 24,
+    "minutos": 2614,
+    "gols": 1,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P1054",
+    "nome_perfil": "Dominik Greif",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Lyon",
     "liga": "Ligue 1",
-    "nacionalidade": "TUN",
-    "idade": 27,
+    "nacionalidade": "SVK",
+    "idade": 28,
     "minutos": 2610,
     "gols": 0,
     "assistencias": 1
@@ -4635,19 +4620,34 @@
     "assistencias": 0
   },
   {
-    "id_item": "P1054",
-    "nome_perfil": "Dominik Greif",
+    "id_item": "P2551",
+    "nome_perfil": "Montassar Talbi",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Lorient",
+    "liga": "Ligue 1",
+    "nacionalidade": "TUN",
+    "idade": 27,
+    "minutos": 2610,
+    "gols": 0,
+    "assistencias": 1
+  },
+  {
+    "id_item": "P2045",
+    "nome_perfil": "Alberto Paleari",
     "categoria": "GK",
     "posicoes": [
       "GK"
     ],
-    "clube": "Lyon",
-    "liga": "Ligue 1",
-    "nacionalidade": "SVK",
-    "idade": 28,
+    "clube": "Torino",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 32,
     "minutos": 2610,
     "gols": 0,
-    "assistencias": 1
+    "assistencias": 0
   },
   {
     "id_item": "P1706",
@@ -4712,21 +4712,6 @@
     "assistencias": 6
   },
   {
-    "id_item": "P1702",
-    "nome_perfil": "Kylian Mbappé",
-    "categoria": "FW",
-    "posicoes": [
-      "FW"
-    ],
-    "clube": "Real Madrid",
-    "liga": "La Liga",
-    "nacionalidade": "FRA",
-    "idade": 26,
-    "minutos": 2599,
-    "gols": 25,
-    "assistencias": 5
-  },
-  {
     "id_item": "P0124",
     "nome_perfil": "Samuele Angori",
     "categoria": "MF",
@@ -4742,6 +4727,21 @@
     "assistencias": 2
   },
   {
+    "id_item": "P1702",
+    "nome_perfil": "Kylian Mbappé",
+    "categoria": "FW",
+    "posicoes": [
+      "FW"
+    ],
+    "clube": "Real Madrid",
+    "liga": "La Liga",
+    "nacionalidade": "FRA",
+    "idade": 26,
+    "minutos": 2599,
+    "gols": 25,
+    "assistencias": 5
+  },
+  {
     "id_item": "P2559",
     "nome_perfil": "César Tárrega",
     "categoria": "DF",
@@ -4755,6 +4755,21 @@
     "minutos": 2598,
     "gols": 0,
     "assistencias": 0
+  },
+  {
+    "id_item": "P1629",
+    "nome_perfil": "Alessandro Marcandalli",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Genoa",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 22,
+    "minutos": 2597,
+    "gols": 0,
+    "assistencias": 2
   },
   {
     "id_item": "P2121",
@@ -4773,19 +4788,19 @@
     "assistencias": 2
   },
   {
-    "id_item": "P1629",
-    "nome_perfil": "Alessandro Marcandalli",
-    "categoria": "DF",
+    "id_item": "P1455",
+    "nome_perfil": "Armand Lauriente",
+    "categoria": "FW",
     "posicoes": [
-      "DF"
+      "FW"
     ],
-    "clube": "Genoa",
+    "clube": "Sassuolo",
     "liga": "Serie A",
-    "nacionalidade": "ITA",
-    "idade": 22,
-    "minutos": 2597,
-    "gols": 0,
-    "assistencias": 2
+    "nacionalidade": "FRA",
+    "idade": 26,
+    "minutos": 2592,
+    "gols": 7,
+    "assistencias": 9
   },
   {
     "id_item": "P2738",
@@ -4803,21 +4818,6 @@
     "assistencias": 1
   },
   {
-    "id_item": "P1455",
-    "nome_perfil": "Armand Lauriente",
-    "categoria": "FW",
-    "posicoes": [
-      "FW"
-    ],
-    "clube": "Sassuolo",
-    "liga": "Serie A",
-    "nacionalidade": "FRA",
-    "idade": 26,
-    "minutos": 2592,
-    "gols": 7,
-    "assistencias": 9
-  },
-  {
     "id_item": "P1338",
     "nome_perfil": "Michael Keane",
     "categoria": "DF",
@@ -4830,22 +4830,6 @@
     "idade": 32,
     "minutos": 2591,
     "gols": 3,
-    "assistencias": 1
-  },
-  {
-    "id_item": "P2110",
-    "nome_perfil": "Giuseppe Pezzella",
-    "categoria": "MF",
-    "posicoes": [
-      "MF",
-      "DF"
-    ],
-    "clube": "Cremonese",
-    "liga": "Serie A",
-    "nacionalidade": "ITA",
-    "idade": 27,
-    "minutos": 2585,
-    "gols": 0,
     "assistencias": 1
   },
   {
@@ -4862,6 +4846,22 @@
     "minutos": 2585,
     "gols": 2,
     "assistencias": 3
+  },
+  {
+    "id_item": "P2110",
+    "nome_perfil": "Giuseppe Pezzella",
+    "categoria": "MF",
+    "posicoes": [
+      "MF",
+      "DF"
+    ],
+    "clube": "Cremonese",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 27,
+    "minutos": 2585,
+    "gols": 0,
+    "assistencias": 1
   },
   {
     "id_item": "P0012",
@@ -5032,21 +5032,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P1803",
-    "nome_perfil": "Álex Moreno",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Girona",
-    "liga": "La Liga",
-    "nacionalidade": "ESP",
-    "idade": 32,
-    "minutos": 2559,
-    "gols": 0,
-    "assistencias": 3
-  },
-  {
     "id_item": "P1651",
     "nome_perfil": "Eric Martel",
     "categoria": "MF",
@@ -5061,6 +5046,21 @@
     "minutos": 2559,
     "gols": 2,
     "assistencias": 2
+  },
+  {
+    "id_item": "P1803",
+    "nome_perfil": "Álex Moreno",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Girona",
+    "liga": "La Liga",
+    "nacionalidade": "ESP",
+    "idade": 32,
+    "minutos": 2559,
+    "gols": 0,
+    "assistencias": 3
   },
   {
     "id_item": "P2249",
@@ -5153,21 +5153,6 @@
     "assistencias": 1
   },
   {
-    "id_item": "P2756",
-    "nome_perfil": "Adam Wharton",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Crystal Palace",
-    "liga": "Premier League",
-    "nacionalidade": "ENG",
-    "idade": 21,
-    "minutos": 2552,
-    "gols": 1,
-    "assistencias": 5
-  },
-  {
     "id_item": "P2123",
     "nome_perfil": "Andrea Pinamonti",
     "categoria": "FW",
@@ -5181,6 +5166,21 @@
     "minutos": 2552,
     "gols": 9,
     "assistencias": 3
+  },
+  {
+    "id_item": "P2756",
+    "nome_perfil": "Adam Wharton",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Crystal Palace",
+    "liga": "Premier League",
+    "nacionalidade": "ENG",
+    "idade": 21,
+    "minutos": 2552,
+    "gols": 1,
+    "assistencias": 5
   },
   {
     "id_item": "P2167",
@@ -5229,6 +5229,21 @@
     "assistencias": 3
   },
   {
+    "id_item": "P0926",
+    "nome_perfil": "Marco Friedl",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Werder Bremen",
+    "liga": "Bundesliga",
+    "nacionalidade": "AUT",
+    "idade": 27,
+    "minutos": 2546,
+    "gols": 1,
+    "assistencias": 0
+  },
+  {
     "id_item": "P0119",
     "nome_perfil": "Robert Andrich",
     "categoria": "DF",
@@ -5242,21 +5257,6 @@
     "idade": 30,
     "minutos": 2546,
     "gols": 2,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P0926",
-    "nome_perfil": "Marco Friedl",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Werder Bremen",
-    "liga": "Bundesliga",
-    "nacionalidade": "AUT",
-    "idade": 27,
-    "minutos": 2546,
-    "gols": 1,
     "assistencias": 0
   },
   {
@@ -5290,18 +5290,18 @@
     "assistencias": 0
   },
   {
-    "id_item": "P0238",
-    "nome_perfil": "Calvin Bassey",
+    "id_item": "P1689",
+    "nome_perfil": "Konstantinos Mavropanos",
     "categoria": "DF",
     "posicoes": [
       "DF"
     ],
-    "clube": "Fulham",
+    "clube": "West Ham United",
     "liga": "Premier League",
-    "nacionalidade": "NGA",
-    "idade": 25,
+    "nacionalidade": "GRE",
+    "idade": 27,
     "minutos": 2534,
-    "gols": 1,
+    "gols": 3,
     "assistencias": 0
   },
   {
@@ -5320,18 +5320,18 @@
     "assistencias": 2
   },
   {
-    "id_item": "P1689",
-    "nome_perfil": "Konstantinos Mavropanos",
+    "id_item": "P0238",
+    "nome_perfil": "Calvin Bassey",
     "categoria": "DF",
     "posicoes": [
       "DF"
     ],
-    "clube": "West Ham United",
+    "clube": "Fulham",
     "liga": "Premier League",
-    "nacionalidade": "GRE",
-    "idade": 27,
+    "nacionalidade": "NGA",
+    "idade": 25,
     "minutos": 2534,
-    "gols": 3,
+    "gols": 1,
     "assistencias": 0
   },
   {
@@ -5381,6 +5381,21 @@
     "assistencias": 1
   },
   {
+    "id_item": "P0936",
+    "nome_perfil": "Matteo Gabbia",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Milan",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 25,
+    "minutos": 2530,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
     "id_item": "P0553",
     "nome_perfil": "Jonathan Clauss",
     "categoria": "MF",
@@ -5395,21 +5410,6 @@
     "minutos": 2530,
     "gols": 1,
     "assistencias": 6
-  },
-  {
-    "id_item": "P0936",
-    "nome_perfil": "Matteo Gabbia",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Milan",
-    "liga": "Serie A",
-    "nacionalidade": "ITA",
-    "idade": 25,
-    "minutos": 2530,
-    "gols": 0,
-    "assistencias": 0
   },
   {
     "id_item": "P2772",
@@ -5487,21 +5487,6 @@
     "assistencias": 7
   },
   {
-    "id_item": "P2672",
-    "nome_perfil": "Álvaro Vallés",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Real Betis",
-    "liga": "La Liga",
-    "nacionalidade": "ESP",
-    "idade": 28,
-    "minutos": 2520,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
     "id_item": "P2392",
     "nome_perfil": "Nico Schlotterbeck",
     "categoria": "DF",
@@ -5532,19 +5517,19 @@
     "assistencias": 0
   },
   {
-    "id_item": "P1816",
-    "nome_perfil": "Tyler Morton",
-    "categoria": "MF",
+    "id_item": "P2672",
+    "nome_perfil": "Álvaro Vallés",
+    "categoria": "GK",
     "posicoes": [
-      "MF"
+      "GK"
     ],
-    "clube": "Lyon",
-    "liga": "Ligue 1",
-    "nacionalidade": "ENG",
-    "idade": 22,
-    "minutos": 2517,
-    "gols": 2,
-    "assistencias": 2
+    "clube": "Real Betis",
+    "liga": "La Liga",
+    "nacionalidade": "ESP",
+    "idade": 28,
+    "minutos": 2520,
+    "gols": 0,
+    "assistencias": 0
   },
   {
     "id_item": "P1515",
@@ -5561,6 +5546,21 @@
     "minutos": 2517,
     "gols": 3,
     "assistencias": 3
+  },
+  {
+    "id_item": "P1816",
+    "nome_perfil": "Tyler Morton",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Lyon",
+    "liga": "Ligue 1",
+    "nacionalidade": "ENG",
+    "idade": 22,
+    "minutos": 2517,
+    "gols": 2,
+    "assistencias": 2
   },
   {
     "id_item": "P0226",
@@ -5669,21 +5669,6 @@
     "assistencias": 3
   },
   {
-    "id_item": "P1713",
-    "nome_perfil": "Mark McKenzie",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Toulouse",
-    "liga": "Ligue 1",
-    "nacionalidade": "USA",
-    "idade": 26,
-    "minutos": 2494,
-    "gols": 0,
-    "assistencias": 2
-  },
-  {
     "id_item": "P0619",
     "nome_perfil": "Matheus Cunha",
     "categoria": "MF",
@@ -5697,6 +5682,21 @@
     "idade": 26,
     "minutos": 2494,
     "gols": 10,
+    "assistencias": 2
+  },
+  {
+    "id_item": "P1713",
+    "nome_perfil": "Mark McKenzie",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Toulouse",
+    "liga": "Ligue 1",
+    "nacionalidade": "USA",
+    "idade": 26,
+    "minutos": 2494,
+    "gols": 0,
     "assistencias": 2
   },
   {
@@ -5808,21 +5808,6 @@
     "assistencias": 5
   },
   {
-    "id_item": "P1421",
-    "nome_perfil": "Thomas Kristensen",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Udinese",
-    "liga": "Serie A",
-    "nacionalidade": "DEN",
-    "idade": 23,
-    "minutos": 2472,
-    "gols": 3,
-    "assistencias": 0
-  },
-  {
     "id_item": "P0724",
     "nome_perfil": "Yan Diomandé",
     "categoria": "FW",
@@ -5851,6 +5836,21 @@
     "idade": 24,
     "minutos": 2472,
     "gols": 0,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P1421",
+    "nome_perfil": "Thomas Kristensen",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Udinese",
+    "liga": "Serie A",
+    "nacionalidade": "DEN",
+    "idade": 23,
+    "minutos": 2472,
+    "gols": 3,
     "assistencias": 0
   },
   {
@@ -5946,21 +5946,6 @@
     "assistencias": 1
   },
   {
-    "id_item": "P1120",
-    "nome_perfil": "Hákon Haraldsson",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Lille",
-    "liga": "Ligue 1",
-    "nacionalidade": "ISL",
-    "idade": 22,
-    "minutos": 2460,
-    "gols": 8,
-    "assistencias": 2
-  },
-  {
     "id_item": "P1485",
     "nome_perfil": "Donovan Léon",
     "categoria": "GK",
@@ -5989,6 +5974,21 @@
     "minutos": 2460,
     "gols": 4,
     "assistencias": 4
+  },
+  {
+    "id_item": "P1120",
+    "nome_perfil": "Hákon Haraldsson",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Lille",
+    "liga": "Ligue 1",
+    "nacionalidade": "ISL",
+    "idade": 22,
+    "minutos": 2460,
+    "gols": 8,
+    "assistencias": 2
   },
   {
     "id_item": "P2495",
@@ -6081,22 +6081,6 @@
     "assistencias": 5
   },
   {
-    "id_item": "P2640",
-    "nome_perfil": "Heorhii Tsitaishvili",
-    "categoria": "MF",
-    "posicoes": [
-      "MF",
-      "DF"
-    ],
-    "clube": "Metz",
-    "liga": "Ligue 1",
-    "nacionalidade": "GEO",
-    "idade": 24,
-    "minutos": 2449,
-    "gols": 3,
-    "assistencias": 2
-  },
-  {
     "id_item": "P0001",
     "nome_perfil": "Brenden Aaronson",
     "categoria": "MF",
@@ -6113,18 +6097,19 @@
     "assistencias": 5
   },
   {
-    "id_item": "P1554",
-    "nome_perfil": "José Luis Gayà",
-    "categoria": "DF",
+    "id_item": "P2640",
+    "nome_perfil": "Heorhii Tsitaishvili",
+    "categoria": "MF",
     "posicoes": [
+      "MF",
       "DF"
     ],
-    "clube": "Valencia",
-    "liga": "La Liga",
-    "nacionalidade": "ESP",
-    "idade": 30,
-    "minutos": 2448,
-    "gols": 1,
+    "clube": "Metz",
+    "liga": "Ligue 1",
+    "nacionalidade": "GEO",
+    "idade": 24,
+    "minutos": 2449,
+    "gols": 3,
     "assistencias": 2
   },
   {
@@ -6143,20 +6128,35 @@
     "assistencias": 0
   },
   {
-    "id_item": "P0135",
-    "nome_perfil": "Antony",
+    "id_item": "P1554",
+    "nome_perfil": "José Luis Gayà",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Valencia",
+    "liga": "La Liga",
+    "nacionalidade": "ESP",
+    "idade": 30,
+    "minutos": 2448,
+    "gols": 1,
+    "assistencias": 2
+  },
+  {
+    "id_item": "P0517",
+    "nome_perfil": "Ilyas Chaira",
     "categoria": "MF",
     "posicoes": [
       "MF",
       "FW"
     ],
-    "clube": "Real Betis",
+    "clube": "Oviedo",
     "liga": "La Liga",
-    "nacionalidade": "BRA",
-    "idade": 25,
+    "nacionalidade": "MAR",
+    "idade": 24,
     "minutos": 2447,
-    "gols": 8,
-    "assistencias": 6
+    "gols": 6,
+    "assistencias": 2
   },
   {
     "id_item": "P2804",
@@ -6175,6 +6175,22 @@
     "assistencias": 4
   },
   {
+    "id_item": "P0135",
+    "nome_perfil": "Antony",
+    "categoria": "MF",
+    "posicoes": [
+      "MF",
+      "FW"
+    ],
+    "clube": "Real Betis",
+    "liga": "La Liga",
+    "nacionalidade": "BRA",
+    "idade": 25,
+    "minutos": 2447,
+    "gols": 8,
+    "assistencias": 6
+  },
+  {
     "id_item": "P0709",
     "nome_perfil": "Luis Díaz",
     "categoria": "MF",
@@ -6188,22 +6204,6 @@
     "minutos": 2447,
     "gols": 15,
     "assistencias": 14
-  },
-  {
-    "id_item": "P0517",
-    "nome_perfil": "Ilyas Chaira",
-    "categoria": "MF",
-    "posicoes": [
-      "MF",
-      "FW"
-    ],
-    "clube": "Oviedo",
-    "liga": "La Liga",
-    "nacionalidade": "MAR",
-    "idade": 24,
-    "minutos": 2447,
-    "gols": 6,
-    "assistencias": 2
   },
   {
     "id_item": "P2343",
@@ -6237,21 +6237,6 @@
     "assistencias": 6
   },
   {
-    "id_item": "P2734",
-    "nome_perfil": "Luka Vušković",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Hamburger SV",
-    "liga": "Bundesliga",
-    "nacionalidade": "CRO",
-    "idade": 18,
-    "minutos": 2442,
-    "gols": 6,
-    "assistencias": 0
-  },
-  {
     "id_item": "P2588",
     "nome_perfil": "Khéphren Thuram",
     "categoria": "MF",
@@ -6265,6 +6250,21 @@
     "minutos": 2442,
     "gols": 3,
     "assistencias": 3
+  },
+  {
+    "id_item": "P2734",
+    "nome_perfil": "Luka Vušković",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Hamburger SV",
+    "liga": "Bundesliga",
+    "nacionalidade": "CRO",
+    "idade": 18,
+    "minutos": 2442,
+    "gols": 6,
+    "assistencias": 0
   },
   {
     "id_item": "P0234",
@@ -6481,21 +6481,6 @@
     "assistencias": 3
   },
   {
-    "id_item": "P1231",
-    "nome_perfil": "Alex Iwobi",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Fulham",
-    "liga": "Premier League",
-    "nacionalidade": "NGA",
-    "idade": 29,
-    "minutos": 2419,
-    "gols": 4,
-    "assistencias": 3
-  },
-  {
     "id_item": "P0783",
     "nome_perfil": "Aron Dønnum",
     "categoria": "MF",
@@ -6509,6 +6494,21 @@
     "minutos": 2419,
     "gols": 4,
     "assistencias": 4
+  },
+  {
+    "id_item": "P1231",
+    "nome_perfil": "Alex Iwobi",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Fulham",
+    "liga": "Premier League",
+    "nacionalidade": "NGA",
+    "idade": 29,
+    "minutos": 2419,
+    "gols": 4,
+    "assistencias": 3
   },
   {
     "id_item": "P2139",
@@ -6680,21 +6680,6 @@
     "assistencias": 8
   },
   {
-    "id_item": "P0604",
-    "nome_perfil": "Nicolas Cozza",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Nantes",
-    "liga": "Ligue 1",
-    "nacionalidade": "FRA",
-    "idade": 26,
-    "minutos": 2391,
-    "gols": 0,
-    "assistencias": 1
-  },
-  {
     "id_item": "P1770",
     "nome_perfil": "Yankuba Minteh",
     "categoria": "MF",
@@ -6708,6 +6693,21 @@
     "minutos": 2391,
     "gols": 3,
     "assistencias": 4
+  },
+  {
+    "id_item": "P0604",
+    "nome_perfil": "Nicolas Cozza",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Nantes",
+    "liga": "Ligue 1",
+    "nacionalidade": "FRA",
+    "idade": 26,
+    "minutos": 2391,
+    "gols": 0,
+    "assistencias": 1
   },
   {
     "id_item": "P2797",
@@ -6725,21 +6725,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P0882",
-    "nome_perfil": "Roberto Férnandez",
-    "categoria": "FW",
-    "posicoes": [
-      "FW"
-    ],
-    "clube": "Espanyol",
-    "liga": "La Liga",
-    "nacionalidade": "ESP",
-    "idade": 23,
-    "minutos": 2382,
-    "gols": 7,
-    "assistencias": 3
-  },
-  {
     "id_item": "P2546",
     "nome_perfil": "Haris Tabakovic",
     "categoria": "FW",
@@ -6752,6 +6737,21 @@
     "idade": 31,
     "minutos": 2382,
     "gols": 13,
+    "assistencias": 3
+  },
+  {
+    "id_item": "P0882",
+    "nome_perfil": "Roberto Férnandez",
+    "categoria": "FW",
+    "posicoes": [
+      "FW"
+    ],
+    "clube": "Espanyol",
+    "liga": "La Liga",
+    "nacionalidade": "ESP",
+    "idade": 23,
+    "minutos": 2382,
+    "gols": 7,
     "assistencias": 3
   },
   {
@@ -7077,6 +7077,21 @@
     "assistencias": 0
   },
   {
+    "id_item": "P1378",
+    "nome_perfil": "Dominik Kohr",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Mainz 05",
+    "liga": "Bundesliga",
+    "nacionalidade": "GER",
+    "idade": 31,
+    "minutos": 2338,
+    "gols": 2,
+    "assistencias": 0
+  },
+  {
     "id_item": "P2833",
     "nome_perfil": "Yanis Zouaoui",
     "categoria": "DF",
@@ -7091,21 +7106,6 @@
     "minutos": 2338,
     "gols": 1,
     "assistencias": 1
-  },
-  {
-    "id_item": "P1378",
-    "nome_perfil": "Dominik Kohr",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Mainz 05",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 31,
-    "minutos": 2338,
-    "gols": 2,
-    "assistencias": 0
   },
   {
     "id_item": "P1089",
@@ -7215,21 +7215,6 @@
     "assistencias": 2
   },
   {
-    "id_item": "P0563",
-    "nome_perfil": "Lorenzo Colombo",
-    "categoria": "FW",
-    "posicoes": [
-      "FW"
-    ],
-    "clube": "Genoa",
-    "liga": "Serie A",
-    "nacionalidade": "ITA",
-    "idade": 23,
-    "minutos": 2326,
-    "gols": 7,
-    "assistencias": 1
-  },
-  {
     "id_item": "P1348",
     "nome_perfil": "Marc-Oliver Kempf",
     "categoria": "DF",
@@ -7242,6 +7227,21 @@
     "idade": 30,
     "minutos": 2326,
     "gols": 4,
+    "assistencias": 1
+  },
+  {
+    "id_item": "P0563",
+    "nome_perfil": "Lorenzo Colombo",
+    "categoria": "FW",
+    "posicoes": [
+      "FW"
+    ],
+    "clube": "Genoa",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 23,
+    "minutos": 2326,
+    "gols": 7,
     "assistencias": 1
   },
   {
@@ -7580,6 +7580,21 @@
     "assistencias": 0
   },
   {
+    "id_item": "P2021",
+    "nome_perfil": "Dango Ouattara",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Brentford",
+    "liga": "Premier League",
+    "nacionalidade": "BFA",
+    "idade": 23,
+    "minutos": 2276,
+    "gols": 7,
+    "assistencias": 3
+  },
+  {
     "id_item": "P0685",
     "nome_perfil": "Giovanni Di Lorenzo",
     "categoria": "DF",
@@ -7594,21 +7609,6 @@
     "minutos": 2276,
     "gols": 2,
     "assistencias": 1
-  },
-  {
-    "id_item": "P2021",
-    "nome_perfil": "Dango Ouattara",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Brentford",
-    "liga": "Premier League",
-    "nacionalidade": "BFA",
-    "idade": 23,
-    "minutos": 2276,
-    "gols": 7,
-    "assistencias": 3
   },
   {
     "id_item": "P1562",
@@ -7781,6 +7781,21 @@
     "assistencias": 1
   },
   {
+    "id_item": "P2752",
+    "nome_perfil": "Danny Welbeck",
+    "categoria": "FW",
+    "posicoes": [
+      "FW"
+    ],
+    "clube": "Brighton",
+    "liga": "Premier League",
+    "nacionalidade": "ENG",
+    "idade": 34,
+    "minutos": 2258,
+    "gols": 13,
+    "assistencias": 1
+  },
+  {
     "id_item": "P0756",
     "nome_perfil": "Niklas Dorsch",
     "categoria": "MF",
@@ -7796,19 +7811,20 @@
     "assistencias": 1
   },
   {
-    "id_item": "P2752",
-    "nome_perfil": "Danny Welbeck",
+    "id_item": "P2809",
+    "nome_perfil": "Nicolò Zaniolo",
     "categoria": "FW",
     "posicoes": [
-      "FW"
+      "FW",
+      "MF"
     ],
-    "clube": "Brighton",
-    "liga": "Premier League",
-    "nacionalidade": "ENG",
-    "idade": 34,
-    "minutos": 2258,
-    "gols": 13,
-    "assistencias": 1
+    "clube": "Udinese",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 26,
+    "minutos": 2257,
+    "gols": 5,
+    "assistencias": 6
   },
   {
     "id_item": "P1211",
@@ -7841,22 +7857,6 @@
     "assistencias": 1
   },
   {
-    "id_item": "P2809",
-    "nome_perfil": "Nicolò Zaniolo",
-    "categoria": "FW",
-    "posicoes": [
-      "FW",
-      "MF"
-    ],
-    "clube": "Udinese",
-    "liga": "Serie A",
-    "nacionalidade": "ITA",
-    "idade": 26,
-    "minutos": 2257,
-    "gols": 5,
-    "assistencias": 6
-  },
-  {
     "id_item": "P2748",
     "nome_perfil": "Timothy Weah",
     "categoria": "MF",
@@ -7871,6 +7871,36 @@
     "minutos": 2253,
     "gols": 2,
     "assistencias": 2
+  },
+  {
+    "id_item": "P1458",
+    "nome_perfil": "Valentino Lazaro",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Torino",
+    "liga": "Serie A",
+    "nacionalidade": "AUT",
+    "idade": 29,
+    "minutos": 2252,
+    "gols": 0,
+    "assistencias": 2
+  },
+  {
+    "id_item": "P1806",
+    "nome_perfil": "Matias Moreno",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Levante",
+    "liga": "La Liga",
+    "nacionalidade": "ARG",
+    "idade": 21,
+    "minutos": 2252,
+    "gols": 0,
+    "assistencias": 0
   },
   {
     "id_item": "P2665",
@@ -7903,36 +7933,6 @@
     "assistencias": 3
   },
   {
-    "id_item": "P1806",
-    "nome_perfil": "Matias Moreno",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Levante",
-    "liga": "La Liga",
-    "nacionalidade": "ARG",
-    "idade": 21,
-    "minutos": 2252,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P1458",
-    "nome_perfil": "Valentino Lazaro",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Torino",
-    "liga": "Serie A",
-    "nacionalidade": "AUT",
-    "idade": 29,
-    "minutos": 2252,
-    "gols": 0,
-    "assistencias": 2
-  },
-  {
     "id_item": "P1182",
     "nome_perfil": "Robin Hranáč",
     "categoria": "DF",
@@ -7945,21 +7945,6 @@
     "idade": 25,
     "minutos": 2251,
     "gols": 1,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P1656",
-    "nome_perfil": "Jon Martin",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Real Sociedad",
-    "liga": "La Liga",
-    "nacionalidade": "ESP",
-    "idade": 19,
-    "minutos": 2250,
-    "gols": 2,
     "assistencias": 0
   },
   {
@@ -7977,6 +7962,21 @@
     "minutos": 2250,
     "gols": 5,
     "assistencias": 4
+  },
+  {
+    "id_item": "P1656",
+    "nome_perfil": "Jon Martin",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Real Sociedad",
+    "liga": "La Liga",
+    "nacionalidade": "ESP",
+    "idade": 19,
+    "minutos": 2250,
+    "gols": 2,
+    "assistencias": 0
   },
   {
     "id_item": "P0375",
@@ -8071,22 +8071,6 @@
     "assistencias": 8
   },
   {
-    "id_item": "P2657",
-    "nome_perfil": "Deniz Undav",
-    "categoria": "FW",
-    "posicoes": [
-      "FW",
-      "MF"
-    ],
-    "clube": "Stuttgart",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 29,
-    "minutos": 2241,
-    "gols": 19,
-    "assistencias": 7
-  },
-  {
     "id_item": "P2102",
     "nome_perfil": "Romain Perraud",
     "categoria": "DF",
@@ -8102,20 +8086,20 @@
     "assistencias": 4
   },
   {
-    "id_item": "P0810",
-    "nome_perfil": "Jacques Ekomie",
-    "categoria": "DF",
+    "id_item": "P2657",
+    "nome_perfil": "Deniz Undav",
+    "categoria": "FW",
     "posicoes": [
-      "DF",
+      "FW",
       "MF"
     ],
-    "clube": "Angers",
-    "liga": "Ligue 1",
-    "nacionalidade": "GAB",
-    "idade": 21,
-    "minutos": 2239,
-    "gols": 0,
-    "assistencias": 0
+    "clube": "Stuttgart",
+    "liga": "Bundesliga",
+    "nacionalidade": "GER",
+    "idade": 29,
+    "minutos": 2241,
+    "gols": 19,
+    "assistencias": 7
   },
   {
     "id_item": "P1670",
@@ -8147,6 +8131,22 @@
     "minutos": 2239,
     "gols": 1,
     "assistencias": 4
+  },
+  {
+    "id_item": "P0810",
+    "nome_perfil": "Jacques Ekomie",
+    "categoria": "DF",
+    "posicoes": [
+      "DF",
+      "MF"
+    ],
+    "clube": "Angers",
+    "liga": "Ligue 1",
+    "nacionalidade": "GAB",
+    "idade": 21,
+    "minutos": 2239,
+    "gols": 0,
+    "assistencias": 0
   },
   {
     "id_item": "P1199",
@@ -8195,21 +8195,6 @@
     "assistencias": 4
   },
   {
-    "id_item": "P0791",
-    "nome_perfil": "Éderson",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Atalanta",
-    "liga": "Serie A",
-    "nacionalidade": "BRA",
-    "idade": 26,
-    "minutos": 2230,
-    "gols": 2,
-    "assistencias": 1
-  },
-  {
     "id_item": "P0214",
     "nome_perfil": "Folarin Balogun",
     "categoria": "FW",
@@ -8223,6 +8208,21 @@
     "minutos": 2230,
     "gols": 13,
     "assistencias": 4
+  },
+  {
+    "id_item": "P0791",
+    "nome_perfil": "Éderson",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Atalanta",
+    "liga": "Serie A",
+    "nacionalidade": "BRA",
+    "idade": 26,
+    "minutos": 2230,
+    "gols": 2,
+    "assistencias": 1
   },
   {
     "id_item": "P2438",
@@ -8443,22 +8443,6 @@
     "assistencias": 6
   },
   {
-    "id_item": "P2715",
-    "nome_perfil": "Fabio Vieira",
-    "categoria": "MF",
-    "posicoes": [
-      "MF",
-      "FW"
-    ],
-    "clube": "Hamburger SV",
-    "liga": "Bundesliga",
-    "nacionalidade": "POR",
-    "idade": 25,
-    "minutos": 2206,
-    "gols": 7,
-    "assistencias": 5
-  },
-  {
     "id_item": "P0943",
     "nome_perfil": "Iñigo Ruiz de Galarreta",
     "categoria": "MF",
@@ -8474,19 +8458,20 @@
     "assistencias": 2
   },
   {
-    "id_item": "P2321",
-    "nome_perfil": "Kike Salas",
-    "categoria": "DF",
+    "id_item": "P2715",
+    "nome_perfil": "Fabio Vieira",
+    "categoria": "MF",
     "posicoes": [
-      "DF"
+      "MF",
+      "FW"
     ],
-    "clube": "Sevilla",
-    "liga": "La Liga",
-    "nacionalidade": "ESP",
-    "idade": 23,
-    "minutos": 2203,
-    "gols": 2,
-    "assistencias": 0
+    "clube": "Hamburger SV",
+    "liga": "Bundesliga",
+    "nacionalidade": "POR",
+    "idade": 25,
+    "minutos": 2206,
+    "gols": 7,
+    "assistencias": 5
   },
   {
     "id_item": "P0903",
@@ -8504,6 +8489,21 @@
     "assistencias": 3
   },
   {
+    "id_item": "P2321",
+    "nome_perfil": "Kike Salas",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Sevilla",
+    "liga": "La Liga",
+    "nacionalidade": "ESP",
+    "idade": 23,
+    "minutos": 2203,
+    "gols": 2,
+    "assistencias": 0
+  },
+  {
     "id_item": "P2244",
     "nome_perfil": "Álvaro Rodríguez",
     "categoria": "FW",
@@ -8517,21 +8517,6 @@
     "minutos": 2201,
     "gols": 7,
     "assistencias": 5
-  },
-  {
-    "id_item": "P2483",
-    "nome_perfil": "Tomáš Souček",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "West Ham United",
-    "liga": "Premier League",
-    "nacionalidade": "CZE",
-    "idade": 30,
-    "minutos": 2200,
-    "gols": 5,
-    "assistencias": 0
   },
   {
     "id_item": "P2136",
@@ -8548,6 +8533,21 @@
     "minutos": 2200,
     "gols": 2,
     "assistencias": 5
+  },
+  {
+    "id_item": "P2483",
+    "nome_perfil": "Tomáš Souček",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "West Ham United",
+    "liga": "Premier League",
+    "nacionalidade": "CZE",
+    "idade": 30,
+    "minutos": 2200,
+    "gols": 5,
+    "assistencias": 0
   },
   {
     "id_item": "P2047",
@@ -8670,21 +8670,6 @@
     "assistencias": 4
   },
   {
-    "id_item": "P0809",
-    "nome_perfil": "Jurgen Ekkelenkamp",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Udinese",
-    "liga": "Serie A",
-    "nacionalidade": "NED",
-    "idade": 25,
-    "minutos": 2186,
-    "gols": 5,
-    "assistencias": 3
-  },
-  {
     "id_item": "P2633",
     "nome_perfil": "Philipp Treu",
     "categoria": "DF",
@@ -8717,6 +8702,21 @@
     "assistencias": 4
   },
   {
+    "id_item": "P0809",
+    "nome_perfil": "Jurgen Ekkelenkamp",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Udinese",
+    "liga": "Serie A",
+    "nacionalidade": "NED",
+    "idade": 25,
+    "minutos": 2186,
+    "gols": 5,
+    "assistencias": 3
+  },
+  {
     "id_item": "P1236",
     "nome_perfil": "Lee Jae-sung",
     "categoria": "MF",
@@ -8731,21 +8731,6 @@
     "minutos": 2185,
     "gols": 4,
     "assistencias": 2
-  },
-  {
-    "id_item": "P1111",
-    "nome_perfil": "Lewis Hall",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Newcastle United",
-    "liga": "Premier League",
-    "nacionalidade": "ENG",
-    "idade": 20,
-    "minutos": 2181,
-    "gols": 1,
-    "assistencias": 1
   },
   {
     "id_item": "P1512",
@@ -8764,6 +8749,21 @@
     "assistencias": 4
   },
   {
+    "id_item": "P1111",
+    "nome_perfil": "Lewis Hall",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Newcastle United",
+    "liga": "Premier League",
+    "nacionalidade": "ENG",
+    "idade": 20,
+    "minutos": 2181,
+    "gols": 1,
+    "assistencias": 1
+  },
+  {
     "id_item": "P0652",
     "nome_perfil": "Charles De Ketelaere",
     "categoria": "MF",
@@ -8780,21 +8780,6 @@
     "assistencias": 5
   },
   {
-    "id_item": "P1933",
-    "nome_perfil": "Felix Nmecha",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Dortmund",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 24,
-    "minutos": 2176,
-    "gols": 2,
-    "assistencias": 3
-  },
-  {
     "id_item": "P1559",
     "nome_perfil": "Castello Lukeba",
     "categoria": "DF",
@@ -8808,6 +8793,21 @@
     "minutos": 2176,
     "gols": 1,
     "assistencias": 0
+  },
+  {
+    "id_item": "P1933",
+    "nome_perfil": "Felix Nmecha",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Dortmund",
+    "liga": "Bundesliga",
+    "nacionalidade": "GER",
+    "idade": 24,
+    "minutos": 2176,
+    "gols": 2,
+    "assistencias": 3
   },
   {
     "id_item": "P2368",
@@ -8886,21 +8886,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P1664",
-    "nome_perfil": "Lautaro Martínez",
-    "categoria": "FW",
-    "posicoes": [
-      "FW"
-    ],
-    "clube": "Inter",
-    "liga": "Serie A",
-    "nacionalidade": "ARG",
-    "idade": 27,
-    "minutos": 2159,
-    "gols": 17,
-    "assistencias": 6
-  },
-  {
     "id_item": "P0438",
     "nome_perfil": "Adama Camara",
     "categoria": "MF",
@@ -8917,19 +8902,18 @@
     "assistencias": 0
   },
   {
-    "id_item": "P2760",
-    "nome_perfil": "Iñaki Williams",
-    "categoria": "MF",
+    "id_item": "P1664",
+    "nome_perfil": "Lautaro Martínez",
+    "categoria": "FW",
     "posicoes": [
-      "MF",
       "FW"
     ],
-    "clube": "Athletic Club",
-    "liga": "La Liga",
-    "nacionalidade": "GHA",
-    "idade": 31,
-    "minutos": 2157,
-    "gols": 3,
+    "clube": "Inter",
+    "liga": "Serie A",
+    "nacionalidade": "ARG",
+    "idade": 27,
+    "minutos": 2159,
+    "gols": 17,
     "assistencias": 6
   },
   {
@@ -8946,6 +8930,22 @@
     "minutos": 2157,
     "gols": 2,
     "assistencias": 1
+  },
+  {
+    "id_item": "P2760",
+    "nome_perfil": "Iñaki Williams",
+    "categoria": "MF",
+    "posicoes": [
+      "MF",
+      "FW"
+    ],
+    "clube": "Athletic Club",
+    "liga": "La Liga",
+    "nacionalidade": "GHA",
+    "idade": 31,
+    "minutos": 2157,
+    "gols": 3,
+    "assistencias": 6
   },
   {
     "id_item": "P1652",
@@ -8995,21 +8995,6 @@
     "assistencias": 2
   },
   {
-    "id_item": "P1766",
-    "nome_perfil": "Yerry Mina",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Cagliari",
-    "liga": "Serie A",
-    "nacionalidade": "COL",
-    "idade": 30,
-    "minutos": 2150,
-    "gols": 2,
-    "assistencias": 0
-  },
-  {
     "id_item": "P0433",
     "nome_perfil": "Duje Ćaleta-Car",
     "categoria": "DF",
@@ -9022,6 +9007,21 @@
     "idade": 28,
     "minutos": 2150,
     "gols": 1,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P1766",
+    "nome_perfil": "Yerry Mina",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Cagliari",
+    "liga": "Serie A",
+    "nacionalidade": "COL",
+    "idade": 30,
+    "minutos": 2150,
+    "gols": 2,
     "assistencias": 0
   },
   {
@@ -9100,21 +9100,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P0700",
-    "nome_perfil": "Rúben Dias",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Manchester City",
-    "liga": "Premier League",
-    "nacionalidade": "POR",
-    "idade": 28,
-    "minutos": 2141,
-    "gols": 2,
-    "assistencias": 0
-  },
-  {
     "id_item": "P2580",
     "nome_perfil": "Arthur Theate",
     "categoria": "DF",
@@ -9127,6 +9112,21 @@
     "idade": 25,
     "minutos": 2141,
     "gols": 1,
+    "assistencias": 0
+  },
+  {
+    "id_item": "P0700",
+    "nome_perfil": "Rúben Dias",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Manchester City",
+    "liga": "Premier League",
+    "nacionalidade": "POR",
+    "idade": 28,
+    "minutos": 2141,
+    "gols": 2,
     "assistencias": 0
   },
   {
@@ -9253,6 +9253,21 @@
     "assistencias": 2
   },
   {
+    "id_item": "P1847",
+    "nome_perfil": "Murillo",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Nottingham Forest",
+    "liga": "Premier League",
+    "nacionalidade": "BRA",
+    "idade": 23,
+    "minutos": 2130,
+    "gols": 1,
+    "assistencias": 0
+  },
+  {
     "id_item": "P0727",
     "nome_perfil": "Sofiane Diop",
     "categoria": "MF",
@@ -9267,21 +9282,6 @@
     "minutos": 2130,
     "gols": 8,
     "assistencias": 2
-  },
-  {
-    "id_item": "P1847",
-    "nome_perfil": "Murillo",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Nottingham Forest",
-    "liga": "Premier League",
-    "nacionalidade": "BRA",
-    "idade": 23,
-    "minutos": 2130,
-    "gols": 1,
-    "assistencias": 0
   },
   {
     "id_item": "P0892",
@@ -9330,6 +9330,21 @@
     "assistencias": 1
   },
   {
+    "id_item": "P0593",
+    "nome_perfil": "Abdoul Coulibaly",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Werder Bremen",
+    "liga": "Bundesliga",
+    "nacionalidade": "GER",
+    "idade": 18,
+    "minutos": 2120,
+    "gols": 1,
+    "assistencias": 0
+  },
+  {
     "id_item": "P1017",
     "nome_perfil": "Diego Gómez",
     "categoria": "MF",
@@ -9344,21 +9359,6 @@
     "minutos": 2120,
     "gols": 5,
     "assistencias": 1
-  },
-  {
-    "id_item": "P0593",
-    "nome_perfil": "Abdoul Coulibaly",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Werder Bremen",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 18,
-    "minutos": 2120,
-    "gols": 1,
-    "assistencias": 0
   },
   {
     "id_item": "P1654",
@@ -9438,21 +9438,6 @@
     "assistencias": 1
   },
   {
-    "id_item": "P2666",
-    "nome_perfil": "Óscar Valentín",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Rayo Vallecano",
-    "liga": "La Liga",
-    "nacionalidade": "ESP",
-    "idade": 30,
-    "minutos": 2109,
-    "gols": 1,
-    "assistencias": 0
-  },
-  {
     "id_item": "P1748",
     "nome_perfil": "Georges Mikautadze",
     "categoria": "FW",
@@ -9466,6 +9451,21 @@
     "minutos": 2288,
     "gols": 14,
     "assistencias": 6
+  },
+  {
+    "id_item": "P2666",
+    "nome_perfil": "Óscar Valentín",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Rayo Vallecano",
+    "liga": "La Liga",
+    "nacionalidade": "ESP",
+    "idade": 30,
+    "minutos": 2109,
+    "gols": 1,
+    "assistencias": 0
   },
   {
     "id_item": "P1162",
@@ -9483,21 +9483,6 @@
     "assistencias": 3
   },
   {
-    "id_item": "P2681",
-    "nome_perfil": "Jamie Vardy",
-    "categoria": "FW",
-    "posicoes": [
-      "FW"
-    ],
-    "clube": "Cremonese",
-    "liga": "Serie A",
-    "nacionalidade": "ENG",
-    "idade": 38,
-    "minutos": 2105,
-    "gols": 7,
-    "assistencias": 2
-  },
-  {
     "id_item": "P1553",
     "nome_perfil": "Florentino Luís",
     "categoria": "MF",
@@ -9513,19 +9498,19 @@
     "assistencias": 2
   },
   {
-    "id_item": "P2799",
-    "nome_perfil": "Mattia Zaccagni",
+    "id_item": "P2681",
+    "nome_perfil": "Jamie Vardy",
     "categoria": "FW",
     "posicoes": [
       "FW"
     ],
-    "clube": "Lazio",
+    "clube": "Cremonese",
     "liga": "Serie A",
-    "nacionalidade": "ITA",
-    "idade": 30,
-    "minutos": 2104,
-    "gols": 3,
-    "assistencias": 0
+    "nacionalidade": "ENG",
+    "idade": 38,
+    "minutos": 2105,
+    "gols": 7,
+    "assistencias": 2
   },
   {
     "id_item": "P2076",
@@ -9541,6 +9526,21 @@
     "minutos": 2104,
     "gols": 2,
     "assistencias": 9
+  },
+  {
+    "id_item": "P2799",
+    "nome_perfil": "Mattia Zaccagni",
+    "categoria": "FW",
+    "posicoes": [
+      "FW"
+    ],
+    "clube": "Lazio",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 30,
+    "minutos": 2104,
+    "gols": 3,
+    "assistencias": 0
   },
   {
     "id_item": "P0954",
@@ -9574,21 +9574,6 @@
     "assistencias": 6
   },
   {
-    "id_item": "P1727",
-    "nome_perfil": "Antoine Mendy",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Nice",
-    "liga": "Ligue 1",
-    "nacionalidade": "SEN",
-    "idade": 21,
-    "minutos": 2097,
-    "gols": 1,
-    "assistencias": 0
-  },
-  {
     "id_item": "P0552",
     "nome_perfil": "Alexis Claude-Maurice",
     "categoria": "MF",
@@ -9603,6 +9588,21 @@
     "minutos": 2097,
     "gols": 5,
     "assistencias": 4
+  },
+  {
+    "id_item": "P1727",
+    "nome_perfil": "Antoine Mendy",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Nice",
+    "liga": "Ligue 1",
+    "nacionalidade": "SEN",
+    "idade": 21,
+    "minutos": 2097,
+    "gols": 1,
+    "assistencias": 0
   },
   {
     "id_item": "P2519",
@@ -9972,22 +9972,6 @@
     "assistencias": 3
   },
   {
-    "id_item": "P1073",
-    "nome_perfil": "Javier Guerra",
-    "categoria": "MF",
-    "posicoes": [
-      "MF",
-      "FW"
-    ],
-    "clube": "Valencia",
-    "liga": "La Liga",
-    "nacionalidade": "ESP",
-    "idade": 22,
-    "minutos": 2061,
-    "gols": 4,
-    "assistencias": 6
-  },
-  {
     "id_item": "P0763",
     "nome_perfil": "Guela Doué",
     "categoria": "DF",
@@ -10001,6 +9985,22 @@
     "idade": 22,
     "minutos": 2061,
     "gols": 2,
+    "assistencias": 6
+  },
+  {
+    "id_item": "P1073",
+    "nome_perfil": "Javier Guerra",
+    "categoria": "MF",
+    "posicoes": [
+      "MF",
+      "FW"
+    ],
+    "clube": "Valencia",
+    "liga": "La Liga",
+    "nacionalidade": "ESP",
+    "idade": 22,
+    "minutos": 2061,
+    "gols": 4,
     "assistencias": 6
   },
   {
@@ -10171,6 +10171,21 @@
     "assistencias": 6
   },
   {
+    "id_item": "P2391",
+    "nome_perfil": "Keven Schlotterbeck",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Augsburg",
+    "liga": "Bundesliga",
+    "nacionalidade": "GER",
+    "idade": 28,
+    "minutos": 2031,
+    "gols": 0,
+    "assistencias": 1
+  },
+  {
     "id_item": "P2805",
     "nome_perfil": "Denis Zakaria",
     "categoria": "DF",
@@ -10184,21 +10199,6 @@
     "idade": 28,
     "minutos": 2031,
     "gols": 2,
-    "assistencias": 1
-  },
-  {
-    "id_item": "P2391",
-    "nome_perfil": "Keven Schlotterbeck",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Augsburg",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 28,
-    "minutos": 2031,
-    "gols": 0,
     "assistencias": 1
   },
   {
@@ -10233,21 +10233,6 @@
     "assistencias": 2
   },
   {
-    "id_item": "P2239",
-    "nome_perfil": "Marc Roca",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Real Betis",
-    "liga": "La Liga",
-    "nacionalidade": "ESP",
-    "idade": 28,
-    "minutos": 2026,
-    "gols": 1,
-    "assistencias": 1
-  },
-  {
     "id_item": "P0257",
     "nome_perfil": "Maximilian Beier",
     "categoria": "MF",
@@ -10262,6 +10247,21 @@
     "minutos": 2026,
     "gols": 9,
     "assistencias": 6
+  },
+  {
+    "id_item": "P2239",
+    "nome_perfil": "Marc Roca",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Real Betis",
+    "liga": "La Liga",
+    "nacionalidade": "ESP",
+    "idade": 28,
+    "minutos": 2026,
+    "gols": 1,
+    "assistencias": 1
   },
   {
     "id_item": "P2671",
@@ -10325,21 +10325,6 @@
     "assistencias": 2
   },
   {
-    "id_item": "P1093",
-    "nome_perfil": "Arda Güler",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Real Madrid",
-    "liga": "La Liga",
-    "nacionalidade": "TUR",
-    "idade": 20,
-    "minutos": 2014,
-    "gols": 4,
-    "assistencias": 9
-  },
-  {
     "id_item": "P0950",
     "nome_perfil": "Ismaëlo Ganiou",
     "categoria": "DF",
@@ -10355,19 +10340,19 @@
     "assistencias": 0
   },
   {
-    "id_item": "P1092",
-    "nome_perfil": "Péter Gulácsi",
-    "categoria": "GK",
+    "id_item": "P1093",
+    "nome_perfil": "Arda Güler",
+    "categoria": "MF",
     "posicoes": [
-      "GK"
+      "MF"
     ],
-    "clube": "RB Leipzig",
-    "liga": "Bundesliga",
-    "nacionalidade": "HUN",
-    "idade": 35,
-    "minutos": 2008,
-    "gols": 0,
-    "assistencias": 0
+    "clube": "Real Madrid",
+    "liga": "La Liga",
+    "nacionalidade": "TUR",
+    "idade": 20,
+    "minutos": 2014,
+    "gols": 4,
+    "assistencias": 9
   },
   {
     "id_item": "P0870",
@@ -10386,6 +10371,21 @@
     "assistencias": 1
   },
   {
+    "id_item": "P1092",
+    "nome_perfil": "Péter Gulácsi",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "RB Leipzig",
+    "liga": "Bundesliga",
+    "nacionalidade": "HUN",
+    "idade": 35,
+    "minutos": 2008,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
     "id_item": "P1064",
     "nome_perfil": "Marco Grüll",
     "categoria": "MF",
@@ -10399,6 +10399,21 @@
     "idade": 27,
     "minutos": 2006,
     "gols": 3,
+    "assistencias": 1
+  },
+  {
+    "id_item": "P0209",
+    "nome_perfil": "Leonardo Balerdi",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Marseille",
+    "liga": "Ligue 1",
+    "nacionalidade": "ARG",
+    "idade": 26,
+    "minutos": 2001,
+    "gols": 0,
     "assistencias": 1
   },
   {
@@ -10432,21 +10447,6 @@
     "minutos": 2001,
     "gols": 3,
     "assistencias": 3
-  },
-  {
-    "id_item": "P0209",
-    "nome_perfil": "Leonardo Balerdi",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Marseille",
-    "liga": "Ligue 1",
-    "nacionalidade": "ARG",
-    "idade": 26,
-    "minutos": 2001,
-    "gols": 0,
-    "assistencias": 1
   },
   {
     "id_item": "P2637",
@@ -10618,6 +10618,21 @@
     "assistencias": 3
   },
   {
+    "id_item": "P2629",
+    "nome_perfil": "Kevin Trapp",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Paris FC",
+    "liga": "Ligue 1",
+    "nacionalidade": "GER",
+    "idade": 35,
+    "minutos": 1980,
+    "gols": 0,
+    "assistencias": 0
+  },
+  {
     "id_item": "P2543",
     "nome_perfil": "Alexander Sørloth",
     "categoria": "FW",
@@ -10630,21 +10645,6 @@
     "idade": 29,
     "minutos": 1980,
     "gols": 13,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P0639",
-    "nome_perfil": "Karl Darlow",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Leeds United",
-    "liga": "Premier League",
-    "nacionalidade": "WAL",
-    "idade": 34,
-    "minutos": 1980,
-    "gols": 0,
     "assistencias": 0
   },
   {
@@ -10663,33 +10663,18 @@
     "assistencias": 0
   },
   {
-    "id_item": "P2629",
-    "nome_perfil": "Kevin Trapp",
+    "id_item": "P0639",
+    "nome_perfil": "Karl Darlow",
     "categoria": "GK",
     "posicoes": [
       "GK"
     ],
-    "clube": "Paris FC",
-    "liga": "Ligue 1",
-    "nacionalidade": "GER",
-    "idade": 35,
+    "clube": "Leeds United",
+    "liga": "Premier League",
+    "nacionalidade": "WAL",
+    "idade": 34,
     "minutos": 1980,
     "gols": 0,
-    "assistencias": 0
-  },
-  {
-    "id_item": "P1641",
-    "nome_perfil": "Rafa Marín",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Villarreal",
-    "liga": "La Liga",
-    "nacionalidade": "ESP",
-    "idade": 23,
-    "minutos": 1979,
-    "gols": 1,
     "assistencias": 0
   },
   {
@@ -10706,6 +10691,21 @@
     "minutos": 1979,
     "gols": 0,
     "assistencias": 3
+  },
+  {
+    "id_item": "P1641",
+    "nome_perfil": "Rafa Marín",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Villarreal",
+    "liga": "La Liga",
+    "nacionalidade": "ESP",
+    "idade": 23,
+    "minutos": 1979,
+    "gols": 1,
+    "assistencias": 0
   },
   {
     "id_item": "P0778",
@@ -10861,6 +10861,21 @@
     "assistencias": 4
   },
   {
+    "id_item": "P1619",
+    "nome_perfil": "Reinildo Mandava",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Sunderland",
+    "liga": "Premier League",
+    "nacionalidade": "MOZ",
+    "idade": 31,
+    "minutos": 1966,
+    "gols": 0,
+    "assistencias": 1
+  },
+  {
     "id_item": "P0369",
     "nome_perfil": "Domagoj Bradarić",
     "categoria": "MF",
@@ -10890,21 +10905,6 @@
     "minutos": 1966,
     "gols": 2,
     "assistencias": 4
-  },
-  {
-    "id_item": "P1619",
-    "nome_perfil": "Reinildo Mandava",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Sunderland",
-    "liga": "Premier League",
-    "nacionalidade": "MOZ",
-    "idade": 31,
-    "minutos": 1966,
-    "gols": 0,
-    "assistencias": 1
   },
   {
     "id_item": "P0230",
@@ -11015,21 +11015,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P0103",
-    "nome_perfil": "Kelvin Amian",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Nantes",
-    "liga": "Ligue 1",
-    "nacionalidade": "FRA",
-    "idade": 27,
-    "minutos": 1961,
-    "gols": 0,
-    "assistencias": 1
-  },
-  {
     "id_item": "P1742",
     "nome_perfil": "Dayann Methalie",
     "categoria": "MF",
@@ -11042,6 +11027,21 @@
     "idade": 19,
     "minutos": 1961,
     "gols": 2,
+    "assistencias": 1
+  },
+  {
+    "id_item": "P0103",
+    "nome_perfil": "Kelvin Amian",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Nantes",
+    "liga": "Ligue 1",
+    "nacionalidade": "FRA",
+    "idade": 27,
+    "minutos": 1961,
+    "gols": 0,
     "assistencias": 1
   },
   {
@@ -11075,19 +11075,19 @@
     "assistencias": 2
   },
   {
-    "id_item": "P1282",
-    "nome_perfil": "Abdulai Juma Bah",
-    "categoria": "DF",
+    "id_item": "P0291",
+    "nome_perfil": "Domenico Berardi",
+    "categoria": "FW",
     "posicoes": [
-      "DF"
+      "FW"
     ],
-    "clube": "Nice",
-    "liga": "Ligue 1",
-    "nacionalidade": "SLE",
-    "idade": 19,
+    "clube": "Sassuolo",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 30,
     "minutos": 1958,
-    "gols": 0,
-    "assistencias": 0
+    "gols": 8,
+    "assistencias": 4
   },
   {
     "id_item": "P0366",
@@ -11105,19 +11105,19 @@
     "assistencias": 1
   },
   {
-    "id_item": "P0291",
-    "nome_perfil": "Domenico Berardi",
-    "categoria": "FW",
+    "id_item": "P1282",
+    "nome_perfil": "Abdulai Juma Bah",
+    "categoria": "DF",
     "posicoes": [
-      "FW"
+      "DF"
     ],
-    "clube": "Sassuolo",
-    "liga": "Serie A",
-    "nacionalidade": "ITA",
-    "idade": 30,
+    "clube": "Nice",
+    "liga": "Ligue 1",
+    "nacionalidade": "SLE",
+    "idade": 19,
     "minutos": 1958,
-    "gols": 8,
-    "assistencias": 4
+    "gols": 0,
+    "assistencias": 0
   },
   {
     "id_item": "P1603",
@@ -11242,21 +11242,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P2677",
-    "nome_perfil": "Jari Vandeputte",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Cremonese",
-    "liga": "Serie A",
-    "nacionalidade": "BEL",
-    "idade": 29,
-    "minutos": 1944,
-    "gols": 1,
-    "assistencias": 5
-  },
-  {
     "id_item": "P1481",
     "nome_perfil": "Tim Lemperle",
     "categoria": "FW",
@@ -11270,6 +11255,21 @@
     "minutos": 1944,
     "gols": 8,
     "assistencias": 2
+  },
+  {
+    "id_item": "P2677",
+    "nome_perfil": "Jari Vandeputte",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Cremonese",
+    "liga": "Serie A",
+    "nacionalidade": "BEL",
+    "idade": 29,
+    "minutos": 1944,
+    "gols": 1,
+    "assistencias": 5
   },
   {
     "id_item": "P2676",
@@ -11667,6 +11667,22 @@
     "assistencias": 3
   },
   {
+    "id_item": "P2776",
+    "nome_perfil": "Nick Woltemade",
+    "categoria": "FW",
+    "posicoes": [
+      "FW",
+      "MF"
+    ],
+    "clube": "Newcastle United",
+    "liga": "Premier League",
+    "nacionalidade": "GER",
+    "idade": 23,
+    "minutos": 1992,
+    "gols": 8,
+    "assistencias": 3
+  },
+  {
     "id_item": "P1308",
     "nome_perfil": "Daichi Kamada",
     "categoria": "MF",
@@ -11682,20 +11698,20 @@
     "assistencias": 0
   },
   {
-    "id_item": "P2776",
-    "nome_perfil": "Nick Woltemade",
-    "categoria": "FW",
+    "id_item": "P1290",
+    "nome_perfil": "James Justin",
+    "categoria": "DF",
     "posicoes": [
-      "FW",
+      "DF",
       "MF"
     ],
-    "clube": "Newcastle United",
+    "clube": "Leeds United",
     "liga": "Premier League",
-    "nacionalidade": "GER",
-    "idade": 23,
-    "minutos": 1992,
-    "gols": 8,
-    "assistencias": 3
+    "nacionalidade": "ENG",
+    "idade": 27,
+    "minutos": 1901,
+    "gols": 2,
+    "assistencias": 1
   },
   {
     "id_item": "P0168",
@@ -11729,20 +11745,19 @@
     "assistencias": 3
   },
   {
-    "id_item": "P1290",
-    "nome_perfil": "James Justin",
-    "categoria": "DF",
+    "id_item": "P1207",
+    "nome_perfil": "Borja Iglesias",
+    "categoria": "FW",
     "posicoes": [
-      "DF",
-      "MF"
+      "FW"
     ],
-    "clube": "Leeds United",
-    "liga": "Premier League",
-    "nacionalidade": "ENG",
-    "idade": 27,
-    "minutos": 1901,
-    "gols": 2,
-    "assistencias": 1
+    "clube": "Celta Vigo",
+    "liga": "La Liga",
+    "nacionalidade": "ESP",
+    "idade": 32,
+    "minutos": 1900,
+    "gols": 14,
+    "assistencias": 2
   },
   {
     "id_item": "P2589",
@@ -11758,21 +11773,6 @@
     "minutos": 1900,
     "gols": 13,
     "assistencias": 6
-  },
-  {
-    "id_item": "P1207",
-    "nome_perfil": "Borja Iglesias",
-    "categoria": "FW",
-    "posicoes": [
-      "FW"
-    ],
-    "clube": "Celta Vigo",
-    "liga": "La Liga",
-    "nacionalidade": "ESP",
-    "idade": 32,
-    "minutos": 1900,
-    "gols": 14,
-    "assistencias": 2
   },
   {
     "id_item": "P1489",
@@ -11897,21 +11897,6 @@
     "assistencias": 1
   },
   {
-    "id_item": "P0243",
-    "nome_perfil": "Daniel Batz",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Mainz 05",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 34,
-    "minutos": 1890,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
     "id_item": "P0315",
     "nome_perfil": "Jaka Bijol",
     "categoria": "DF",
@@ -11940,6 +11925,21 @@
     "minutos": 1890,
     "gols": 3,
     "assistencias": 1
+  },
+  {
+    "id_item": "P0243",
+    "nome_perfil": "Daniel Batz",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Mainz 05",
+    "liga": "Bundesliga",
+    "nacionalidade": "GER",
+    "idade": 34,
+    "minutos": 1890,
+    "gols": 0,
+    "assistencias": 0
   },
   {
     "id_item": "P0989",
@@ -11972,6 +11972,21 @@
     "assistencias": 1
   },
   {
+    "id_item": "P0288",
+    "nome_perfil": "Rodrigo Bentancur",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Tottenham Hotspur",
+    "liga": "Premier League",
+    "nacionalidade": "URU",
+    "idade": 28,
+    "minutos": 1883,
+    "gols": 1,
+    "assistencias": 1
+  },
+  {
     "id_item": "P0826",
     "nome_perfil": "Julio Enciso",
     "categoria": "MF",
@@ -11986,21 +12001,6 @@
     "minutos": 1883,
     "gols": 3,
     "assistencias": 6
-  },
-  {
-    "id_item": "P0288",
-    "nome_perfil": "Rodrigo Bentancur",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Tottenham Hotspur",
-    "liga": "Premier League",
-    "nacionalidade": "URU",
-    "idade": 28,
-    "minutos": 1883,
-    "gols": 1,
-    "assistencias": 1
   },
   {
     "id_item": "P1022",
@@ -12171,21 +12171,6 @@
     "assistencias": 2
   },
   {
-    "id_item": "P1902",
-    "nome_perfil": "Manuel Neuer",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "Bayern Munich",
-    "liga": "Bundesliga",
-    "nacionalidade": "GER",
-    "idade": 39,
-    "minutos": 1859,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
     "id_item": "P0152",
     "nome_perfil": "Maximilian Arnold",
     "categoria": "MF",
@@ -12199,6 +12184,21 @@
     "minutos": 1859,
     "gols": 1,
     "assistencias": 4
+  },
+  {
+    "id_item": "P1902",
+    "nome_perfil": "Manuel Neuer",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "Bayern Munich",
+    "liga": "Bundesliga",
+    "nacionalidade": "GER",
+    "idade": 39,
+    "minutos": 1859,
+    "gols": 0,
+    "assistencias": 0
   },
   {
     "id_item": "P1666",
@@ -12261,21 +12261,6 @@
     "assistencias": 3
   },
   {
-    "id_item": "P1695",
-    "nome_perfil": "Ibrahim Maza",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Leverkusen",
-    "liga": "Bundesliga",
-    "nacionalidade": "ALG",
-    "idade": 19,
-    "minutos": 1849,
-    "gols": 3,
-    "assistencias": 4
-  },
-  {
     "id_item": "P2431",
     "nome_perfil": "André Silva",
     "categoria": "FW",
@@ -12289,6 +12274,21 @@
     "minutos": 1849,
     "gols": 10,
     "assistencias": 0
+  },
+  {
+    "id_item": "P1695",
+    "nome_perfil": "Ibrahim Maza",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Leverkusen",
+    "liga": "Bundesliga",
+    "nacionalidade": "ALG",
+    "idade": 19,
+    "minutos": 1849,
+    "gols": 3,
+    "assistencias": 4
   },
   {
     "id_item": "P1466",
@@ -12336,22 +12336,6 @@
     "assistencias": 2
   },
   {
-    "id_item": "P0493",
-    "nome_perfil": "Timothy Castagne",
-    "categoria": "DF",
-    "posicoes": [
-      "DF",
-      "MF"
-    ],
-    "clube": "Fulham",
-    "liga": "Premier League",
-    "nacionalidade": "BEL",
-    "idade": 29,
-    "minutos": 1845,
-    "gols": 0,
-    "assistencias": 0
-  },
-  {
     "id_item": "P2565",
     "nome_perfil": "Jackson Tchatchoua",
     "categoria": "MF",
@@ -12366,6 +12350,22 @@
     "minutos": 1845,
     "gols": 0,
     "assistencias": 1
+  },
+  {
+    "id_item": "P0493",
+    "nome_perfil": "Timothy Castagne",
+    "categoria": "DF",
+    "posicoes": [
+      "DF",
+      "MF"
+    ],
+    "clube": "Fulham",
+    "liga": "Premier League",
+    "nacionalidade": "BEL",
+    "idade": 29,
+    "minutos": 1845,
+    "gols": 0,
+    "assistencias": 0
   },
   {
     "id_item": "P1184",
@@ -12443,21 +12443,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P0190",
-    "nome_perfil": "Samson Baidoo",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Lens",
-    "liga": "Ligue 1",
-    "nacionalidade": "AUT",
-    "idade": 21,
-    "minutos": 1827,
-    "gols": 2,
-    "assistencias": 1
-  },
-  {
     "id_item": "P1394",
     "nome_perfil": "Teun Koopmeiners",
     "categoria": "MF",
@@ -12474,6 +12459,21 @@
     "assistencias": 0
   },
   {
+    "id_item": "P0190",
+    "nome_perfil": "Samson Baidoo",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Lens",
+    "liga": "Ligue 1",
+    "nacionalidade": "AUT",
+    "idade": 21,
+    "minutos": 1827,
+    "gols": 2,
+    "assistencias": 1
+  },
+  {
     "id_item": "P1125",
     "nome_perfil": "Quilindschy Hartman",
     "categoria": "DF",
@@ -12487,21 +12487,6 @@
     "minutos": 1825,
     "gols": 0,
     "assistencias": 5
-  },
-  {
-    "id_item": "P1069",
-    "nome_perfil": "Gonçalo Guedes",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Real Sociedad",
-    "liga": "La Liga",
-    "nacionalidade": "POR",
-    "idade": 28,
-    "minutos": 1823,
-    "gols": 8,
-    "assistencias": 4
   },
   {
     "id_item": "P2420",
@@ -12520,6 +12505,21 @@
     "assistencias": 1
   },
   {
+    "id_item": "P1069",
+    "nome_perfil": "Gonçalo Guedes",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Real Sociedad",
+    "liga": "La Liga",
+    "nacionalidade": "POR",
+    "idade": 28,
+    "minutos": 1823,
+    "gols": 8,
+    "assistencias": 4
+  },
+  {
     "id_item": "P0269",
     "nome_perfil": "Héctor Bellerín",
     "categoria": "DF",
@@ -12535,21 +12535,6 @@
     "assistencias": 3
   },
   {
-    "id_item": "P2832",
-    "nome_perfil": "Nadir Zortea",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Bologna",
-    "liga": "Serie A",
-    "nacionalidade": "ITA",
-    "idade": 26,
-    "minutos": 1819,
-    "gols": 0,
-    "assistencias": 2
-  },
-  {
     "id_item": "P0391",
     "nome_perfil": "Tajon Buchanan",
     "categoria": "MF",
@@ -12563,6 +12548,21 @@
     "minutos": 1819,
     "gols": 7,
     "assistencias": 1
+  },
+  {
+    "id_item": "P2832",
+    "nome_perfil": "Nadir Zortea",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Bologna",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 26,
+    "minutos": 1819,
+    "gols": 0,
+    "assistencias": 2
   },
   {
     "id_item": "P0104",
@@ -12626,6 +12626,21 @@
     "assistencias": 1
   },
   {
+    "id_item": "P1451",
+    "nome_perfil": "Hugo Larsson",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Eintracht Frankfurt",
+    "liga": "Bundesliga",
+    "nacionalidade": "SWE",
+    "idade": 21,
+    "minutos": 1812,
+    "gols": 2,
+    "assistencias": 2
+  },
+  {
     "id_item": "P0850",
     "nome_perfil": "Eberechi Eze",
     "categoria": "MF",
@@ -12639,21 +12654,6 @@
     "idade": 27,
     "minutos": 1895,
     "gols": 7,
-    "assistencias": 2
-  },
-  {
-    "id_item": "P1451",
-    "nome_perfil": "Hugo Larsson",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Eintracht Frankfurt",
-    "liga": "Bundesliga",
-    "nacionalidade": "SWE",
-    "idade": 21,
-    "minutos": 1812,
-    "gols": 2,
     "assistencias": 2
   },
   {
@@ -12673,21 +12673,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P0060",
-    "nome_perfil": "Kristoffer Ajer",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Brentford",
-    "liga": "Premier League",
-    "nacionalidade": "NOR",
-    "idade": 27,
-    "minutos": 1810,
-    "gols": 0,
-    "assistencias": 1
-  },
-  {
     "id_item": "P2758",
     "nome_perfil": "Silvan Widmer",
     "categoria": "MF",
@@ -12700,6 +12685,21 @@
     "idade": 32,
     "minutos": 1810,
     "gols": 2,
+    "assistencias": 1
+  },
+  {
+    "id_item": "P0060",
+    "nome_perfil": "Kristoffer Ajer",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Brentford",
+    "liga": "Premier League",
+    "nacionalidade": "NOR",
+    "idade": 27,
+    "minutos": 1810,
+    "gols": 0,
     "assistencias": 1
   },
   {
@@ -12718,6 +12718,21 @@
     "assistencias": 2
   },
   {
+    "id_item": "P2379",
+    "nome_perfil": "Giorgio Scalvini",
+    "categoria": "DF",
+    "posicoes": [
+      "DF"
+    ],
+    "clube": "Atalanta",
+    "liga": "Serie A",
+    "nacionalidade": "ITA",
+    "idade": 21,
+    "minutos": 1808,
+    "gols": 3,
+    "assistencias": 1
+  },
+  {
     "id_item": "P2289",
     "nome_perfil": "Aitor Ruibal",
     "categoria": "DF",
@@ -12732,21 +12747,6 @@
     "minutos": 1808,
     "gols": 4,
     "assistencias": 2
-  },
-  {
-    "id_item": "P2379",
-    "nome_perfil": "Giorgio Scalvini",
-    "categoria": "DF",
-    "posicoes": [
-      "DF"
-    ],
-    "clube": "Atalanta",
-    "liga": "Serie A",
-    "nacionalidade": "ITA",
-    "idade": 21,
-    "minutos": 1808,
-    "gols": 3,
-    "assistencias": 1
   },
   {
     "id_item": "P1428",
@@ -12796,21 +12796,6 @@
     "assistencias": 4
   },
   {
-    "id_item": "P1600",
-    "nome_perfil": "Jean-Victor Makengo",
-    "categoria": "MF",
-    "posicoes": [
-      "MF"
-    ],
-    "clube": "Lorient",
-    "liga": "Ligue 1",
-    "nacionalidade": "FRA",
-    "idade": 27,
-    "minutos": 1800,
-    "gols": 4,
-    "assistencias": 2
-  },
-  {
     "id_item": "P2531",
     "nome_perfil": "Zion Suzuki",
     "categoria": "GK",
@@ -12826,21 +12811,6 @@
     "assistencias": 0
   },
   {
-    "id_item": "P0143",
-    "nome_perfil": "Alphonse Areola",
-    "categoria": "GK",
-    "posicoes": [
-      "GK"
-    ],
-    "clube": "West Ham United",
-    "liga": "Premier League",
-    "nacionalidade": "FRA",
-    "idade": 32,
-    "minutos": 1800,
-    "gols": 0,
-    "assistencias": 1
-  },
-  {
     "id_item": "P0719",
     "nome_perfil": "Stole Dimitrievski",
     "categoria": "GK",
@@ -12854,6 +12824,36 @@
     "minutos": 1800,
     "gols": 0,
     "assistencias": 0
+  },
+  {
+    "id_item": "P1600",
+    "nome_perfil": "Jean-Victor Makengo",
+    "categoria": "MF",
+    "posicoes": [
+      "MF"
+    ],
+    "clube": "Lorient",
+    "liga": "Ligue 1",
+    "nacionalidade": "FRA",
+    "idade": 27,
+    "minutos": 1800,
+    "gols": 4,
+    "assistencias": 2
+  },
+  {
+    "id_item": "P0143",
+    "nome_perfil": "Alphonse Areola",
+    "categoria": "GK",
+    "posicoes": [
+      "GK"
+    ],
+    "clube": "West Ham United",
+    "liga": "Premier League",
+    "nacionalidade": "FRA",
+    "idade": 32,
+    "minutos": 1800,
+    "gols": 0,
+    "assistencias": 1
   },
   {
     "id_item": "P1070",

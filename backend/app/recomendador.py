@@ -34,11 +34,13 @@ class RecomendadorItemBased:
         self,
         matriz: MatrizUsuarioItem,
         bloqueios: dict[str, set[str]] | None = None,
+        mascaras_categoria: dict[str, np.ndarray] | None = None,
         k: int = config.K_VIZINHOS,
         suavizacao: float = config.SUAVIZACAO,
     ) -> None:
         self.matriz = matriz
         self.bloqueios = bloqueios or {}
+        self.mascaras_categoria = mascaras_categoria or {}
         self.k = k
         self.suavizacao = suavizacao
         self.similaridade = self._similaridade_cosseno(matriz.valores)
@@ -92,13 +94,31 @@ class RecomendadorItemBased:
                 scores[j] = -np.inf
         return scores
 
-    def recomendar(self, id_usuario: str, n: int = config.TOP_N) -> list[dict]:
-        """Top-N itens ainda não conhecidos, do maior para o menor score."""
+    def recomendar(self, id_usuario: str, n: int = config.TOP_N, categoria: str | None = None) -> list[dict]:
+        """Top-N itens ainda não conhecidos, do maior para o menor score.
+
+        `categoria` (GK/DF/MF/FW) restringe o resultado a essa posição (gap de elenco).
+        O score é calculado com todo o histórico do usuário, de qualquer posição;
+        só a lista final é filtrada. `score_pct` compara com o melhor candidato do
+        usuário em qualquer categoria (0 a 100).
+        """
         if id_usuario not in self.matriz.idx_usuario:
             raise KeyError(f"usuário desconhecido: {id_usuario}")
+        if categoria is not None and categoria not in self.mascaras_categoria:
+            raise KeyError(f"categoria desconhecida: {categoria}")
         scores = self.pontuar(id_usuario)
         validos = np.flatnonzero(np.isfinite(scores))
         if len(validos) == 0:
             return []
+        maximo = float(scores[validos].max())
+        if categoria is not None:
+            validos = validos[self.mascaras_categoria[categoria][validos]]
         melhores = validos[np.argsort(-scores[validos])[:n]]
-        return [{"id_item": self.matriz.ids_itens[j], "score": round(float(scores[j]), 4)} for j in melhores]
+        return [
+            {
+                "id_item": self.matriz.ids_itens[j],
+                "score": round(float(scores[j]), 4),
+                "score_pct": round(100 * float(scores[j]) / maximo, 1) if maximo > 0 else 0.0,
+            }
+            for j in melhores
+        ]

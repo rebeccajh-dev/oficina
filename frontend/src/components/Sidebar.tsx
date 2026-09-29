@@ -68,8 +68,12 @@ export function Sidebar({ screen, setScreen, activeUser }: {
               color: 'white', fontWeight: 700, fontSize: '0.75rem', flexShrink: 0,
             }}>{activeUser.initials}</div>
             <div style={{ minWidth: 0 }}>
-              <div style={{ color: 'white', fontSize: '0.8rem', fontWeight: 600, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{activeUser.name}</div>
-              <div style={{ color: '#8a9ab8', fontSize: '0.7rem', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{activeUser.club}</div>
+              <div style={{ color: 'white', fontSize: '0.8rem', fontWeight: 600, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                {activeUser.nome || activeUser.name}
+              </div>
+              <div style={{ color: '#8a9ab8', fontSize: '0.7rem', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                {activeUser.clube || activeUser.club}
+              </div>
             </div>
           </div>
         </div>

@@ -1,59 +1,163 @@
-import { useState } from 'react'
-import {PlayerCard} from '../components/PlayerCard'
+import { useEffect, useState } from 'react'
+import { PlayerCard } from '../components/PlayerCard'
 import type { User } from '../interface/UserInterface'
 import type { Player } from '../interface/PlayerInterface'
-import { POPULAR_PLAYERS, RECOMMENDATIONS, POSITION_KEYS } from '../data/mock'
+import type { CategoriaInfo, RecomendacoesResponse } from '../interface/ApiInterface'
+import { api } from '../services/api'
 import { IconInfo } from '../icons/icons'
 
+export function RecommendationsScreen({
+  user,
+  onEvaluate,
+  onFeedbackSuccess,
+}: {
+  user: User
+  onEvaluate: (p: Player) => void
+  onFeedbackSuccess?: (msg: string) => void
+}) {
+  const [categorias, setCategorias] = useState<CategoriaInfo[]>([])
+  const [selectedCategoria, setSelectedCategoria] = useState<string>('Todos')
+  const [data, setData] = useState<RecomendacoesResponse | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+  const [discardingId, setDiscardingId] = useState<string | null>(null)
 
-export function RecommendationsScreen({ user, onEvaluate }: { user: User; onEvaluate: (p: Player) => void }) {
-  const isColdStart = !user.hasHistory
-  const [posFilter, setPosFilter] = useState('volante')
-  const [discarded, setDiscarded] = useState<number[]>([])
+  const carregarCategorias = async () => {
+    try {
+      const cats = await api.getCategorias()
+      setCategorias(cats)
+    } catch (e) {
+      console.error('Erro ao carregar categorias:', e)
+    }
+  }
 
-  const players = isColdStart
-    ? POPULAR_PLAYERS.filter(p => p.positionKey === posFilter)
-    : (RECOMMENDATIONS[posFilter] || [])
+  const carregarRecomendacoes = async () => {
+    try {
+      setLoading(true)
+      setError(null)
+      const resp = await api.getRecomendacoes(
+        user.id_usuario || user.id,
+        selectedCategoria !== 'Todos' ? selectedCategoria : undefined,
+        6
+      )
+      setData(resp)
+    } catch (err: any) {
+      console.error('Erro ao carregar recomendações:', err)
+      setError(err?.message || 'Falha ao buscar recomendações no backend')
+    } finally {
+      setLoading(false)
+    }
+  }
 
-  const visible = players.filter(p => !discarded.includes(p.id))
+  useEffect(() => {
+    carregarCategorias()
+  }, [])
+
+  useEffect(() => {
+    carregarRecomendacoes()
+  }, [user.id_usuario || user.id, selectedCategoria])
+
+  const handleDiscard = async (idItem: string) => {
+    try {
+      setDiscardingId(idItem)
+      const p = data?.recomendacoes.find(r => (r.id_item || r.id) === idItem)
+      const nome = p?.nome_perfil || p?.name || 'Jogador'
+
+      // Envia evento 'descartou' para o backend
+      await api.registrarInteracao(user.id_usuario || user.id, idItem, 'descartou')
+
+      if (onFeedbackSuccess) {
+        onFeedbackSuccess(`${nome} descartado com sucesso. O modelo foi recalculado!`)
+      }
+
+      // Recarrega as recomendações na hora (o jogador descartado foi adicionado ao conjunto de conhecidos)
+      await carregarRecomendacoes()
+    } catch (err: any) {
+      console.error('Erro ao descartar jogador:', err)
+      alert(`Erro ao descartar: ${err.message}`)
+    } finally {
+      setDiscardingId(null)
+    }
+  }
+
+  const isColdStart = data ? !data.personalizada : !user.tem_historico
+  const avisoColdStart = data?.aviso || (isColdStart ? 'Recomendações baseadas em popularidade. Interaja com jogadores para personalizar suas sugestões e ativar a filtragem colaborativa.' : null)
+  const players = data?.recomendacoes || []
 
   return (
     <div style={{ padding: '32px 28px' }}>
-      <div style={{ marginBottom: 24 }}>
-        <h1 style={{ fontFamily: 'Outfit, sans-serif', fontWeight: 700, fontSize: '1.5rem', color: '#1F2A44', marginBottom: 4 }}>
-          Recomendações
-        </h1>
-        <p style={{ color: '#6b7280', fontSize: '0.875rem' }}>
-          {isColdStart ? 'Jogadores mais bem avaliados na plataforma' : `Top recomendações personalizadas para ${user.name}`}
-        </p>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 24, flexWrap: 'wrap', gap: 12 }}>
+        <div>
+          <h1 style={{ fontFamily: 'Outfit, sans-serif', fontWeight: 700, fontSize: '1.5rem', color: '#1F2A44', marginBottom: 4 }}>
+            Recomendações
+          </h1>
+          <p style={{ color: '#6b7280', fontSize: '0.875rem' }}>
+            {isColdStart
+              ? 'Jogadores mais populares na plataforma (modo cold-start)'
+              : `Top recomendações personalizadas para ${user.nome || user.name} (${user.clube || user.club})`}
+          </p>
+        </div>
+
+        <button
+          onClick={carregarRecomendacoes}
+          className="btn-outline"
+          style={{ fontSize: '0.78rem', padding: '6px 14px' }}
+        >
+          {loading ? 'Calculando...' : 'Recalcular'}
+        </button>
       </div>
 
       {/* Cold-start banner */}
-      {isColdStart && (
+      {isColdStart && avisoColdStart && (
         <div style={{
           display: 'flex', alignItems: 'flex-start', gap: 12,
           background: 'rgba(176, 141, 87, 0.08)', border: '1px solid rgba(176, 141, 87, 0.3)',
           borderRadius: 8, padding: '14px 18px', marginBottom: 24,
         }}>
-          <div style={{ color: '#B08D57', marginTop: 1, flexShrink: 0 }}><IconInfo /></div>
-          <div>
-            <div style={{ fontWeight: 600, fontSize: '0.85rem', color: '#8F6E3E', marginBottom: 2 }}>Recomendações baseadas em popularidade</div>
-            <div style={{ fontSize: '0.8rem', color: '#92794a' }}>Interaja com jogadores para personalizar suas sugestões e ativar a filtragem colaborativa.</div>
+          <div style={{ color: '#B08D57', marginTop: 1, flexShrink: 0 }}>
+            <IconInfo />
           </div>
+          <div>
+            <div style={{ fontWeight: 600, fontSize: '0.85rem', color: '#8F6E3E', marginBottom: 2 }}>
+              Recomendações baseadas em popularidade (Cold-start)
+            </div>
+            <div style={{ fontSize: '0.8rem', color: '#92794a' }}>
+              {avisoColdStart}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {error && (
+        <div style={{ background: '#fef2f2', border: '1px solid #fecaca', borderRadius: 8, padding: '14px 18px', marginBottom: 20, color: '#b91c1c', fontSize: '0.85rem' }}>
+          {error}
         </div>
       )}
 
       {/* Gap position filter */}
       <div className="card" style={{ padding: '16px 20px', marginBottom: 24 }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 14, flexWrap: 'wrap' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
             <div style={{ width: 3, height: 18, background: '#B08D57', borderRadius: 2 }} />
-            <span style={{ fontWeight: 600, fontSize: '0.85rem', color: '#1F2A44' }}>Gap por Posição</span>
+            <span style={{ fontWeight: 600, fontSize: '0.85rem', color: '#1F2A44' }}>
+              Gap por Posição
+            </span>
           </div>
+
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-            {Object.entries(POSITION_KEYS).filter(([l])=>l!=='Todos').map(([label, key]) => (
-              <button key={key} className={`chip ${posFilter === key ? 'active' : ''}`} onClick={() => { setPosFilter(key); setDiscarded([]) }}>
-                {label}
+            <button
+              className={`chip ${selectedCategoria === 'Todos' ? 'active' : ''}`}
+              onClick={() => setSelectedCategoria('Todos')}
+            >
+              Todas
+            </button>
+            {categorias.map(cat => (
+              <button
+                key={cat.codigo}
+                className={`chip ${selectedCategoria === cat.codigo ? 'active' : ''}`}
+                onClick={() => setSelectedCategoria(cat.codigo)}
+              >
+                {cat.rotulo} ({cat.codigo})
               </button>
             ))}
           </div>
@@ -64,40 +168,57 @@ export function RecommendationsScreen({ user, onEvaluate }: { user: User; onEval
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16, flexWrap: 'wrap', gap: 8 }}>
         <div>
           <span style={{ fontWeight: 600, color: '#1F2A44', fontSize: '0.9rem' }}>
-            {Object.keys(POSITION_KEYS).find(k=>POSITION_KEYS[k]===posFilter)} · Top {visible.length}
+            {selectedCategoria === 'Todos' ? 'Todas as posições' : (categorias.find(c => c.codigo === selectedCategoria)?.rotulo || selectedCategoria)} · Top {players.length}
           </span>
-          <span style={{ color: '#9ca3af', fontSize: '0.8rem', marginLeft: 6 }}>jogadores recomendados</span>
+          <span style={{ color: '#9ca3af', fontSize: '0.8rem', marginLeft: 6 }}>
+            jogadores recomendados pelo modelo
+          </span>
         </div>
+
         {!isColdStart && (
           <span style={{ display: 'flex', alignItems: 'center', gap: 6, background: '#F3F1EC', padding: '4px 12px', borderRadius: 20, fontSize: '0.75rem', color: '#6b7280' }}>
             <svg width="12" height="12" viewBox="0 0 24 24" fill="#B08D57"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-            Filtragem colaborativa ativa
+            Filtragem colaborativa item-based ativa
           </span>
         )}
       </div>
 
       {/* Player grid */}
-      {visible.length > 0 ? (
+      {loading && players.length === 0 ? (
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 16 }}>
+          {[1, 2, 3].map(i => (
+            <div key={i} className="card" style={{ padding: '20px', minHeight: 220, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10 }}>
+              <div style={{ width: 44, height: 44, borderRadius: '50%', background: '#e8e4da', animation: 'pulse 1.5s infinite' }} />
+              <div style={{ width: '50%', height: 14, background: '#e8e4da', borderRadius: 4 }} />
+              <div style={{ width: '30%', height: 10, background: '#f0ece4', borderRadius: 4 }} />
+            </div>
+          ))}
+        </div>
+      ) : players.length > 0 ? (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 16 }}>
           {players.map(p => (
             <PlayerCard
-              key={p.id}
+              key={p.id_item || p.id}
               player={p}
               isColdStart={isColdStart}
               onEvaluate={onEvaluate}
-              onDiscard={id => setDiscarded(d => [...d, id])}
-              discarded={discarded.includes(p.id)}
+              onDiscard={handleDiscard}
+              isDiscarding={discardingId === (p.id_item || p.id)}
             />
           ))}
         </div>
       ) : (
         <div style={{ textAlign: 'center', padding: '60px 20px' }}>
-          <div style={{ width: 64, height: 64, borderRadius: '50%', background: '#F3F1EC', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px', fontSize: '1.75rem' }}>⚽</div>
-          <div style={{ fontFamily: 'Outfit, sans-serif', fontWeight: 700, fontSize: '1.1rem', color: '#1F2A44', marginBottom: 6 }}>Sem recomendações nesta posição</div>
-          <div style={{ color: '#9ca3af', fontSize: '0.85rem', maxWidth: 320, margin: '0 auto' }}>
+          <div style={{ width: 64, height: 64, borderRadius: '50%', background: '#F3F1EC', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px', fontSize: '1.75rem' }}>
+            ⚽
+          </div>
+          <div style={{ fontFamily: 'Outfit, sans-serif', fontWeight: 700, fontSize: '1.1rem', color: '#1F2A44', marginBottom: 6 }}>
+            Sem recomendações nesta posição
+          </div>
+          <div style={{ color: '#9ca3af', fontSize: '0.85rem', maxWidth: 360, margin: '0 auto' }}>
             {isColdStart
-              ? 'Nenhum jogador popular encontrado para esta posição no momento.'
-              : 'Ainda não temos dados suficientes para recomendar jogadores nesta posição. Explore outras categorias.'}
+              ? 'Nenhum jogador popular disponível para esta posição no momento.'
+              : 'O modelo já esgotou os candidatos ou o elenco do clube já possui esses jogadores. Experimente outro gap de posição.'}
           </div>
         </div>
       )}
