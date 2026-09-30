@@ -3,7 +3,19 @@ import type { MetricasResponse } from '../interface/ApiInterface'
 import { api } from '../services/api'
 
 const K = 5
- 
+
+type ChaveKpi =
+  | 'precisao_media'
+  | 'recall_medio'
+  | 'map'
+  | 'mrr'
+  | 'ndcg'
+  | 'r2'
+  | 'pearson'
+  | 'spearman'
+  | 'kendall_tau'
+
+interface KpiDef {
   chave: ChaveKpi
   titulo: string
   descricao: string
