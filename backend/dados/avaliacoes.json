@@ -44861,5 +44861,33 @@
     "nota": 3,
     "comentario_opcional": "maguinho que ta morrendo lentamente hein !!!!",
     "timestamp": "2026-09-30T02:53:35"
+  },
+  {
+    "id_usuario": "U4",
+    "id_item": "P1348",
+    "nota": 1,
+    "comentario_opcional": "mt velho",
+    "timestamp": "2026-09-30T04:20:31"
+  },
+  {
+    "id_usuario": "U4",
+    "id_item": "P0364",
+    "nota": 1,
+    "comentario_opcional": "mt velho",
+    "timestamp": "2026-09-30T04:20:39"
+  },
+  {
+    "id_usuario": "U4",
+    "id_item": "P1715",
+    "nota": 1,
+    "comentario_opcional": "mt velho",
+    "timestamp": "2026-09-30T04:20:48"
+  },
+  {
+    "id_usuario": "U4",
+    "id_item": "P2033",
+    "nota": 5,
+    "comentario_opcional": "novo",
+    "timestamp": "2026-09-30T04:20:59"
   }
 ]

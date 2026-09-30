@@ -23,6 +23,17 @@ from . import config
 from .pipeline import construir_recomendador, preparar_dados
 
 
+def precision_recall_at_k(recomendados: list[str], relevantes: set[str], k: int) -> tuple[int, float, float | None]:
+    """Devolve (acertos, Precision@K, Recall@K).
+
+    Recall@K é None quando o usuário não tem nenhum item relevante no teste
+    (a métrica não se aplica).
+    """
+    acertos = len(set(recomendados[:k]) & set(relevantes))
+    recall = acertos / len(relevantes) if relevantes else None
+    return acertos, acertos / k, recall
+
+
 def _media(valores: list[float]) -> float:
     return round(float(sum(valores) / len(valores)), 4) if valores else 0.0
 
