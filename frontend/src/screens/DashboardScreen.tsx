@@ -1,10 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { InteractionBadge, Stars } from '../components/InteractionBadge'
 import { IconX } from '../icons/icons'
-import type { User } from '../interface/UserInterface'
-import type { Interaction } from '../interface/InteractionInterface'
 import type { CategoriaInfo, HistoricoResponse } from '../interface/ApiInterface'
 import { api } from '../services/api'
+import type { Interaction, User } from '../interface/ApiInterface'
 
 
 // Minúsculas e sem acento: "Vinícius" casa com "vinicius".
@@ -116,7 +115,7 @@ export function DashboardScreen({ user }: { user: User }) {
           <div style={{ display: 'flex', alignItems: 'center', gap: 8, color: '#6b7280', fontSize: '0.85rem' }}>
             <span style={{ color: '#B08D57', fontWeight: 600 }}>{user.nome || user.name}</span>
             <span>·</span>
-            <span>{user.clube || user.club}</span>
+            <span>{user.clube || user.clube}</span>
             <span>·</span>
             <span>{user.papel || user.role}</span>
             <span style={{ fontSize: '0.75rem', color: '#9ca3af' }}>({userId})</span>

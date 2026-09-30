@@ -3,19 +3,7 @@ import type { MetricasResponse } from '../interface/ApiInterface'
 import { api } from '../services/api'
 
 const K = 5
-
-type ChaveKpi =
-  | 'precisao_media'
-  | 'recall_medio'
-  | 'map'
-  | 'mrr'
-  | 'ndcg'
-  | 'r2'
-  | 'pearson'
-  | 'spearman'
-  | 'kendall_tau'
-
-interface KpiDef {
+ 
   chave: ChaveKpi
   titulo: string
   descricao: string
@@ -42,6 +30,7 @@ const LEGENDA: [string, string][] = [
   [`MAP@${K}`, 'média das precisões nas posições em que houve acerto'],
   ['MRR', '1 ÷ posição do primeiro acerto'],
   [`NDCG@${K}`, 'ganho descontado pela posição, normalizado pelo ideal'],
+  ['N/A', 'métrica não se aplica (sem histórico suficiente ou sem itens relevantes no teste)'],
 ]
 
 const fmt = (v?: number | null) => (typeof v === 'number' && Number.isFinite(v) ? v.toFixed(2) : '—')
@@ -74,7 +63,7 @@ function KpiCard({
   extra,
 }: {
   def: KpiDef
-  valor?: number
+  valor?: number | null
   loading: boolean
   extra?: string
 }) {
@@ -111,9 +100,17 @@ function KpiCard({
   )
 }
 
-function BarCell({ valor, ativo, cor }: { valor?: number; ativo: boolean; cor: string }) {
-  if (!ativo) return <span style={{ color: '#d1d5db', fontSize: '0.8rem' }}>N/A</span>
-  const v = valor ?? 0
+// N/A quando o valor é null/undefined (métrica não se aplica).
+// Zero é um valor real: o modelo errou tudo, e continua aparecendo como 0,00.
+function BarCell({ valor, cor, motivo }: { valor?: number | null; cor: string; motivo?: string }) {
+  if (valor == null) {
+    return (
+      <span title={motivo} style={{ color: '#d1d5db', fontSize: '0.8rem', cursor: motivo ? 'help' : 'default' }}>
+        N/A
+      </span>
+    )
+  }
+  const v = valor
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
       <div style={{ width: 50, height: 5, borderRadius: 3, background: '#e8e4da', overflow: 'hidden' }}>
@@ -206,7 +203,14 @@ export function MetricsScreen() {
       )}
 
       {/* KPIs de ranking */}
-      <TituloSecao texto="Qualidade do ranking" subtitulo={`Avalia se os itens relevantes aparecem no top-${K} recomendado`} />
+      <TituloSecao
+        texto="Qualidade do ranking"
+        subtitulo={
+          data
+            ? `Avalia se os itens relevantes aparecem no top-${K} · média sobre ${data.usuarios_avaliados ?? 0} de ${data.total_usuarios ?? 0} usuários (só entram quem tem histórico e itens relevantes no teste)`
+            : `Avalia se os itens relevantes aparecem no top-${K} recomendado`
+        }
+      />
       <div style={gridKpis}>
         {KPIS_RANKING.map(def => (
           <KpiCard key={def.chave} def={def} valor={data?.[def.chave]} loading={loading} />
@@ -234,7 +238,7 @@ export function MetricsScreen() {
         ))}
       </div>
 
-      {data && data.r2 < 0 && (
+      {data && typeof data.r2 === 'number' && data.r2 < 0 && (
         <div
           style={{
             background: '#fffbeb',
@@ -285,7 +289,10 @@ export function MetricsScreen() {
             </thead>
             <tbody>
               {metricasPorUsuario.map((m, i) => {
+                // `ativo` agora só controla o visual do avatar; o N/A das métricas vem do valor (null)
                 const ativo = m.interacoes > 0
+                const motivo =
+                  m.tem_historico === false ? 'Sem histórico suficiente para recomendar' : 'Sem itens relevantes no teste'
                 return (
                   <tr key={m.id_usuario || i} className="table-row" style={{ borderTop: '1px solid #f0ece4' }}>
                     <td style={{ padding: '12px 16px' }}>
@@ -323,19 +330,19 @@ export function MetricsScreen() {
                     <td style={{ padding: '12px 16px', color: '#4b5563', fontSize: '0.85rem' }}>{m.relevantes}</td>
                     <td style={{ padding: '12px 16px', color: '#4b5563', fontSize: '0.85rem' }}>{m.acertos}</td>
                     <td style={{ padding: '12px 16px' }}>
-                      <BarCell valor={m.precisao} ativo={ativo} cor="#B08D57" />
+                      <BarCell valor={m.precisao} cor="#B08D57" motivo={motivo} />
                     </td>
                     <td style={{ padding: '12px 16px' }}>
-                      <BarCell valor={m.recall} ativo={ativo} cor="#1F2A44" />
+                      <BarCell valor={m.recall} cor="#1F2A44" motivo={motivo} />
                     </td>
                     <td style={{ padding: '12px 16px' }}>
-                      <BarCell valor={m.ap} ativo={ativo} cor="#B08D57" />
+                      <BarCell valor={m.ap} cor="#B08D57" motivo={motivo} />
                     </td>
                     <td style={{ padding: '12px 16px' }}>
-                      <BarCell valor={m.rr} ativo={ativo} cor="#1F2A44" />
+                      <BarCell valor={m.rr} cor="#1F2A44" motivo={motivo} />
                     </td>
                     <td style={{ padding: '12px 16px' }}>
-                      <BarCell valor={m.ndcg} ativo={ativo} cor="#B08D57" />
+                      <BarCell valor={m.ndcg} cor="#B08D57" motivo={motivo} />
                     </td>
                   </tr>
                 )
