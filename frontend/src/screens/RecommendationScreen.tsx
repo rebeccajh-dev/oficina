@@ -1,10 +1,13 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { PlayerCard } from '../components/PlayerCard'
 import type { User } from '../interface/UserInterface'
 import type { Player } from '../interface/PlayerInterface'
 import type { CategoriaInfo, RecomendacoesResponse } from '../interface/ApiInterface'
 import { api } from '../services/api'
 import { IconInfo } from '../icons/icons'
+
+// Quantas sugestões aparecem por vez.
+const TAMANHO_PAGINA = 6
 
 export function RecommendationsScreen({
   user,
@@ -15,12 +18,22 @@ export function RecommendationsScreen({
   onEvaluate: (p: Player) => void
   onFeedbackSuccess?: (msg: string) => void
 }) {
+  const userId = user.id_usuario || user.id
+
   const [categorias, setCategorias] = useState<CategoriaInfo[]>([])
   const [selectedCategoria, setSelectedCategoria] = useState<string>('Todos')
   const [data, setData] = useState<RecomendacoesResponse | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [discardingId, setDiscardingId] = useState<string | null>(null)
+
+  // Navegação pelo ranking: página 0 = 1º ao 6º, página 1 = 7º ao 12º, ...
+  const [pagina, setPagina] = useState(0)
+  const [temMais, setTemMais] = useState(true)
+  const [avisoFim, setAvisoFim] = useState(false)
+
+  // Evita que uma resposta antiga sobrescreva a mais recente.
+  const ultimaRequisicao = useRef(0)
 
   const carregarCategorias = async () => {
     try {
@@ -32,20 +45,36 @@ export function RecommendationsScreen({
   }
 
   const carregarRecomendacoes = async () => {
+    const id = ++ultimaRequisicao.current
     try {
       setLoading(true)
       setError(null)
+
+      // Pede o ranking até o fim da página atual e exibe só a última fatia.
       const resp = await api.getRecomendacoes(
-        user.id_usuario || user.id,
+        userId,
         selectedCategoria !== 'Todos' ? selectedCategoria : undefined,
-        6
+        TAMANHO_PAGINA * (pagina + 1)
       )
-      setData(resp)
+      if (id !== ultimaRequisicao.current) return
+
+      const fatia = resp.recomendacoes.slice(pagina * TAMANHO_PAGINA)
+
+      // Acabaram os candidatos: volta ao início (o efeito abaixo recarrega a página 0).
+      if (pagina > 0 && fatia.length === 0) {
+        setAvisoFim(true)
+        setPagina(0)
+        return
+      }
+
+      setTemMais(resp.recomendacoes.length >= TAMANHO_PAGINA * (pagina + 1))
+      setData({ ...resp, recomendacoes: fatia })
     } catch (err: any) {
+      if (id !== ultimaRequisicao.current) return
       console.error('Erro ao carregar recomendações:', err)
       setError(err?.message || 'Falha ao buscar recomendações no backend')
     } finally {
-      setLoading(false)
+      if (id === ultimaRequisicao.current) setLoading(false)
     }
   }
 
@@ -53,9 +82,27 @@ export function RecommendationsScreen({
     carregarCategorias()
   }, [])
 
+  // Trocar de usuário ou de posição reinicia a navegação.
+  useEffect(() => {
+    setPagina(0)
+    setAvisoFim(false)
+  }, [userId, selectedCategoria])
+
   useEffect(() => {
     carregarRecomendacoes()
-  }, [user.id_usuario || user.id, selectedCategoria])
+  }, [userId, selectedCategoria, pagina])
+
+  const verOutras = () => {
+    if (temMais) {
+      setAvisoFim(false)
+      setPagina(p => p + 1)
+      return
+    }
+    // Fim da lista: volta ao início (ou só recarrega, se já estiver na página 0).
+    setAvisoFim(pagina > 0)
+    if (pagina === 0) carregarRecomendacoes()
+    else setPagina(0)
+  }
 
   const handleDiscard = async (idItem: string) => {
     try {
@@ -64,13 +111,13 @@ export function RecommendationsScreen({
       const nome = p?.nome_perfil || p?.name || 'Jogador'
 
       // Envia evento 'descartou' para o backend
-      await api.registrarInteracao(user.id_usuario || user.id, idItem, 'descartou')
+      await api.registrarInteracao(userId, idItem, 'descartou')
 
       if (onFeedbackSuccess) {
         onFeedbackSuccess(`${nome} descartado com sucesso. O modelo foi recalculado!`)
       }
 
-      // Recarrega as recomendações na hora (o jogador descartado foi adicionado ao conjunto de conhecidos)
+      // Recarrega na hora: o descartado sai do ranking e o próximo ocupa a vaga.
       await carregarRecomendacoes()
     } catch (err: any) {
       console.error('Erro ao descartar jogador:', err)
@@ -81,8 +128,21 @@ export function RecommendationsScreen({
   }
 
   const isColdStart = data ? !data.personalizada : !user.tem_historico
-  const avisoColdStart = data?.aviso || (isColdStart ? 'Recomendações baseadas em popularidade. Interaja com jogadores para personalizar suas sugestões e ativar a filtragem colaborativa.' : null)
+  const avisoColdStart =
+    data?.aviso ||
+    (isColdStart
+      ? 'Recomendações baseadas em popularidade. Interaja com jogadores para personalizar suas sugestões e ativar a filtragem colaborativa.'
+      : null)
   const players = data?.recomendacoes || []
+  const inicio = pagina * TAMANHO_PAGINA
+
+  const rotuloBotao = loading
+    ? 'Calculando...'
+    : temMais
+      ? 'Ver outras sugestões'
+      : pagina > 0
+        ? 'Voltar ao início'
+        : 'Recalcular'
 
   return (
     <div style={{ padding: '32px 28px' }}>
@@ -99,11 +159,12 @@ export function RecommendationsScreen({
         </div>
 
         <button
-          onClick={carregarRecomendacoes}
+          onClick={verOutras}
+          disabled={loading}
           className="btn-outline"
           style={{ fontSize: '0.78rem', padding: '6px 14px' }}
         >
-          {loading ? 'Calculando...' : 'Recalcular'}
+          {rotuloBotao}
         </button>
       </div>
 
@@ -125,6 +186,13 @@ export function RecommendationsScreen({
               {avisoColdStart}
             </div>
           </div>
+        </div>
+      )}
+
+      {/* Fim da lista */}
+      {avisoFim && (
+        <div style={{ background: '#F3F1EC', border: '1px solid #e8e4da', borderRadius: 8, padding: '10px 16px', marginBottom: 20, color: '#6b7280', fontSize: '0.82rem' }}>
+          Você já viu todas as sugestões disponíveis para este filtro. Voltamos ao início da lista.
         </div>
       )}
 
@@ -168,7 +236,9 @@ export function RecommendationsScreen({
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16, flexWrap: 'wrap', gap: 8 }}>
         <div>
           <span style={{ fontWeight: 600, color: '#1F2A44', fontSize: '0.9rem' }}>
-            {selectedCategoria === 'Todos' ? 'Todas as posições' : (categorias.find(c => c.codigo === selectedCategoria)?.rotulo || selectedCategoria)} · Top {players.length}
+            {selectedCategoria === 'Todos' ? 'Todas as posições' : (categorias.find(c => c.codigo === selectedCategoria)?.rotulo || selectedCategoria)}
+            {' · '}
+            {players.length > 0 ? `Sugestões ${inicio + 1}–${inicio + players.length}` : 'Sem sugestões'}
           </span>
           <span style={{ color: '#9ca3af', fontSize: '0.8rem', marginLeft: 6 }}>
             jogadores recomendados pelo modelo
@@ -195,7 +265,7 @@ export function RecommendationsScreen({
           ))}
         </div>
       ) : players.length > 0 ? (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 16 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 16, opacity: loading ? 0.5 : 1, transition: 'opacity .15s' }}>
           {players.map(p => (
             <PlayerCard
               key={p.id_item || p.id}

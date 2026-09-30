@@ -3587,5 +3587,40 @@
       ]
     },
     "data_cadastro": "2025-07-22"
+  },
+
+    {
+    "id_usuario": "U127",
+    "nome": "Aleksandr Petrovich",
+    "papel": "Diretor de Scouting",
+    "clube": "Arsenal",
+    "perfil_teste": true,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        24
+      ],
+      "ligas": [
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-01-15"
+  },
+    {
+    "id_usuario": "U128",
+    "nome": "Do Jaehyun",
+    "papel": "Diretor de Scouting",
+    "clube": "Celtics",
+    "perfil_teste": true,
+    "preferencias_iniciais": {
+      "faixa_etaria": [
+        18,
+        24
+      ],
+      "ligas": [
+        "Bundesliga"
+      ]
+    },
+    "data_cadastro": "2025-01-15"
   }
 ]

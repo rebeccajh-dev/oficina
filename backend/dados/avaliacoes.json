@@ -44854,5 +44854,12 @@
     "nota": 1,
     "comentario_opcional": "nn",
     "timestamp": "2026-09-29T19:40:01"
+  },
+  {
+    "id_usuario": "U2",
+    "id_item": "P1320",
+    "nota": 3,
+    "comentario_opcional": "maguinho que ta morrendo lentamente hein !!!!",
+    "timestamp": "2026-09-30T02:53:35"
   }
 ]

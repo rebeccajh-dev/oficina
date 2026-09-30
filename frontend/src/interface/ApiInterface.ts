@@ -114,8 +114,30 @@ export interface MetricasResponse {
   k: number
   precisao_media: number
   recall_medio: number
+  map: number
+  mrr: number
+  ndcg: number
+  r2: number
+  r2_calibrado: number
+  pearson: number
+  spearman: number
+  kendall_tau: number
+  pares_correlacao: number
   usuarios_ativos: number
   total_usuarios: number
   total_interacoes: number
-  por_usuario: MetricaUsuario[]
+  por_usuario: {
+    id_usuario: string
+    usuario: string
+    clube: string
+    papel: string
+    interacoes: number
+    relevantes: number
+    acertos: number
+    precisao: number
+    recall: number
+    rr: number
+    ap: number
+    ndcg: number
+  }[]
 }

@@ -1677,5 +1677,815 @@
     "personalizada": true,
     "data_geracao": "2026-09-29T19:40:01",
     "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U2",
+    "lista_itens_recomendados": [
+      "P2638",
+      "P0936",
+      "P1393",
+      "P1052",
+      "P0490",
+      "P1105"
+    ],
+    "score_por_item": {
+      "P2638": 0.2596,
+      "P0936": 0.2574,
+      "P1393": 0.2517,
+      "P1052": 0.25,
+      "P0490": 0.2485,
+      "P1105": 0.2368
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T02:52:57",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U2",
+    "lista_itens_recomendados": [
+      "P2638",
+      "P0936",
+      "P1393",
+      "P1052",
+      "P0490",
+      "P1105"
+    ],
+    "score_por_item": {
+      "P2638": 0.2596,
+      "P0936": 0.2574,
+      "P1393": 0.2517,
+      "P1052": 0.25,
+      "P0490": 0.2485,
+      "P1105": 0.2368
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T02:52:57",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U2",
+    "lista_itens_recomendados": [
+      "P1371",
+      "P1447",
+      "P1046",
+      "P0480",
+      "P0753",
+      "P2476"
+    ],
+    "score_por_item": {
+      "P1371": 0.2002,
+      "P1447": 0.191,
+      "P1046": 0.1774,
+      "P0480": 0.168,
+      "P0753": 0.1656,
+      "P2476": 0.1538
+    },
+    "categoria": "GK",
+    "personalizada": true,
+    "data_geracao": "2026-09-30T02:53:09",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U2",
+    "lista_itens_recomendados": [
+      "P2638",
+      "P0936",
+      "P1393",
+      "P0490",
+      "P1444",
+      "P1182"
+    ],
+    "score_por_item": {
+      "P2638": 0.2596,
+      "P0936": 0.2574,
+      "P1393": 0.2517,
+      "P0490": 0.2485,
+      "P1444": 0.2367,
+      "P1182": 0.2357
+    },
+    "categoria": "DF",
+    "personalizada": true,
+    "data_geracao": "2026-09-30T02:53:10",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U2",
+    "lista_itens_recomendados": [
+      "P2638",
+      "P0936",
+      "P1393",
+      "P1052",
+      "P0490",
+      "P1105"
+    ],
+    "score_por_item": {
+      "P2638": 0.2596,
+      "P0936": 0.2574,
+      "P1393": 0.2517,
+      "P1052": 0.25,
+      "P0490": 0.2485,
+      "P1105": 0.2368
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T02:53:11",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U2",
+    "lista_itens_recomendados": [
+      "P1371",
+      "P1447",
+      "P1046",
+      "P0480",
+      "P0753",
+      "P2476"
+    ],
+    "score_por_item": {
+      "P1371": 0.2002,
+      "P1447": 0.191,
+      "P1046": 0.1774,
+      "P0480": 0.168,
+      "P0753": 0.1656,
+      "P2476": 0.1538
+    },
+    "categoria": "GK",
+    "personalizada": true,
+    "data_geracao": "2026-09-30T02:53:12",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U2",
+    "lista_itens_recomendados": [
+      "P2638",
+      "P0936",
+      "P1393",
+      "P0490",
+      "P1444",
+      "P1182"
+    ],
+    "score_por_item": {
+      "P2638": 0.2596,
+      "P0936": 0.2574,
+      "P1393": 0.2517,
+      "P0490": 0.2485,
+      "P1444": 0.2367,
+      "P1182": 0.2357
+    },
+    "categoria": "DF",
+    "personalizada": true,
+    "data_geracao": "2026-09-30T02:53:13",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U2",
+    "lista_itens_recomendados": [
+      "P1052",
+      "P1706",
+      "P0364",
+      "P1899",
+      "P1320",
+      "P0709"
+    ],
+    "score_por_item": {
+      "P1052": 0.25,
+      "P1706": 0.2358,
+      "P0364": 0.2355,
+      "P1899": 0.2353,
+      "P1320": 0.227,
+      "P0709": 0.2243
+    },
+    "categoria": "MF",
+    "personalizada": true,
+    "data_geracao": "2026-09-30T02:53:13",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U2",
+    "lista_itens_recomendados": [
+      "P1105",
+      "P1706",
+      "P0364",
+      "P1899",
+      "P1320",
+      "P1748"
+    ],
+    "score_por_item": {
+      "P1105": 0.2368,
+      "P1706": 0.2358,
+      "P0364": 0.2355,
+      "P1899": 0.2353,
+      "P1320": 0.227,
+      "P1748": 0.2243
+    },
+    "categoria": "FW",
+    "personalizada": true,
+    "data_geracao": "2026-09-30T02:53:15",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U2",
+    "lista_itens_recomendados": [
+      "P2638",
+      "P1052",
+      "P0936",
+      "P0490",
+      "P1393",
+      "P1444"
+    ],
+    "score_por_item": {
+      "P2638": 0.2657,
+      "P1052": 0.2612,
+      "P0936": 0.2598,
+      "P0490": 0.2559,
+      "P1393": 0.2541,
+      "P1444": 0.2497
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T02:53:36",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U2",
+    "lista_itens_recomendados": [
+      "P2638",
+      "P1052",
+      "P0936",
+      "P0490",
+      "P1393",
+      "P1444"
+    ],
+    "score_por_item": {
+      "P2638": 0.2657,
+      "P1052": 0.2612,
+      "P0936": 0.2598,
+      "P0490": 0.2559,
+      "P1393": 0.2541,
+      "P1444": 0.2497
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T02:53:36",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "C05",
+    "lista_itens_recomendados": [
+      "P2193",
+      "P0852",
+      "P0378",
+      "P0246",
+      "P0718",
+      "P2263"
+    ],
+    "score_por_item": {
+      "P2193": 0.4233,
+      "P0852": 0.4077,
+      "P0378": 0.4059,
+      "P0246": 0.4052,
+      "P0718": 0.3935,
+      "P2263": 0.3851
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:20:50",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "C05",
+    "lista_itens_recomendados": [
+      "P2193",
+      "P0852",
+      "P0378",
+      "P0246",
+      "P0718",
+      "P2263"
+    ],
+    "score_por_item": {
+      "P2193": 0.4233,
+      "P0852": 0.4077,
+      "P0378": 0.4059,
+      "P0246": 0.4052,
+      "P0718": 0.3935,
+      "P2263": 0.3851
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:20:50",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "C05",
+    "lista_itens_recomendados": [
+      "P2193",
+      "P0852",
+      "P0378",
+      "P0246",
+      "P0718",
+      "P2263"
+    ],
+    "score_por_item": {
+      "P2193": 0.4233,
+      "P0852": 0.4077,
+      "P0378": 0.4059,
+      "P0246": 0.4052,
+      "P0718": 0.3935,
+      "P2263": 0.3851
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:20:52",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "C05",
+    "lista_itens_recomendados": [
+      "P2193",
+      "P0852",
+      "P0378",
+      "P0246",
+      "P0718",
+      "P2263"
+    ],
+    "score_por_item": {
+      "P2193": 0.4233,
+      "P0852": 0.4077,
+      "P0378": 0.4059,
+      "P0246": 0.4052,
+      "P0718": 0.3935,
+      "P2263": 0.3851
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:20:53",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "C05",
+    "lista_itens_recomendados": [
+      "P2193",
+      "P0852",
+      "P0378",
+      "P0246",
+      "P0718",
+      "P2263"
+    ],
+    "score_por_item": {
+      "P2193": 0.4233,
+      "P0852": 0.4077,
+      "P0378": 0.4059,
+      "P0246": 0.4052,
+      "P0718": 0.3935,
+      "P2263": 0.3851
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:20:54",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:22:40",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:22:42",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:22:46",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:22:58",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:24:15",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:24:15",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:25:12",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:25:12",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336",
+      "P2519",
+      "P0288",
+      "P0303",
+      "P0968",
+      "P2447",
+      "P1553"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559,
+      "P2519": 0.254,
+      "P0288": 0.2519,
+      "P0303": 0.2498,
+      "P0968": 0.2477,
+      "P2447": 0.2464,
+      "P1553": 0.2447
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:25:17",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336",
+      "P2519",
+      "P0288",
+      "P0303",
+      "P0968",
+      "P2447",
+      "P1553",
+      "P2666",
+      "P1393",
+      "P0874",
+      "P0957",
+      "P0492",
+      "P2173"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559,
+      "P2519": 0.254,
+      "P0288": 0.2519,
+      "P0303": 0.2498,
+      "P0968": 0.2477,
+      "P2447": 0.2464,
+      "P1553": 0.2447,
+      "P2666": 0.2435,
+      "P1393": 0.2394,
+      "P0874": 0.2388,
+      "P0957": 0.2385,
+      "P0492": 0.2373,
+      "P2173": 0.237
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:25:22",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336",
+      "P2519",
+      "P0288",
+      "P0303",
+      "P0968",
+      "P2447",
+      "P1553",
+      "P2666",
+      "P1393",
+      "P0874",
+      "P0957",
+      "P0492",
+      "P2173",
+      "P1571",
+      "P2697",
+      "P1182",
+      "P2799",
+      "P2422",
+      "P2743"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559,
+      "P2519": 0.254,
+      "P0288": 0.2519,
+      "P0303": 0.2498,
+      "P0968": 0.2477,
+      "P2447": 0.2464,
+      "P1553": 0.2447,
+      "P2666": 0.2435,
+      "P1393": 0.2394,
+      "P0874": 0.2388,
+      "P0957": 0.2385,
+      "P0492": 0.2373,
+      "P2173": 0.237,
+      "P1571": 0.2363,
+      "P2697": 0.2342,
+      "P1182": 0.234,
+      "P2799": 0.2335,
+      "P2422": 0.2334,
+      "P2743": 0.2333
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:25:23",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336",
+      "P2519",
+      "P0288",
+      "P0303",
+      "P0968",
+      "P2447",
+      "P1553",
+      "P2666",
+      "P1393",
+      "P0874",
+      "P0957",
+      "P0492",
+      "P2173",
+      "P1571",
+      "P2697",
+      "P1182",
+      "P2799",
+      "P2422",
+      "P2743",
+      "P2036",
+      "P0336",
+      "P0406",
+      "P0822",
+      "P0403",
+      "P1733"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559,
+      "P2519": 0.254,
+      "P0288": 0.2519,
+      "P0303": 0.2498,
+      "P0968": 0.2477,
+      "P2447": 0.2464,
+      "P1553": 0.2447,
+      "P2666": 0.2435,
+      "P1393": 0.2394,
+      "P0874": 0.2388,
+      "P0957": 0.2385,
+      "P0492": 0.2373,
+      "P2173": 0.237,
+      "P1571": 0.2363,
+      "P2697": 0.2342,
+      "P1182": 0.234,
+      "P2799": 0.2335,
+      "P2422": 0.2334,
+      "P2743": 0.2333,
+      "P2036": 0.2323,
+      "P0336": 0.2316,
+      "P0406": 0.2316,
+      "P0822": 0.2312,
+      "P0403": 0.2308,
+      "P1733": 0.2307
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:25:24",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:25:40",
+    "versao_do_modelo": "item-based-v1"
+  },
+  {
+    "id_usuario": "U1",
+    "lista_itens_recomendados": [
+      "P2408",
+      "P2638",
+      "P2369",
+      "P1588",
+      "P0923",
+      "P1336"
+    ],
+    "score_por_item": {
+      "P2408": 0.2768,
+      "P2638": 0.2734,
+      "P2369": 0.2618,
+      "P1588": 0.2611,
+      "P0923": 0.2589,
+      "P1336": 0.2559
+    },
+    "categoria": null,
+    "personalizada": true,
+    "data_geracao": "2026-09-30T03:25:40",
+    "versao_do_modelo": "item-based-v1"
   }
 ]
