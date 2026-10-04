@@ -7,13 +7,8 @@ const K = 5
 type ChaveKpi =
   | 'precisao_media'
   | 'recall_medio'
-  | 'map'
-  | 'mrr'
-  | 'ndcg'
-  | 'r2'
   | 'pearson'
-  | 'spearman'
-  | 'kendall_tau'
+
 
 interface KpiDef {
   chave: ChaveKpi
@@ -24,24 +19,15 @@ interface KpiDef {
 const KPIS_RANKING: KpiDef[] = [
   { chave: 'precisao_media', titulo: `Precision@${K} Médio`, descricao: `acertos nos top-${K} ÷ ${K}` },
   { chave: 'recall_medio', titulo: `Recall@${K} Médio`, descricao: 'cobertura dos itens relevantes' },
-  { chave: 'map', titulo: `MAP@${K}`, descricao: 'precisão média nas posições dos acertos' },
-  { chave: 'mrr', titulo: 'MRR', descricao: 'inverso da posição do 1º acerto' },
-  { chave: 'ndcg', titulo: `NDCG@${K}`, descricao: 'acertos no topo valem mais' },
 ]
 
 const KPIS_CORRELACAO: KpiDef[] = [
-  { chave: 'r2', titulo: 'Pontuação R²', descricao: 'ajuste do score ao interesse real' },
   { chave: 'pearson', titulo: 'Pearson', descricao: 'correlação linear score × interesse' },
-  { chave: 'spearman', titulo: 'Spearman', descricao: 'correlação de postos (ordem)' },
-  { chave: 'kendall_tau', titulo: 'Kendall Tau', descricao: 'concordância entre pares' },
 ]
 
 const LEGENDA: [string, string][] = [
   [`Precision@${K}`, `acertos no top-${K} ÷ ${K}`],
   [`Recall@${K}`, `acertos no top-${K} ÷ total de itens relevantes no teste`],
-  [`MAP@${K}`, 'média das precisões nas posições em que houve acerto'],
-  ['MRR', '1 ÷ posição do primeiro acerto'],
-  [`NDCG@${K}`, 'ganho descontado pela posição, normalizado pelo ideal'],
   ['N/A', 'métrica não se aplica (sem histórico suficiente ou sem itens relevantes no teste)'],
 ]
 
@@ -167,9 +153,6 @@ export function MetricsScreen() {
     `Acertos@${K}`,
     `Precision@${K}`,
     `Recall@${K}`,
-    `MAP@${K}`,
-    'MRR',
-    `NDCG@${K}`,
   ]
 
   return (
@@ -346,15 +329,6 @@ export function MetricsScreen() {
                     </td>
                     <td style={{ padding: '12px 16px' }}>
                       <BarCell valor={m.recall} cor="#1F2A44" motivo={motivo} />
-                    </td>
-                    <td style={{ padding: '12px 16px' }}>
-                      <BarCell valor={m.ap} cor="#B08D57" motivo={motivo} />
-                    </td>
-                    <td style={{ padding: '12px 16px' }}>
-                      <BarCell valor={m.rr} cor="#1F2A44" motivo={motivo} />
-                    </td>
-                    <td style={{ padding: '12px 16px' }}>
-                      <BarCell valor={m.ndcg} cor="#B08D57" motivo={motivo} />
                     </td>
                   </tr>
                 )
