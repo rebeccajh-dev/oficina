@@ -1,13 +1,13 @@
 """Métricas de avaliação (Passo 6) com split treino/teste.
 
 Métricas de ranking (top-K, por usuário, depois média):
-  Precision@K, Recall@K, MAP@K, MRR, NDCG@K
+  Precision@K, Recall@K
   -> só são calculadas para usuários com histórico suficiente E com ao menos
      1 item relevante no teste. Quando a métrica não se aplica, o valor é
      None (vira null no JSON e N/A no front), nunca 0.0.
 
-Métricas de correlação/regressão (score previsto x interesse real):
-  R², Pearson, Spearman, Kendall Tau
+Métrica de correlação (score previsto x interesse real):
+  Pearson
   -> pares (score previsto, valor real) dos itens do holdout, juntando
      todos os usuários com histórico. Itens sem score (sem evidência de
      similaridade ou do próprio elenco) ficam de fora. Se a métrica é
@@ -15,25 +15,11 @@ Métricas de correlação/regressão (score previsto x interesse real):
 """
 from __future__ import annotations
 
-from functools import lru_cache
-from math import log2
-
 import numpy as np
 from scipy import stats
 
 from . import config
 from .pipeline import construir_recomendador, preparar_dados
-
-
-def precision_recall_at_k(recomendados: list[str], relevantes: set[str], k: int) -> tuple[int, float, float | None]:
-    """Devolve (acertos, Precision@K, Recall@K).
-
-    Recall@K é None quando o usuário não tem nenhum item relevante no teste
-    (a métrica não se aplica).
-    """
-    acertos = len(set(recomendados[:k]) & set(relevantes))
-    recall = acertos / len(relevantes) if relevantes else None
-    return acertos, acertos / k, recall
 
 
 def _media(valores: list[float]) -> float | None:
@@ -48,38 +34,24 @@ def _limpo(x: float) -> float | None:
 
 def _correlacoes(y_real: list[float], y_prev: list[float]) -> dict:
     # None = indefinido (diferente de "correlação zero")
-    resultado = {"r2": None, "r2_calibrado": None, "pearson": None, "spearman": None, "kendall_tau": None}
+    resultado = {"pearson": None}
     if len(y_real) < 3:
         return resultado
 
     yr = np.asarray(y_real, dtype=float)
     yp = np.asarray(y_prev, dtype=float)
 
-    # R² diz quanto a variação do interesse real o score explica: 1 é perfeito, 0 equivale a prever sempre a média
-    # e valores negativos são piores que isso
-    ss_tot = float(((yr - yr.mean()) ** 2).sum())
-    if ss_tot > 0:
-        resultado["r2"] = _limpo(1 - float(((yr - yp) ** 2).sum()) / ss_tot)
-
-    # Correlações só existem se nenhuma das séries for constante.
-    # Pearson, Spearman e Kendall Tau vêm do scipy.stats.
-    # pearson: correlação linear entre score e interesse, de -1 a 1
-    # spearman: Pearson aplicado às posições (ranks); mede se o modelo ordena os itens
-    #   na mesma ordem do interesse real, mesmo que a relação não seja linear
-    # kendalltau: olha todos os pares de itens e compara concordantes vs discordantes;
-    #   também vai de -1 a 1
-    if ss_tot > 0 and np.ptp(yp) > 0:
-        pearson = float(stats.pearsonr(yr, yp)[0])
-        resultado["pearson"] = _limpo(pearson)
-        resultado["r2_calibrado"] = _limpo(pearson**2)  # R² após ajuste linear score -> valor
-        resultado["spearman"] = _limpo(stats.spearmanr(yr, yp)[0])
-        resultado["kendall_tau"] = _limpo(stats.kendalltau(yr, yp)[0])
+    # Pearson só existe se nenhuma das séries for constante.
+    # Mede a correlação linear entre score e interesse, de -1 a 1.
+    if np.ptp(yr) > 0 and np.ptp(yp) > 0:
+        resultado["pearson"] = _limpo(float(stats.pearsonr(yr, yp)[0]))
     return resultado
 
 
-@lru_cache(maxsize=8)
+# SEM @lru_cache: o resultado depende dos dados, que mudam a cada nova
+# interação. Com cache indexado só por `k`, o resultado ficava congelado.
 def calcular_metricas(k: int = 5) -> dict:
-    """Calcula as nove métricas sobre o holdout reservado."""
+    """Calcula Precision@K, Recall@K e Pearson sobre o holdout reservado."""
     dados = preparar_dados(salvar_split=False)
     rec = construir_recomendador(dados, usar_treino=True)
     relevantes_por_u = (
@@ -94,10 +66,10 @@ def calcular_metricas(k: int = 5) -> dict:
         teste_usuarios = dados.usuarios[:5]
 
     # ------------------------------------------------------------------
-    # Ranking: Precision@K, Recall@K, MAP@K, MRR, NDCG@K
+    # Ranking: Precision@K e Recall@K
     # ------------------------------------------------------------------
     linhas_metricas = []
-    precisoes, recalls, rrs, aps, ndcgs = [], [], [], [], []
+    precisoes, recalls = [], []
 
     for u in teste_usuarios:
         uid = u["id_usuario"]
@@ -108,43 +80,21 @@ def calcular_metricas(k: int = 5) -> dict:
 
         acertos = 0
         # None = "não se aplica" (sem histórico ou sem itens relevantes no teste).
-        # Só vira número quando a métrica foi de fato calculada.
-        precisao = recall = rr = ap = ndcg = None
+        precisao = recall = None
 
         if tem_hist and qtd_relevantes > 0:
             top_ids = [r["id_item"] for r in rec.recomendar(uid, k)]
-            rel = [1 if i in alvo else 0 for i in top_ids]
-            acertos = sum(rel)
+            acertos = len(set(top_ids[:k]) & alvo)
 
-            # precisão: pureza da lista, das K sugestões quantas eram boas
-            # com K=5 e 2 acertos, fica igual a 0,40
-            # Agora só entra na média junto com as demais, para que todas as
-            # médias usem o mesmo conjunto de usuários.
+            # precisão: dos K itens sugeridos, quantos eram bons
+            # (K=5 e 2 acertos -> 0,40)
             precisao = round(acertos / k, 4)
 
             # recall: cobertura dos itens que o usuário realmente gostou
-            # (limitado pelo tamanho de K)
             recall = round(acertos / qtd_relevantes, 4)
-
-            # RR: só olha o primeiro acerto e ignora o resto da lista
-            rr = next((1 / (p + 1) for p, x in enumerate(rel) if x), 0.0)
-
-            # AP: soma a precision em cada posição com acerto e divide por min(relevantes, K)
-            # depois, tira a média entre os usuários (MAP)
-            ap = sum(sum(rel[: p + 1]) / (p + 1) for p, x in enumerate(rel) if x) / min(qtd_relevantes, k)
-
-            # NDCG: compara o ganho da lista com o de uma lista perfeita; acertos no topo pesam mais
-            dcg = sum(x / log2(p + 2) for p, x in enumerate(rel))
-            idcg = sum(1 / log2(p + 2) for p in range(min(qtd_relevantes, k)))
-            ndcg = dcg / idcg if idcg > 0 else 0.0
-
-            rr, ap, ndcg = round(rr, 4), round(ap, 4), round(ndcg, 4)
 
             precisoes.append(precisao)
             recalls.append(recall)
-            rrs.append(rr)
-            aps.append(ap)
-            ndcgs.append(ndcg)
 
         linhas_metricas.append(
             {
@@ -158,9 +108,6 @@ def calcular_metricas(k: int = 5) -> dict:
                 "acertos": acertos,
                 "precisao": precisao,
                 "recall": recall,
-                "rr": rr,
-                "ap": ap,
-                "ndcg": ndcg,
             }
         )
 
@@ -184,16 +131,12 @@ def calcular_metricas(k: int = 5) -> dict:
 
     return {
         "k": k,
-        # --- as nove métricas (None quando indefinidas) ---
         "precisao_media": _media(precisoes),
         "recall_medio": _media(recalls),
-        "map": _media(aps),
-        "mrr": _media(rrs),
-        "ndcg": _media(ndcgs),
-        **_correlacoes(y_real, y_prev),  # r2, pearson, spearman, kendall_tau (+ r2_calibrado)
+        **_correlacoes(y_real, y_prev),  # pearson
         # --- contexto ---
         "pares_correlacao": len(y_real),
-        "usuarios_avaliados": len(aps),  # usuários que entraram nas médias de ranking
+        "usuarios_avaliados": len(precisoes),  # usuários que entraram nas médias
         "usuarios_ativos": usuarios_ativos,
         "total_usuarios": len(linhas_metricas),
         "total_interacoes": int(len(dados.interacoes)),
